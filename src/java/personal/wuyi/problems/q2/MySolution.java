@@ -1,4 +1,4 @@
-package personal.wuyi.q2;
+package personal.wuyi.problems.q2;
 
 public class MySolution {
 	public ListNode addTwoNumbers(ListNode l1, ListNode l2) {

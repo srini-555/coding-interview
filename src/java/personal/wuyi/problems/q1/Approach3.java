@@ -1,4 +1,4 @@
-package personal.wuyi.q1;
+package personal.wuyi.problems.q1;
 
 import java.util.HashMap;
 import java.util.Map;

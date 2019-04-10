@@ -1,4 +1,4 @@
-package personal.wuyi.q2;
+package personal.wuyi.problems.q2;
 
 public class ListNode {
 	int val;

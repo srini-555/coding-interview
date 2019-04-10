@@ -1,4 +1,4 @@
-package personal.wuyi.q1;
+package personal.wuyi.problems.q1;
 
 public class Approach1 {
 	public int[] twoSum(int[] nums, int target) {
