@@ -1,6 +1,6 @@
 package personal.wuyi.q1;
 
-public class Solution {
+public class MySolution {
 	public int[] twoSum(int[] nums, int target) {
         int[] results = new int[2];
         
