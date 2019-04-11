@@ -1,4 +1,4 @@
-package personal.wuyi.programs.q5;
+package personal.wuyi.problems.q5;
 
 public class MySolution {
 	class Solution {
