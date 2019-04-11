@@ -7,5 +7,6 @@ public class Test {
 		MySolution my = new MySolution();
 		double result = my.findMedianSortedArrays(nums1, nums2);
 		System.out.println(result);
+		System.out.println(3/2); 
 	}
 }
