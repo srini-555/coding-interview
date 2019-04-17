@@ -1,5 +1,7 @@
 package personal.wuyi.problems.q14;
 
+import java.util.List;
+
 public class MySolution {
 	public String longestCommonPrefix(String[] strs) {
         if (strs.length == 0) {
@@ -19,7 +21,6 @@ public class MySolution {
                         return prefix;
                     }
                 }
-                
                 prefix = currentPrefix;
             } else {
                 return prefix;
