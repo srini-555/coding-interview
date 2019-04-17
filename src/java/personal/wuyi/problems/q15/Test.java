@@ -11,7 +11,9 @@ public class Test {
 		
 		
 		for (List<Integer> list : resultList) {
-			System.out.println(list);
+			if (list.get(0) + list.get(1) + list.get(2) != 0) {
+				System.out.println(list);
+			}
 		}
 		System.out.println(nums.length);
 	}
