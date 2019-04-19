@@ -12,22 +12,18 @@ public class MySolution2 {
             return new ArrayList<>();
         } else {
         	List<List<Integer>>   resultList   = new ArrayList<>();
-            List<Integer>         positiveList = new ArrayList<>();
             Map<Integer, Integer> positiveMap  = new HashMap<>();
-            List<Integer>         negativeList = new ArrayList<>();
             Map<Integer, Integer> negativeMap  = new HashMap<>();
             int                   zeroCount    = 0;
             
             for (int i : nums) {
             	if (i > 0) {
-            		positiveList.add(i);
             		if (positiveMap.get(i) == null) {
             			positiveMap.put(i, 1);
             		} else {
             			positiveMap.put(i, positiveMap.get(i) + 1);
             		}
             	} else if (i < 0) {
-            		negativeList.add(i);
             		if (negativeMap.get(i) == null) {
             			negativeMap.put(i, 1);
             		} else {
@@ -55,7 +51,7 @@ public class MySolution2 {
             		int value1 = negativeUniqueList.get(i);
             		int value2 = positiveUniqueList.get(j);
             		
-            		if (absolute(value1) == absolute(value2)) {                                                                  // case 1
+            		if (absolute(value1) == absolute(value2)) {                                                                  // case 1: (x, -x)
             			if (zeroCount > 0 && !resultList.contains(generateList(value1, 0, value2))) {
             				resultList.add(generateList(value1, 0, value2));
             			}
