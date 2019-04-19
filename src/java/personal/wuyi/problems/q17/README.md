@@ -4,7 +4,7 @@ Given a string containing digits from 2-9 inclusive, return all possible letter 
 
 A mapping of digit to letters (just like on the telephone buttons) is given below. Note that 1 does not map to any letters.
 
-![](https://github.com/wuyichen24/leetcode/blob/master/pics/question_17.jpg)
+![](https://github.com/wuyichen24/leetcode/blob/master/pics/question_17.png)
 
 **Example**:
 ```
