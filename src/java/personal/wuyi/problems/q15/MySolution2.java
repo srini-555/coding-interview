@@ -37,6 +37,9 @@ public class MySolution2 {
             if (zeroCount >= 3) {
                 resultList.add(generateList(0, 0, 0));
             }
+            if (positiveMap.isEmpty() || negativeMap.isEmpty()) {
+            	return resultList;
+            }
             
             List<Integer> positiveUniqueList = new ArrayList<>(positiveMap.keySet());
             List<Integer> negativeUniqueList = new ArrayList<>(negativeMap.keySet());
