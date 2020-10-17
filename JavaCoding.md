@@ -1,0 +1,252 @@
+# Java Coding
+
+## Overview
+This page is to document some coding standard operations.
+- [Basic Types](#basic-types)
+   - [Array](#array)
+   - [String](#string)
+   - [Character](#character)
+   - [Integer](#integer)
+   - [List](#list)
+   - [Map](#map)
+   - [Stack](#stack)
+   - [Queue](#queue)
+   - [PriorityQueue](#priorityqueue)
+   - [TreeMap](#treemap)
+- [Type Conversions](#type-conversions)
+- [Arithmetic Operations](#arithmetic-operations)
+   - [Division](#division)
+   - [Modulo (get the remainder after division)](#modulo-get-the-remainder-after-division)
+
+## Basic Types
+### Array
+- **Initialize an array with values**
+```java
+int[] data = new int[] {10,20,30,40,50,60};
+```
+
+### String
+- **Get prefix**
+
+If you use substring to get prefix, make sure the criteria is `i <= str.length()` and the initialization is `int i = 1`.
+```java
+for (int i = 1; i <= str.length(); i++) {
+    String prefix = str.substring(0, i);
+}
+```
+- **Traverse each character by `substring()`**
+```java
+for (int i = 0; i < str.length(); i++) {
+    str.substring(i, i+1);
+}
+```
+
+### Character
+- **Check a character is a letter or number**
+```java
+Character.isDigit(string.charAt(index));
+Character.isLetter(string.charAt(index));
+```
+> NOTE: Letter doesn't contain '+' and '-'
+```java
+Character.isLetter('+');   // return false
+Character.isLetter('-');   // return false
+```
+
+### Integer
+- **MAX value and MIN value**
+
+The int type in Java can be used to represent any whole number from -2147483648 to 2147483647 (**NOT** symmetric).
+```java
+Integer.MAX_VALUE = 2147483647
+Integer.MIN_VALUE = -2147483648
+```
+ 
+### List
+- **Sort a list**
+```java
+Collections.sort(list);
+```
+> NOTE: This function will not return a sorted list. It will sort the `list` in-place.
+
+- **Initialize a list of lists**
+```java
+List<List<Integer>> list = new ArrayList<>();
+```
+
+### Map
+- **Initialize a map with keys and values**
+```java
+Map<String, String> phone = new HashMap<String, String>() {
+    {
+        put("2", "abc");
+        put("3", "def");
+        put("4", "ghi");
+        put("5", "jkl");
+    }
+};
+```
+
+### Stack
+- **Initialize a stack**
+```java
+Stack<Integer> stack = new Stack<>();
+```
+
+- **Common functions for stack**
+
+| Function | Description |
+| ---- | ---- |
+| `push` | Push an element on the top of the stack. |
+| `pop` | Remove and return the top element of the stack. An `EmptyStackException` exception is thrown if we call `pop()` when the invoking stack is empty. |
+| `peek` | Return the element on the top of the stack, but does not remove it. |
+| `empty` | Return `true` if nothing is on the top of the stack. Else, returns `false`. |
+| `search` | It determines whether an object exists in the stack. If the element is found, it returns the position of the element from the top of the stack. Else, it returns -1. |
+
+- **Use `pop()` with caution**
+
+Before you call `pop()`, you need to check the stack is empty or not.
+
+### Queue
+- **Initialize a queue**
+```java
+Queue<Integer> queue = new LinkedList<>();
+```
+
+- **Common functions for queue**
+
+| Functions | Description |
+| ---- | ---- |
+| `add` | Add element at the tail of queue. |
+| `peek` | Return (but NOT remove) the element at the head element of queue. Return `null` if the queue is empty. |
+| `remove` | Remove and returns the head element of the queue. An `NoSuchElementException` exception is thrown if we call `remove()` when the invoking queue is empty. |
+| `poll` | Remove and returns the head element of the queue. Return `null` if the queue is empty. |
+
+- **No `empty()` function for queue**
+
+Use `peek()` to check the queue is empty or not.
+
+### PriorityQueue
+Sorted on ascending order automatically.
+
+- **Initialize a priority queue**
+```java
+PriorityQueue<Integer> queue = new PriorityQueue<>();
+```
+
+- **Common functions for priority queue**
+
+| Functions | Description |
+| ---- | ---- |
+| `add` | Add one element. |
+| `poll` | Return and remove the first (smallest) element. |
+| `peek` | Return (but NOT remove) the first (smallest) element. Return `null` if the queue is empty. |
+| `poll` | Removes and returns the first (smallest) element. Return `null` if the queue is empty. |
+
+- **No `empty()` function for priority queue**
+
+Use `peek()` to check the priority queue is empty or not.
+
+
+### TreeMap
+Sorted by key in ascending order automatically.
+
+- **Initialize a tree map**
+```java
+TreeMap<Integer, Integer> sortedMap = new TreeMap<>();
+```
+
+- **Common functions for tree map**
+
+| Functions | Description |
+| ---- | ---- |
+| `put` | Add one key-value pair. |
+| `firstKey` | Get the key of the first entry (smallest in key) from tree map. |
+| `firstEntry` | Get the first entry (smallest in key) from tree map. |
+| `lastKey` | Get the key of the last entry (greatest in key) from tree map. |
+| `lastEntry` | Get the last entry (greatest in key) from tree map. |
+
+---
+
+## Type Conversions
+- **`String` to `char` array**
+```java
+String str = "abcdefg";
+char[] chars = str.toCharArray();
+```
+
+- **`char` array to `String`**
+```java
+char[] chars = {'a', 'b', 'c', 'd'}
+String str1 = new String(chars);          // solution 1
+String str2 = String.valueOf(chars);      // solution 2
+String str3 = String.copyValueOf(chars);  // solution 3
+```
+
+- **`int` to `char` array**
+```java
+int i = 1234;
+char[] chars = ("" + i).toCharArray();
+```
+
+- **`char` to `int`**
+```java
+char c = '1';
+int i = Character.getNumericValue(c);
+```
+
+- **`int` to `double`**
+```java
+int i = 1234;
+double d1 = Double.valueOf(i);   // solution 1
+double d2 = new Double(i);       // solution 2
+```
+
+- **`int` to `String`**
+```java
+int i = 1234;
+String str1 = String.valueOf(i);         // solution 1
+String str2 = new Integer(i).toString(); // solution 2
+```
+
+- **`String` to `int`**
+```java
+String str = "1234";
+int i = Integer.parseInt(str);
+```
+> NOTE: When converting a string to int, need to consider overflow.
+```java
+int i = 0;
+String str = "999999999999999999999999999999999999999999";
+try {
+   i = Integer.parseInt(str);
+} catch (Exception e) {
+    /* some special handling */
+}
+```
+
+- **array to `List`**
+```java
+int[] ints = new int[] {1, 2, 3, 4};
+List<Integer> intList = Arrays.asList(ints);
+```
+
+---
+
+## Arithmetic Operations
+### Division
+- The same divisor in different types causes different results.
+```
+3 / 2 = 1
+3 / 2.0 = 1.5
+3 / 4 = 0
+```
+
+### Modulo (get the remainder after division)
+- Clear the difference between division and modulo.
+```
+999 / 100 = 9
+999 / 1000 = 0
+999 % 1000 = 999
+999 % 100 = 99
+```
