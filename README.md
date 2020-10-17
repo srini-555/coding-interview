@@ -35,24 +35,6 @@ My programming practice for Leetcode questions and the strategy summary for solv
 | 22 | [Generate Parentheses](https://github.com/wuyichen24/leetcode/tree/master/src/java/personal/wuyi/problems/q22) | Parentheses | Text |  |
 | 23 | [Merge k Sorted Lists](https://github.com/wuyichen24/leetcode/tree/master/src/java/personal/wuyi/problems/q23) | Merge | Number | Linked List |
 
-## Categorized by Topics
-- **Sum**
-   - #1 [Two Sum](https://github.com/wuyichen24/leetcode/tree/master/src/java/personal/wuyi/problems/q1)
-   - #2 [Add Two Numbers](https://github.com/wuyichen24/leetcode/tree/master/src/java/personal/wuyi/problems/q2)
-   - #15 [3Sum](https://github.com/wuyichen24/leetcode/tree/master/src/java/personal/wuyi/problems/q15)
-   - #16 [3Sum Closest](https://github.com/wuyichen24/leetcode/tree/master/src/java/personal/wuyi/problems/q16)
-   - #18 [4Sum](https://github.com/wuyichen24/leetcode/tree/master/src/java/personal/wuyi/problems/q18)
-- **Longest substring**
-   - #3 [Longest Substring Without Repeating Characters](https://github.com/wuyichen24/leetcode/tree/master/src/java/personal/wuyi/problems/q3)
-   - #5 [Longest Palindromic Substring]https://github.com/wuyichen24/leetcode/tree/master/src/java/personal/wuyi/problems/q5)
-   - #14 [Longest Common Prefix](https://github.com/wuyichen24/leetcode/tree/master/src/java/personal/wuyi/problems/q14)
-- **Palindrome**
-   - #5 [Longest Palindromic Substring](https://github.com/wuyichen24/leetcode/tree/master/src/java/personal/wuyi/problems/q5)
-   - #9 [Palindrome Number](https://github.com/wuyichen24/leetcode/tree/master/src/java/personal/wuyi/problems/q9)
-- **Parentheses**
-   - #20 [Valid Parentheses](https://github.com/wuyichen24/leetcode/tree/master/src/java/personal/wuyi/problems/q20)
-   - #22 [Generate Parentheses](https://github.com/wuyichen24/leetcode/tree/master/src/java/personal/wuyi/problems/q22)
-
 ## Problem Categories
 ### Categorized by Topics
 - **Sum**
