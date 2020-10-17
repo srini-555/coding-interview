@@ -2,7 +2,7 @@
 
 My programming practice for Leetcode questions and the strategy summary for solving problems.
 
-- [**All Problems**]()
+- [**All Problems**](#all-problems)
 - [**Problem Categories**](ProblemCategories.md)
    - [Categorized by Topics](ProblemCategories.md#categorized-by-topics)
    - [Categorized by Types of Problems](ProblemCategories.md#categorized-by-types-of-problems)
