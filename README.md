@@ -3,10 +3,19 @@
 My programming practice for Leetcode questions and the strategy summary for solving problems.
 
 - [**All Problems**]()
-- [**Problem Categories**]()
-   - [Categorized by Topics]()
-   - [Categorized by Types of Problems]()
-   - [Categorized by Data Structure]()
+- [**Problem Categories**](ProblemCategories.md)
+   - [Categorized by Topics](ProblemCategories.md#categorized-by-topics)
+   - [Categorized by Types of Problems](ProblemCategories.md#categorized-by-types-of-problems)
+   - [Categorized by Data Structure](ProblemCategories.md#categorized-by-data-structure)
+- [**Java Coding**](JavaCoding.md)
+   - [Basic Types](JavaCoding.md#basic-types)
+   - [Type Conversions](JavaCoding.md#type-conversions)
+   - [Arithmetic Operations](JavaCoding.md#arithmetic-operations)
+- [**Strategies**](Strategies.md)
+   - [Problem-Solving Strategies](Strategies.md#problem-solving-strategies)
+   - [Coding Strategies](Strategies.md#coding-strategies)
+   - [2 Pointers](Strategies.md#2-pointers)
+- [**Knowledge**](Knowledge.md)
 
 ## All Problems
 | No. | Name | Topic | Data Object | Data Structure |
