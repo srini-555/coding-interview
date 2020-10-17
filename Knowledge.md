@@ -1,3 +1,5 @@
+# Knowledge
+
 ## Median
 - Sort the data points in ascending order
 - Based on the number of data points
