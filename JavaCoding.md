@@ -3,28 +3,26 @@
 ## Overview
 This page is to document some coding standard operations.
 - [Basic Types](#basic-types)
-   - [Array](#array)
    - [String](#string)
    - [Character](#character)
    - [Integer](#integer)
+- [Data Structures](#data-structure)
+   - [Array](#array)
    - [List](#list)
    - [Map](#map)
    - [Stack](#stack)
    - [Queue](#queue)
    - [PriorityQueue](#priorityqueue)
    - [TreeMap](#treemap)
+- [Util](#util)
+   - [Arrays](#arrays)
+   - [Collections](#collections)
 - [Type Conversions](#type-conversions)
 - [Arithmetic Operations](#arithmetic-operations)
    - [Division](#division)
    - [Modulo (get the remainder after division)](#modulo-get-the-remainder-after-division)
 
 ## Basic Types
-### Array
-- **Initialize an array with values**
-```java
-int[] data = new int[] {10,20,30,40,50,60};
-```
-
 ### String
 - **Get prefix**
 
@@ -61,7 +59,16 @@ The int type in Java can be used to represent any whole number from -2147483648 
 Integer.MAX_VALUE = 2147483647
 Integer.MIN_VALUE = -2147483648
 ```
- 
+
+---
+
+## Data Structures
+### Array
+- **Initialize an array with values**
+```java
+int[] data = new int[] {10,20,30,40,50,60};
+```
+
 ### List
 - **Sort a list**
 ```java
@@ -147,7 +154,6 @@ PriorityQueue<Integer> queue = new PriorityQueue<>();
 
 Use `peek()` to check the priority queue is empty or not.
 
-
 ### TreeMap
 Sorted by key in ascending order automatically.
 
@@ -165,6 +171,15 @@ TreeMap<Integer, Integer> sortedMap = new TreeMap<>();
 | `firstEntry` | Get the first entry (smallest in key) from tree map. |
 | `lastKey` | Get the key of the last entry (greatest in key) from tree map. |
 | `lastEntry` | Get the last entry (greatest in key) from tree map. |
+
+## Util
+### Arrays
+### Collection
+| Function | Description |
+| ---- | ---- |
+| `sort()` | Sort the elements in the collection |
+| `max()` | Get the maximum element in the collection. |
+| `min()` | Get the minimum element in the collection. |
 
 ---
 
@@ -229,6 +244,12 @@ try {
 ```java
 int[] ints = new int[] {1, 2, 3, 4};
 List<Integer> intList = Arrays.asList(ints);
+```
+
+- **`List` to array**
+```java
+Integer[] array = new Integer[list.size()];
+list.toArray(array);
 ```
 
 ---
