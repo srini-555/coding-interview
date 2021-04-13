@@ -6,10 +6,10 @@
 - [HackerRank](https://www.hackerrank.com/)
 
 ## Basics
-- [**Java Coding**](docsJavaCoding.md)
-- [**Strategies**](Strategies.md)
-- [**Knowledge**](Knowledge.md)
-- [**Problem Categories**](ProblemCategories.md)
+- [**Strategies**](docs/basics/Strategies.md)
+- [**Java Coding**](docs/basics/docsJavaCoding.md)
+- [**Knowledge**](docs/basics/Knowledge.md)
+- [**Problem Categories**](docs/basics/ProblemCategories.md)
 
 ## LeetCode Problems
 | No. | Name | Topic | Data Object | Data Structure |
