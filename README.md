@@ -5,9 +5,10 @@
 - [InterviewBit](https://www.interviewbit.com/)
 - [HackerRank](https://www.hackerrank.com/)
 
-## Basic
-- [**Java Coding**](JavaCoding.md)
+## Basics
+- [**Java Coding**](docsJavaCoding.md)
 - [**Strategies**](Strategies.md)
+- [**Knowledge**](Knowledge.md)
 - [**Problem Categories**](ProblemCategories.md)
 
 ## LeetCode Problems
