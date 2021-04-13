@@ -1,23 +1,16 @@
-# leetcode
+# Programming Interview
 
-My programming practice for Leetcode questions and the strategy summary for solving problems.
+## Learning Resources
+- [LeetCode](https://leetcode.com/)
+- [InterviewBit](https://www.interviewbit.com/)
+- [HackerRank](https://www.hackerrank.com/)
 
-- [**All Problems**](#all-problems)
-- [**Problem Categories**](ProblemCategories.md)
-   - [Categorized by Topics](ProblemCategories.md#categorized-by-topics)
-   - [Categorized by Types of Problems](ProblemCategories.md#categorized-by-types-of-problems)
-   - [Categorized by Data Structure](ProblemCategories.md#categorized-by-data-structure)
+## Basic
 - [**Java Coding**](JavaCoding.md)
-   - [Basic Types](JavaCoding.md#basic-types)
-   - [Type Conversions](JavaCoding.md#type-conversions)
-   - [Arithmetic Operations](JavaCoding.md#arithmetic-operations)
 - [**Strategies**](Strategies.md)
-   - [Problem-Solving Strategies](Strategies.md#problem-solving-strategies)
-   - [Coding Strategies](Strategies.md#coding-strategies)
-   - [2 Pointers](Strategies.md#2-pointers)
-- [**Knowledge**](Knowledge.md)
+- [**Problem Categories**](ProblemCategories.md)
 
-## All Problems
+## LeetCode Problems
 | No. | Name | Topic | Data Object | Data Structure |
 |---|---|---|---|---|
 | 1 | [Two Sum](https://github.com/wuyichen24/leetcode/tree/master/src/java/personal/wuyi/problems/q1) | Sum | Number | Array |
