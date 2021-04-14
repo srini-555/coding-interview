@@ -1,9 +1,9 @@
 # Programming Interview
 
 ## Learning Resources
-- [LeetCode](https://leetcode.com/)
-- [InterviewBit](https://www.interviewbit.com/)
-- [HackerRank](https://www.hackerrank.com/)
+- [**LeetCode**](https://leetcode.com/)
+- [**InterviewBit**](https://www.interviewbit.com/)
+- [**HackerRank**](https://www.hackerrank.com/)
 
 ## Basics
 - [**Strategies**](docs/basics/Strategies.md)
@@ -12,8 +12,17 @@
 - [**Problem Categories**](docs/basics/ProblemCategories.md)
 
 ## Complexity
-- [Time Complexity](docs/complexity/Time_Complexity.md)
-- [Space Complexity](docs/complexity/Space_Complexity.md)
+- [**Time Complexity**](docs/complexity/Time_Complexity.md)
+- [**Space Complexity**](docs/complexity/Space_Complexity.md)
+
+## Data Structures
+- [**String**]()
+- [**Array**]()
+- [**Linked List**]()
+- [**Queue**]()
+- [**Stack**]()
+- [**Tree**]()
+
 
 ## LeetCode Problems
 | No. | Name | Topic | Data Object | Data Structure |
