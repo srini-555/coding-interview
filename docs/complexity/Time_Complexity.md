@@ -8,8 +8,9 @@
 
 | Complexity | Name | Example |
 |----|----|----|
-| O(1) | Constant | <li>Single statement |
-| O(*log*n) | Logarithmic | <li>Binary search<li>Operations on binary search tree |
-| O(n) | Linear | <li>1-level loop |
-| O(n*log*n) | Linearithmic | <li>Quick sort<li>Merge sort<li>Heap sort |
-| O(n<sup>2</sup>)| quadratic | <li>2-level nested loop<li>Bubble sort<li>Insertion sort<li>Selection sort |
+| O(1) | Constant time | <li>Single statement |
+| O(*log*n) | Logarithmic time | <li>Binary search<li>Operations on binary search tree |
+| O(n) | Linear time | <li>1-level loop |
+| O(n*log*n) | Linearithmic time | <li>Quick sort<li>Merge sort<li>Heap sort |
+| O(n<sup>2</sup>)| Quadratic time | <li>2-level nested loop<li>Bubble sort<li>Insertion sort<li>Selection sort |
+| O(n<sup>3</sup>)| Cubic time | | 
