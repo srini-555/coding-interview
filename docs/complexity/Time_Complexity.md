@@ -20,4 +20,5 @@
 |----|----|
 | Single statement | O(1) |
 | 1-level loop | O(n) |
-| 2-level loop | O(n<sup>2</sup>) |
+| 2-level nested loop | O(n<sup>2</sup>) |
+| k-level loop | O(n<sup>k</sup>) |
