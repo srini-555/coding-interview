@@ -31,3 +31,5 @@
    - a: The number of subproblems.
    - n/b: The scale of each subproblems.
    - n<sup>c</sup>: The time complexity outside the recursive function.
+- Rules
+   - Case 1: If a > b<sup>c</sup>, so time complexity is n<sup>log<sub>b</sub>a</sup>
