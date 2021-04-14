@@ -23,3 +23,11 @@
 | 1-level loop | O(n) |
 | 2-level nested loop | O(n<sup>2</sup>) |
 | k-level nested loop | O(n<sup>k</sup>) |
+
+## Master theorem
+- Goal: Analyze the time complexity of a recursive function
+- Formula: T(n) = aT(n/b) + n<sup>c</sup>
+- Notation:
+   - a: The number of subproblems.
+   - n/b: The scale of each subproblems.
+   - n<sup>c</sup>: The time complexity outside the recursive function.
