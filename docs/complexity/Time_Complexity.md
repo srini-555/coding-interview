@@ -32,4 +32,6 @@
    - n/b: The scale of each subproblems.
    - n<sup>c</sup>: The time complexity outside the recursive function.
 - Rules
-   - Case 1: If a > b<sup>c</sup>, so time complexity is n<sup>log<sub>b</sub>a</sup>
+   - Case 1: If a > b<sup>c</sup>, so time complexity is n<sup><i>log</i><sub>b</sub>a</sup>
+   - Case 2: If a = b<sup>c</sup>, so time complexity is n<sup>c</sup><i>log</i>n
+   - Case 3: If a < b<sup>c</sup>, so time complexity is n<sup>c</sup>
