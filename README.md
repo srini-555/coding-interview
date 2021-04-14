@@ -23,6 +23,17 @@
 - [**Stack**]()
 - [**Tree**]()
 
+## Solution Patterns
+- [**Frequency Counters**]()
+- [**2 Pointers**]()
+- [**Fast and Slow Pointers**]()
+- [**Sliding Window**]()
+- [**Divide and Conquer**]()
+- [**Dynamic Programming**]()
+- [**Greedy**]()
+- [**Backtraking**]()
+- [**Recursion**]()
+
 
 ## LeetCode Problems
 | No. | Name | Topic | Data Object | Data Structure |
