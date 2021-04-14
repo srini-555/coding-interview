@@ -5,6 +5,7 @@
 - Notation: O
 
 ## Order of time complexity
+
 | Complexity | Name | Example |
 |----|----|----|----|
 | O(1) | Constant | Single statement |
