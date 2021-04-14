@@ -17,12 +17,24 @@
 | O(2<sup>n</sup>) | Exponential time | |
   
 ## General rules
+
 | Case | Time Complexity |
 |----|----|
 | Single statement | O(1) |
 | 1-level loop | O(n) |
 | 2-level nested loop | O(n<sup>2</sup>) |
 | k-level nested loop | O(n<sup>k</sup>) |
+
+### Example
+- Code
+  ```
+  for(i = 0; i < n; i++) {
+      for(j = 0; j < i; j++) {
+          x = x + 1;
+      }
+  }
+  ```
+- Time complexity: O(n<sup>2</sup>)
 
 ## Master theorem
 - Goal: Analyze the time complexity of a recursive function.
@@ -40,8 +52,8 @@
       - Code
         ```
         func(n) {
-           func(n/2);
-           func(n/2);
+            func(n/2);
+            func(n/2);
         }
       - Formula: T(n) = 2T(n/2) + 1
       - Parameters:
@@ -54,13 +66,13 @@
       - Code
         ```
         func(n) {
-           for (i = 0; i < n; i++) {
-              stmt;
-           }
+            for (i = 0; i < n; i++) {
+                stmt;
+            }
         
-           func(n/5);
-           func(n/5);
-           func(n/5);
+            func(n/5);
+            func(n/5);
+            func(n/5);
         }
       - Formula: T(n) =3T(n/5) + n
       - Parameters:
