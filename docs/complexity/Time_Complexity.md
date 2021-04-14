@@ -36,3 +36,19 @@
    - Case 2: If a = b<sup>c</sup>, so time complexity is n<sup>c</sup><i>log</i>n.
    - Case 3: If a < b<sup>c</sup>, so time complexity is n<sup>c</sup>.
 - Examples:
+   - Example 1:
+      - Code
+        ```
+        func(n) {
+           func(n/2);
+           func(n/2);
+        }
+      - Formula: T(n) = 2T(n/2) + 1
+      - Parameters:
+         - a = 2
+         - b = 2
+         - c = 0
+      - Comparision: 2 > 2<sup>0</sup>
+      - Complexity: n<sup><i>log</i><sub>2</sub>2</sup> = n 
+
+    
