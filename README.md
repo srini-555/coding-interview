@@ -7,7 +7,7 @@
 
 ## Basics
 - [**Strategies**](docs/basics/Strategies.md)
-- [**Java Coding**](docs/basics/docsJavaCoding.md)
+- [**Java Coding**](docs/basics/JavaCoding.md)
 - [**Knowledge**](docs/basics/Knowledge.md)
 - [**Problem Categories**](docs/basics/ProblemCategories.md)
 
