@@ -49,6 +49,25 @@
          - b = 2
          - c = 0
       - Comparision: 2 > 2<sup>0</sup>
-      - Complexity: n<sup><i>log</i><sub>2</sub>2</sup> = n 
+      - Complexity: n<sup><i>log</i><sub>b</sub>a</sup> = n<sup><i>log</i><sub>2</sub>2</sup> = n 
+   - Example 2:
+      - Code
+        ```
+        func(n) {
+           for (i = 0; i < n; i++) {
+              stmt;
+           }
+        
+           func(n/5);
+           func(n/5);
+           func(n/5);
+        }
+      - Formula: T(n) =3T(n/5) + n
+      - Parameters:
+         - a = 3
+         - b = 5
+         - c = 1
+      - Comparision: 3 < 5<sup>1</sup>
+      - Complexity: n<sup>c</sup> = n<sup>1</sup> = n
 
     
