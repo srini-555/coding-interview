@@ -14,3 +14,10 @@
 | O(n*log*n) | Linearithmic time | <li>Quick sort<li>Merge sort<li>Heap sort |
 | O(n<sup>2</sup>)| Quadratic time | <li>2-level nested loop<li>Bubble sort<li>Insertion sort<li>Selection sort |
 | O(n<sup>3</sup>)| Cubic time | | 
+  
+## General rules
+| Case | Complexity |
+|----|----|
+| Single statement | O(1) |
+| 1-level loop | O(n) |
+| 2-level loop | O(n<sup>2</sup>) |
