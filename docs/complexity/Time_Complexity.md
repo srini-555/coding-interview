@@ -16,7 +16,7 @@
 | O(n<sup>3</sup>)| Cubic time | | 
   
 ## General rules
-| Case | Complexity |
+| Case | Time Complexity |
 |----|----|
 | Single statement | O(1) |
 | 1-level loop | O(n) |
