@@ -25,13 +25,14 @@
 | k-level nested loop | O(n<sup>k</sup>) |
 
 ## Master theorem
-- Goal: Analyze the time complexity of a recursive function
+- Goal: Analyze the time complexity of a recursive function.
 - Formula: T(n) = aT(n/b) + n<sup>c</sup>
 - Notation:
    - a: The number of subproblems.
    - n/b: The scale of each subproblems.
    - n<sup>c</sup>: The time complexity outside the recursive function.
 - Rules
-   - Case 1: If a > b<sup>c</sup>, so time complexity is n<sup><i>log</i><sub>b</sub>a</sup>
-   - Case 2: If a = b<sup>c</sup>, so time complexity is n<sup>c</sup><i>log</i>n
-   - Case 3: If a < b<sup>c</sup>, so time complexity is n<sup>c</sup>
+   - Case 1: If a > b<sup>c</sup>, so time complexity is n<sup><i>log</i><sub>b</sub>a</sup>.
+   - Case 2: If a = b<sup>c</sup>, so time complexity is n<sup>c</sup><i>log</i>n.
+   - Case 3: If a < b<sup>c</sup>, so time complexity is n<sup>c</sup>.
+- Examples:
