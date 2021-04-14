@@ -12,8 +12,9 @@
 | O(*log*n) | Logarithmic time | <li>Binary search<li>Operations on binary search tree |
 | O(n) | Linear time | <li>1-level loop |
 | O(n*log*n) | Linearithmic time | <li>Quick sort<li>Merge sort<li>Heap sort |
-| O(n<sup>2</sup>)| Quadratic time | <li>2-level nested loop<li>Bubble sort<li>Insertion sort<li>Selection sort |
-| O(n<sup>3</sup>)| Cubic time | | 
+| O(n<sup>2</sup>) | Quadratic time | <li>2-level nested loop<li>Bubble sort<li>Insertion sort<li>Selection sort |
+| O(n<sup>3</sup>) | Cubic time | | 
+| O(2<sup>n</sup>) | Exponential time | |
   
 ## General rules
 | Case | Time Complexity |
