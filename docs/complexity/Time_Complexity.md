@@ -89,6 +89,7 @@
             func(n-2);
         }
       - Time complexity: 2<sup>n</sup>
+      - Comment: This case cannot be applied to master theorem.
         
 ## References
 - https://yourbasic.org/algorithms/time-complexity-recursive-functions/
