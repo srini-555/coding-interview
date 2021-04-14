@@ -61,7 +61,7 @@
          - b = 2
          - c = 0
       - Comparision: 2 > 2<sup>0</sup>
-      - Complexity: n<sup><i>log</i><sub>b</sub>a</sup> = n<sup><i>log</i><sub>2</sub>2</sup> = n 
+      - Time complexity: n<sup><i>log</i><sub>b</sub>a</sup> = n<sup><i>log</i><sub>2</sub>2</sup> = n 
    - Example 2:
       - Code
         ```
@@ -80,6 +80,15 @@
          - b = 5
          - c = 1
       - Comparision: 3 < 5<sup>1</sup>
-      - Complexity: n<sup>c</sup> = n<sup>1</sup> = n
+      - Time complexity: n<sup>c</sup> = n<sup>1</sup> = n
+   - Example 3:
+      - Code
+        ```
+        func(n) {
+            func(n-1);
+            func(n-2);
+        }
+      - Time complexity: 2<sup>n</sup>
+        
 
     
