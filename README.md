@@ -25,9 +25,8 @@
 - [**Tree**]()
 
 ## Solution Patterns
-- [**Frequency Counters**]()
-- [**2 Pointers**]()
-- [**Fast and Slow Pointers**]()
+- [**Frequency Counters**](docs/solution-patterns/Frequency_Counter.md)
+- [**2 Pointers**](docs/solution-patterns/2_Pointers.md)
 - [**Sliding Window**]()
 - [**Divide and Conquer**]()
 - [**Dynamic Programming**]()
