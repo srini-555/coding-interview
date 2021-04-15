@@ -65,8 +65,8 @@ ListNode getKth(ListNode head, int k) {
         current = current.next;
         k--
     }
-    if (k > 0) {                                   // If there is no Kth node (The number of nodes is less than K)
-        return null;                               // Return null to mean there is no Kth element
+    if (k > 0) {                                   // If the K is greater than the total number of nodes
+        return null;                               // Returning null means there is no Kth node
     }
 }
 ```
@@ -94,13 +94,14 @@ ListNode getKth(ListNode head, int k) {
       ListNode pA = head;
       ListNode pB = head;
       
-      for (int i = 0; pB != null && i < k; i++) {
+      for (int i = 0; pB != null && i < k; i++) {     // Let pB point to the Kth node from the head.
           pB = pB.next;
       }
       
-      if (pB == null) return null;
-      
-      while (pB != null) {
+      if (pB == null) return null;                    // If the K is greater than the total number of nodes, return null
+                                                      // Returning null means there is no Kth node from the tail
+                                                      
+      while (pB != null) {                            // Move pA and pB to the tail currently until pB points to the tail
           pA = pA.next;
           pB = pB.next;
       }
