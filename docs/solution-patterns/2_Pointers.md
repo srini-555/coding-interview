@@ -22,6 +22,11 @@
 - Concepts
    - 2 pointers next to each other and move together from one end to another.
 
+### Constant distance pointer
+- Concepts
+   - 2 pointers keep a constant distance and move together from one end to another.
+- Problems can use this patterns
+   - Get the Nth node from the tail of a linked list.
 
 ## References
 - https://smootok.com/problem-solving-pattern-in-programming/
