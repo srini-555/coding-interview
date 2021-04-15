@@ -74,14 +74,16 @@ ListNode getLast(ListNode head) {
 ```
 ListNode getKth(ListNode head, int k) {
     ListNode current = head;
-    while (current.next != null) {
-        if (k == 0) {
-            return current;
-        }
+    int i = 0;
+    
+    while (current.next != null && i < k) {
         current = current.next;
-        k--
+        i++
     }
-    if (k > 0) {                                   // If the K is greater than the total number of nodes
+    
+    if (k == i) {
+        return current;
+    } else {                                       // If the K is greater than the total number of nodes
         return null;                               // Returning null means there is no Kth node
     }
 }
@@ -131,11 +133,41 @@ ListNode getKth(ListNode head, int k) {
 #### Add
 ##### Add a node at the head
 ```
-ListNode addNodeAtHead(ListNode head, )
+ListNode addNodeAtHead(ListNode head, ListNode node) {
+    node.next = head;
+    return node;                                       // Return the new head node
+}
 ```
-
 ##### Add a node at the tail
-##### Add a node at the Kth 
+```
+void addNodeAtTail(ListNode head, ListNode node) {    
+    ListNode current = head;
+    while (current.next != null) {                     // Get the original tail node
+        current = current.next;
+    }
+    
+    current.next = node;
+}
+```
+##### Add a node at the Kth
+```
+void addNodeAtKth(ListNode head, ListNode node, int k) {
+    ListNode current = head;
+    int i = 0
+    
+    while (current.next != null && i < k - 1) {        // Get the K-1 th node
+        current = current.next;
+        i++
+    }
+    
+    if (i == k - 1) {
+        node.next = current.next;
+        current.next = node;
+    } else {                                           // If there is no K-1 th node, do nothing
+        return;
+    }
+}
+```
 
 #### Remove
 ##### Remove the head node
