@@ -4,8 +4,8 @@
 ### Code
 ```
 ListNode {
-    val;
-    next;
+    int      data;
+    ListNode next;
 }
 ```
 
@@ -23,6 +23,7 @@ void traverse(ListNode head) {
     }
 }
 ```
+
 #### Traverse in reversed order
 ```
 void traverseReversedOrder(ListNode head) {
@@ -31,6 +32,17 @@ void traverseReversedOrder(ListNode head) {
     stmt;
 }
 ```
-### Access element
+
+### Access
+#### Access the first element
+
+#### Access the last element
+
+#### Access the Kth element
+
+#### Access the Kth element from end
 
 ### Manipulation
+#### Add 
+#### Remove
+#### Reverse
