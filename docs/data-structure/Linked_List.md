@@ -115,3 +115,6 @@ ListNode getKth(ListNode head, int k) {
 #### Add 
 #### Remove
 #### Reverse
+
+## References
+- https://www.geeksforgeeks.org/nth-node-from-the-end-of-a-linked-list/
