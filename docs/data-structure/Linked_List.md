@@ -85,9 +85,9 @@ ListNode getKth(ListNode head, int k) {
       return count;
   }
   ```
-- **Solution 2**: Use 2 pointers
+- **Solution 2**: Use 2 pointers.
    - Let pA point to the head, let pB point to the Kth node from the head.
-   - Move pA and pB to the tail currently so the distance between pA and pB is always K.
+   - Move pA and pB to the tail in the same pace so the distance between pA and pB is always K.
    - When pB points to the tail, pA is pointing to the Kth node from the tail.
   ```
   ListNode getKthFromTail(ListNode head, int k) {
@@ -101,7 +101,7 @@ ListNode getKth(ListNode head, int k) {
       if (pB == null) return null;                    // If the K is greater than the total number of nodes, return null
                                                       // Returning null means there is no Kth node from the tail
                                                       
-      while (pB != null) {                            // Move pA and pB to the tail currently until pB points to the tail
+      while (pB != null) {                            // Move pA and pB to the tail in the same pace until pB points to the tail
           pA = pA.next;
           pB = pB.next;
       }
@@ -109,6 +109,7 @@ ListNode getKth(ListNode head, int k) {
       return pA
   }
   ```
+- Solution 3: Get the (N-K+1)th node from the head.
 
 ### Manipulation
 #### Add 
