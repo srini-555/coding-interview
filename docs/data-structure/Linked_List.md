@@ -109,11 +109,23 @@ ListNode getKth(ListNode head, int k) {
       return pA
   }
   ```
-- Solution 3: Get the (N-K+1)th node from the head.
+- **Solution 3**: Get the (N-K+1)th node from the head.
 
 ### Manipulation
-#### Add 
+#### Add
+##### Add a node at the head
+```
+ListNode addNodeAtHead(ListNode head, )
+```
+
+##### Add a node at the tail
+##### Add a node at the Kth 
+
 #### Remove
+##### Remove the head node
+##### Remove the tail node
+##### Remove the Kth node
+
 #### Reverse
 
 ## References
