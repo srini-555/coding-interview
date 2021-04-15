@@ -54,6 +54,7 @@ ListNode getLast(ListNode head) {
 ```
 
 #### Access the Kth node
+(The index is 0-based)
 ```
 ListNode getKth(ListNode head, int k) {
     ListNode current = head;
