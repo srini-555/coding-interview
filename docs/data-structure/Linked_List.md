@@ -17,9 +17,10 @@ ListNode {
 #### Traverse in order
 ```
 void traverse(ListNode head) {
-    while (head != null) {
+    ListNode current = head;
+    while (current != null) {
         stmt;
-        head = head.next;
+        current = current.next;
     }
 }
 ```
@@ -34,13 +35,43 @@ void traverseReversedOrder(ListNode head) {
 ```
 
 ### Access
-#### Access the first element
+#### Access the first node
+```
+ListNode getFirst(ListNode head) {
+    return head;
+}
+```
 
-#### Access the last element
+#### Access the last node
+```
+ListNode getLast(ListNode head) {
+    ListNode current = head;
+    while (current.next != null) {
+        current = current.next;
+    }
+    return current;
+}
+```
 
-#### Access the Kth element
+#### Access the Kth node
+```
+ListNode getKth(ListNode head, int k) {
+    ListNode current = head;
+    while (current.next != null) {
+        if (k == 0) {
+            return current;
+        }
+        current = current.next;
+        k--
+    }
+    if (k > 0) {                       // If there is no Kth node (The number of nodes is less than K)
+        return null;                   // Return null to mean there is no Kth element
+    }
+}
+```
 
 #### Access the Kth element from tail
+
 
 ### Manipulation
 #### Add 
