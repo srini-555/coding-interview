@@ -1,5 +1,21 @@
 # Linked List
 
+- [Concept]()
+- [Strategies]()
+- [Basic operations]()
+   - [Traverse]()
+      - [Traverse in order]()
+      - [Traverse in reversed order]()
+   - [Access]()
+      - [Access the first node]()
+      - [Access the last node]()
+      - [Access the Kth node]()
+      - [Access the Kth node from tail]()
+   - []()
+   - []()
+   - []()
+   - []()
+
 ## Concept
 ### Code
 ```
