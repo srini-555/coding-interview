@@ -75,7 +75,6 @@ ListNode getLast(ListNode head) {
 ```
 
 #### Access the Kth node
-(The index is 0-based)
 ```
 ListNode getKth(ListNode head, int k) {
     ListNode current = head;
@@ -179,17 +178,50 @@ void addNodeAtKth(ListNode head, ListNode node, int k) {
 ```
 ListNode removeNodeAtHead(ListNode head) {
     ListNode newHead = head.next;
-    free(head);
+    free(head);                                       // Free the memory allocation of the original head node
     return newHead;
 }
 ```
 ##### Remove the tail node
 ```
-void removeNodeAtTail(ListNode) {
+void removeNodeAtTail(ListNode head) {
+    if (head.next == null) {                          // If there is only one node in the linked list
+        free(head);                                   
+        return null;
+    }
 
+    ListNode current = head;
+    while (current.next.next == null) {               // Get the preceding node of the tail node
+        current = current.next;
+    }
+    
+    ListNode tailNode = current.next;
+    current.next = null;
+    free(tailNode);                                   // Free the memory allocation of the original tail node
 }
 ```
 ##### Remove the Kth node
+```
+void removeKthNode(ListNode head, int k) {
+    ListNode current = head;
+    int i = 0
+    
+    while (current.next != null && i < k - 1) {        // Get the K-1 th node
+        current = current.next;
+        i++
+    }
+    
+    if (i == k - 1) {
+        if (current.next == null) {                    // If there is the K-1 th node, but no Kth node, do nothing.
+            return;
+        } else {
+            current.next = current.next.next;          // If there are both the K-1 th and the Kth node, remove the Kth node.
+        }
+    } else {                                           // If there is no K-1 th node, do nothing
+        return;
+    }
+}
+```
 
 #### Reverse
 
