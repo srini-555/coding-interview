@@ -21,6 +21,7 @@
 - [**Linked List**]()
 - [**Queue**]()
 - [**Stack**]()
+- [**Binary Search Tree**]()
 - [**Tree**]()
 
 ## Solution Patterns
