@@ -1,20 +1,25 @@
 # Linked List
 
-- [Concept]()
-- [Strategies]()
-- [Basic operations]()
-   - [Traverse]()
-      - [Traverse in order]()
-      - [Traverse in reversed order]()
-   - [Access]()
-      - [Access the first node]()
-      - [Access the last node]()
-      - [Access the Kth node]()
-      - [Access the Kth node from tail]()
-   - []()
-   - []()
-   - []()
-   - []()
+- [Concept](#concept)
+- [Strategies](#strategies)
+- [Basic operations](#basic-operations)
+   - [Traverse](#traverse)
+      - [Traverse in order](#traverse-in-order)
+      - [Traverse in reversed order](#traverse-in-reversed-order)
+   - [Access](#access)
+      - [Access the first node](#access-the-first-node)
+      - [Access the last node](#access-the-last-node)
+      - [Access the Kth node](#access-the-kth-node)
+      - [Access the Kth node from tail](#access-the-kth-node-from-tail)
+   - [Manipulation](#manipulation)
+      - [Add](#add)
+         - [Add a node at the head](#add-a-node-at-the-head)
+         - [Add a node at the tail](#add-a-node-at-the-tail)
+         - [Add a node at the Kth](#add-a-node-at-the-kth)
+      - [Remove](#remove)
+         - [Remove the head node](#remove-the-head-node)
+         - [Remove the tail node](#remove-the-tail-node)
+         - [Remove the Kth node](#remove-the-kth-node)
 
 ## Concept
 ### Code
@@ -171,7 +176,19 @@ void addNodeAtKth(ListNode head, ListNode node, int k) {
 
 #### Remove
 ##### Remove the head node
+```
+ListNode removeNodeAtHead(ListNode head) {
+    ListNode newHead = head.next;
+    free(head);
+    return newHead;
+}
+```
 ##### Remove the tail node
+```
+void removeNodeAtTail(ListNode) {
+
+}
+```
 ##### Remove the Kth node
 
 #### Reverse
