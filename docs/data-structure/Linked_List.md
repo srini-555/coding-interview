@@ -40,7 +40,7 @@ void traverseReversedOrder(ListNode head) {
 
 #### Access the Kth element
 
-#### Access the Kth element from end
+#### Access the Kth element from tail
 
 ### Manipulation
 #### Add 
