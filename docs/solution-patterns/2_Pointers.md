@@ -3,7 +3,7 @@
 ## Concepts
 - Use 2 pointers to access different elements for comparision and data manipulation.
 
-## Sub-patterns
+## Variations
 ### Fast slow pointers
 - Concepts
    - The fast pointer moves two steps and the slow pointer moves one step.
@@ -20,11 +20,11 @@
 
 ### Neighbor pointers
 - Concepts
-   - 2 pointers next to each other and move together from one end to another.
+   - 2 pointers next to each other and move in the same pace from one end to another.
 
 ### Constant distance pointer
 - Concepts
-   - 2 pointers keep a constant distance and move together from one end to another.
+   - 2 pointers keep a constant distance and move in the same pace from one end to another.
 - Problems can use this patterns
    - Get the Nth node from the tail of a linked list.
 
