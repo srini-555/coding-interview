@@ -1,11 +1,11 @@
 # String
 
 ## Common topics
-- Symmetric problem
+- Symmetric problems
    - Parentheses
    - Palindrome
 
 ## Strategies
 - **Parentheses**
    - Consider to use a counter to count how many open parentheses when iterating through a string.
-   - Consider to use a stack.
+   - For symmetric problems (like parentheses and palindrome), consider to use a stack.
