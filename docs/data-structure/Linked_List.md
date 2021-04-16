@@ -179,7 +179,6 @@ void addNodeAtKth(ListNode head, ListNode node, int k) {
 ```
 ListNode removeNodeAtHead(ListNode head) {
     ListNode newHead = head.next;
-    free(head);                                       // Free the memory allocation of the original head node
     return newHead;
 }
 ```
@@ -196,9 +195,7 @@ void removeNodeAtTail(ListNode head) {
         current = current.next;
     }
     
-    ListNode tailNode = current.next;
     current.next = null;
-    free(tailNode);                                   // Free the memory allocation of the original tail node
 }
 ```
 ##### Remove the Kth node
