@@ -1,4 +1,5 @@
-Minimum Remove to Make Valid Parentheses
+# Minimum Remove to Make Valid Parentheses
+# Remove Minimum Parentheses to Make Valid Parentheses
 
 ## Problem
 - Remove the minimum number of parentheses so that the resulting parentheses string is valid.
@@ -7,7 +8,7 @@ Minimum Remove to Make Valid Parentheses
 ## Solutions
 - Solution 1: Two pass string builder
   ```java
-  public String minRemoveToMakeValid(String s) {
+  public String removeMinParenthesesToMakeValid(String s) {
       StringBuilder sb = new StringBuilder();
       int openParenthesesCount = 0;
         
