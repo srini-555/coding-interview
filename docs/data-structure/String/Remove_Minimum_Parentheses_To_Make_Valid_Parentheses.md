@@ -1,4 +1,3 @@
-# Minimum Remove to Make Valid Parentheses
 # Remove Minimum Parentheses to Make Valid Parentheses
 
 ## Problem
