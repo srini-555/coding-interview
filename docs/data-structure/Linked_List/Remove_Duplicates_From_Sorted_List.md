@@ -1,5 +1,10 @@
 # Remove Duplicates from Sorted List
 
+## Problem
+- Remove all duplicates from a sorted list.
+- Return the head of the new linked list.
+- The new linked should be sorted as well.
+
 ## Solutions
 ```java
    public ListNode deleteDuplicates(ListNode head) {
