@@ -31,7 +31,8 @@ ListNode {
 ```
 
 ## Strategies
-- If an operation is against the direction of a linked list, need to consider use a recursive function.
+- If an operation is against the direction of a linked list, consider using a recursive function.
+- If an operation is to manipulate a certain node, consider getting the preceding node of the node.
 
 ## Basic operations
 ### Traverse
