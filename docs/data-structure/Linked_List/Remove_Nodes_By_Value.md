@@ -6,7 +6,7 @@
 
 ## Solutions
 ```java
-public ListNode removeNodesByValue(ListNode head, int val) {        
+public ListNode deleteNodesByValue(ListNode head, int val) {        
     while (head != null && head.val == val) {            // Consider the value of the head is equal to the target value.
         head = head.next;
     }
