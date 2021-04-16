@@ -7,7 +7,7 @@
 ## Solution
 - Solution 1
   ```java
-  public List<String> generateParenthesis(int n) {
+  public List<String> generateAllCombinationsParenthesis(int n) {
       if (n == 1) {
           List<String> list = new ArrayList<>();
           list.add("()");
