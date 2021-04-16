@@ -1,6 +1,11 @@
 # Reverse Middle Sub-list
 
 ## Problem
+- Reverse the nodes of the list from position left to position right.
+- Position is 0-based.
+- Return the head of the new linked list.
+
+![rev2ex2](https://user-images.githubusercontent.com/8989447/114976266-e90e7100-9e42-11eb-9a58-ec12941a8167.jpeg)
 
 ## Solutions
 - Solution 1: Separate, reverse and merge.
@@ -19,10 +24,10 @@
       ListNode leftNode    = null;
       ListNode rightNode   = null;
       ListNode rightNextNode = null;
-      int i = 2;
+      int i = 1;
         
       // Get the left node and the previous node of the left node
-      if (left == 1) {
+      if (left == 0) {
           leftNode = head;
       } else {
           while (current.next != null && i < left) {
