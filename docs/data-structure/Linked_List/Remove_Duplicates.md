@@ -2,6 +2,7 @@
 
 ## Problem
 - Remove all duplicates from a unsorted list.
+- Return the head of the new linked list.
 
 ## Solutions
 - Solution 1: 2 pointers
