@@ -9,18 +9,18 @@
   public void deleteDuplicates(ListNode head) {
       ListNode current = head;
       
-      while (currentNode != null) {
+      while (current != null) {
           ListNode runner = current;
 
           while (runner.next != null) {
-              if (runner.next.data == currentNode.data) {
+              if (runner.next.data == current.data) {
                   runner.next = runner.next.next;
               } else {
                   runner = runner.next;
               }
           }
 
-          currentNode = currentNode.next;
+          current = current.next;
       }
       
       return head;
