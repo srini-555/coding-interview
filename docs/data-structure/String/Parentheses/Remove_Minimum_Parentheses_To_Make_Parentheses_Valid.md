@@ -1,4 +1,7 @@
-# Remove Minimum Parentheses to Make Valid Parentheses
+# Remove Minimum Parentheses to Make Parentheses Valid
+
+## Alias
+- Leetcode (1249): [Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)
 
 ## Problem
 - Remove the minimum number of parentheses so that the resulting parentheses string is valid.
