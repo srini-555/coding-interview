@@ -1,5 +1,8 @@
 # Remove Nodes by Value
 
+## Alias
+- Leetcode (203): [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)
+
 ## Problem
 - Remove all the nodes whose value is equal to a specific value.
 - Return the head of the new linked list.
