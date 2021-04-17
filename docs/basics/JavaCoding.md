@@ -109,7 +109,7 @@ This page is to document some coding standard operations.
   ```java
   Collections.sort(list);
   ```
-> NOTE: This function will not return a sorted list. It will sort the `list` in-place.
+  > NOTE: This function will not return a sorted list. It will sort the `list` in-place.
 
 - **Initialize a list of lists**
   ```java
@@ -137,13 +137,13 @@ This page is to document some coding standard operations.
 
 - **Common functions for stack**
 
-| Function | Description |
-| ---- | ---- |
-| `push` | Push an element on the top of the stack. |
-| `pop` | Remove and return the top element of the stack. An `EmptyStackException` exception is thrown if we call `pop()` when the invoking stack is empty. |
-| `peek` | Return the element on the top of the stack, but does not remove it. |
-| `empty` | Return `true` if nothing is on the top of the stack. Else, returns `false`. |
-| `search` | It determines whether an object exists in the stack. If the element is found, it returns the position of the element from the top of the stack. Else, it returns -1. |
+  | Function | Description |
+  | ---- | ---- |
+  | `push` | Push an element on the top of the stack. |
+  | `pop` | Remove and return the top element of the stack. An `EmptyStackException` exception is thrown if we call `pop()` when the invoking stack is empty. |
+  | `peek` | Return the element on the top of the stack, but does not remove it. |
+  | `empty` | Return `true` if nothing is on the top of the stack. Else, returns `false`. |
+  | `search` | It determines whether an object exists in the stack. If the element is found, it returns the position of the element from the top of the stack. Else, it returns -1. |
 
 - **Use `pop()` with caution**
 
@@ -157,12 +157,12 @@ Before you call `pop()`, you need to check the stack is empty or not.
 
 - **Common functions for queue**
 
-| Functions | Description |
-| ---- | ---- |
-| `add` | Add element at the tail of queue. |
-| `peek` | Return (but NOT remove) the element at the head element of queue. Return `null` if the queue is empty. |
-| `remove` | Remove and returns the head element of the queue. An `NoSuchElementException` exception is thrown if we call `remove()` when the invoking queue is empty. |
-| `poll` | Remove and returns the head element of the queue. Return `null` if the queue is empty. |
+  | Functions | Description |
+  | ---- | ---- |
+  | `add` | Add element at the tail of queue. |
+  | `peek` | Return (but NOT remove) the element at the head element of queue. Return `null` if the queue is empty. |
+  | `remove` | Remove and returns the head element of the queue. An `NoSuchElementException` exception is thrown if we call `remove()` when the invoking queue is empty. |
+  | `poll` | Remove and returns the head element of the queue. Return `null` if the queue is empty. |
 
 - **No `empty()` function for queue**
 
@@ -178,12 +178,12 @@ Sorted on ascending order automatically.
 
 - **Common functions for priority queue**
 
-| Functions | Description |
-| ---- | ---- |
-| `add` | Add one element. |
-| `poll` | Return and remove the first (smallest) element. |
-| `peek` | Return (but NOT remove) the first (smallest) element. Return `null` if the queue is empty. |
-| `poll` | Removes and returns the first (smallest) element. Return `null` if the queue is empty. |
+  | Functions | Description |
+  | ---- | ---- |
+  | `add` | Add one element. |
+  | `poll` | Return and remove the first (smallest) element. |
+  | `peek` | Return (but NOT remove) the first (smallest) element. Return `null` if the queue is empty. |
+  | `poll` | Removes and returns the first (smallest) element. Return `null` if the queue is empty. |
 
 - **No `empty()` function for priority queue**
 
@@ -199,22 +199,22 @@ Sorted by key in ascending order automatically.
 
 - **Common functions for tree map**
 
-| Functions | Description |
-| ---- | ---- |
-| `put` | Add one key-value pair. |
-| `firstKey` | Get the key of the first entry (smallest in key) from tree map. |
-| `firstEntry` | Get the first entry (smallest in key) from tree map. |
-| `lastKey` | Get the key of the last entry (greatest in key) from tree map. |
-| `lastEntry` | Get the last entry (greatest in key) from tree map. |
+  | Functions | Description |
+  | ---- | ---- |
+  | `put` | Add one key-value pair. |
+  | `firstKey` | Get the key of the first entry (smallest in key) from tree map. |
+  | `firstEntry` | Get the first entry (smallest in key) from tree map. |
+  | `lastKey` | Get the key of the last entry (greatest in key) from tree map. |
+  | `lastEntry` | Get the last entry (greatest in key) from tree map. |
 
 ## Util
 ### Arrays
 ### Collection
-| Function | Description |
-| ---- | ---- |
-| `sort()` | Sort the elements in the collection |
-| `max()` | Get the maximum element in the collection. |
-| `min()` | Get the minimum element in the collection. |
+  | Function | Description |
+  | ---- | ---- |
+  | `sort()` | Sort the elements in the collection |
+  | `max()` | Get the maximum element in the collection. |
+  | `min()` | Get the minimum element in the collection. |
 
 ---
 
