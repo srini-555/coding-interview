@@ -4,7 +4,7 @@
 - Check the input string is palindrome or not.
 
 ## Solutions
-- Solution 1: 2 pointers.
+- Solution 1: 2 pointers (meet pointers).
   ```java
   public boolean isPalindrome(String s) {
       if (s.length() == 0) {
