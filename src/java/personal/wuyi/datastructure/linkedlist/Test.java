@@ -7,7 +7,14 @@ public class Test {
 		ListNodeUtil.addNodeAtTail(head, 2);
 		ListNodeUtil.addNodeAtTail(head, 3);
 		
-		ListNodeUtil.traverse(head);
+		ListNodeUtil.printLinkedList(head);
+		
+		
+		String str = "abcdefgh";
+		
+		for (int i = 0; i < str.length(); i++) {
+			System.out.println(str.substring(i, i+1));
+		}
 	}
 
 }

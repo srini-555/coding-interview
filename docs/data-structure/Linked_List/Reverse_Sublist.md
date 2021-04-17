@@ -1,4 +1,4 @@
-# Reverse Middle Sub-list
+# Reverse Sub-list
 
 ## Problem
 - Reverse the nodes of the list from position left to position right.
