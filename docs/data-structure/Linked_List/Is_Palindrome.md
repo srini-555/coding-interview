@@ -1,11 +1,14 @@
 # Is Palindrome
 
+## Alias
+- Leetcode (234): [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
+
 ## Problem
 - Check a linked list is palindrome or not.
 - Return true if the linked list a palindrome.
 
 ## Solutions
-- Solution 1: Fast slow pointers and stack
+- Solution 1: Fast slow pointers + Stack
    - Get the middle node and add all the node of the first half into a stack.
    - Ignore the middle node if the linked list has a odd number of nodes.
    - Pop each value from the stack and compare it with each node in the second half of the linked list.
