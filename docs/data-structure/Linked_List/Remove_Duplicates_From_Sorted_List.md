@@ -1,5 +1,8 @@
 # Remove Duplicates from Sorted List
 
+## Alias
+- Leetcode (83): [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
+
 ## Problem
 - Remove all duplicates from a sorted list.
 - Return the head of the new linked list.
