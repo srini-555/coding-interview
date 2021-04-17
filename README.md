@@ -33,6 +33,11 @@
 - [**Backtraking**]()
 - [**Recursion**]()
 
+## Problem Categories
+
+|  | String | Array | Linked List |
+|----|----|----|----|
+| Palindrome | <li>[Is Palindrome]()<li>[Is Palindrome by Removing One Char]() | | <li>[Is Palindrome]() |
 
 ## LeetCode Problems
 | No. | Name | Topic | Data Object | Data Structure |
