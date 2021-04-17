@@ -38,6 +38,8 @@
 |  | String | Array | Linked List |
 |----|----|----|----|
 | Palindrome | <li>[Is Palindrome]()<li>[Is Palindrome by Removing One Char]() | | <li>[Is Palindrome]() |
+| Duplicates | | | <li>[Remove Duplicates]()<li>[Remove Duplicates from Sorted List]() |
+| Reverse | | | <li>[Reverse List]()<li>[Reverse Sub-list]() |
 
 ## LeetCode Problems
 | No. | Name | Topic | Data Object | Data Structure |
