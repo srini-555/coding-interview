@@ -21,6 +21,7 @@ This page is to document some coding standard operations.
 - [Arithmetic Operations](#arithmetic-operations)
    - [Division](#division)
    - [Modulo (get the remainder after division)](#modulo-get-the-remainder-after-division)
+- [Custom Sorting]()
 
 ## Basic Types
 ### String
@@ -305,4 +306,23 @@ Sorted by key in ascending order automatically.
   999 / 1000 = 0
   999 % 1000 = 999
   999 % 100 = 99
+  ```
+
+--- 
+
+## Custom Sorting
+- Class
+  ```java
+  public class Student implements Comparable<Student> {
+      public int score;
+    
+      public int compareTo(Student s) {
+          return this.score.compareTo(s.score);        // Order by ascending order of score
+      }
+  }
+  ```
+- Sort
+  ```
+  List<Student> students;
+  Collections.sort(students);
   ```
