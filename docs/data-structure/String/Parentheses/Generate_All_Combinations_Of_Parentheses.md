@@ -1,5 +1,8 @@
 # Generate All Combinations of Parentheses
 
+## Alias
+- Leetcode (22): [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
+
 ## Problem
 - All combinations of `n` parentheses.
 - Return a list of all combinations.
