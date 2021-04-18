@@ -28,3 +28,6 @@ TreeNode {
 - **Balanced binary tree**
    - The left and right subtrees of every node differ in height by no more than 1.
    - All operations on abalanced tree can be guarantee that runs at O(*lg*n).
+- **Perfect binary tree**
+   - All interior nodes have two children.
+   - All leaves have the same depth or same level.
