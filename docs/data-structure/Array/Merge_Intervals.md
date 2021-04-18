@@ -63,8 +63,7 @@
       int[][] resultArray = new int[resultList.size()][2];
         
       for (int i = 0; i < resultList.size(); i++) {
-          resultArray[i][0] = resultList.get(i)[0];
-          resultArray[i][1] = resultList.get(i)[1];
+          resultArray[i] = resultList.get(i);
       }
         
       return resultArray;
