@@ -23,4 +23,4 @@ TreeNode {
    - Every level, except the last, is completely filled.
    - All nodes in the last level are as far left as possible
 
-     <img src="https://user-images.githubusercontent.com/8989447/115163595-26ebdf00-a067-11eb-93a6-a54c8dd83bf2.png" width="640" height="334">
+     <img src="https://user-images.githubusercontent.com/8989447/115163595-26ebdf00-a067-11eb-93a6-a54c8dd83bf2.png" width="480" height="250">
