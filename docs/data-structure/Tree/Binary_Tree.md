@@ -24,3 +24,7 @@ TreeNode {
    - All nodes in the last level are as far left as possible
 
      <img src="https://user-images.githubusercontent.com/8989447/115163595-26ebdf00-a067-11eb-93a6-a54c8dd83bf2.png" width="480" height="250">
+
+- **Balanced binary tree**
+   - The left and right subtrees of every node differ in height by no more than 1.
+   - All operations on abalanced tree can be guarantee that runs at O(*lg*n).
