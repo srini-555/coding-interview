@@ -17,7 +17,7 @@ TreeNode {
 - **Full binary tree**: 
    - Every node has either 0 or 2 children.
 
-     <img src="https://user-images.githubusercontent.com/8989447/115163571-0d4a9780-a067-11eb-8615-873f5aa8fdb9.png" width="427" height="319">
+     <img src="https://user-images.githubusercontent.com/8989447/115163571-0d4a9780-a067-11eb-8615-873f5aa8fdb9.png" width="320" height="239">
 
 - **Complete binary tree**: 
    - Every level, except the last, is completely filled.
