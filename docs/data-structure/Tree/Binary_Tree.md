@@ -47,21 +47,40 @@ TreeNode {
    - Order: Root, left, right.
   ```
   void traversePreOrder(TreeNode node) {
-      if n
+      if (node == null) return;
+      visit(node);
+      traversePreOrder(node.left);
+      traversePreOrder(node.right);
   }
   ```
 - In-order
    - Order: Left, root, right.
   ```
   void traverseInOrder(TreeNode node) {
-  
+      if (node == null) return;
+      traverseInOrder(node.left);
+      visit(node);
+      traverseInOrder(node.right);
+  }
+  ```
+- Reverse in-order
+   - Order: Right, root, left.
+  ```
+  void traverseReverseInOrder(TreeNode node) {
+      if (node == null) return;
+      traverseReverseInOrder(node.right);
+      visit(node);
+      traverseReverseInOrder(node.right);
   }
   ```
 - Post-order
    - Order: Left, right, root.
   ```
   void traversePostOrder(TreeNode node) {
-  
+      if (node == null) return;
+      traversePostOrder(node.left);
+      traversePostOrder(node.right);
+      visit(node);
   }
   ```
 #### Breadth-first search (BFS)
