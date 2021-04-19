@@ -41,7 +41,7 @@ ListNode {
 void traverse(ListNode head) {
     ListNode current = head;
     while (current != null) {
-        stmt;
+        visit(head);
         current = current.next;
     }
 }
@@ -51,8 +51,8 @@ void traverse(ListNode head) {
 ```
 void traverseReversedOrder(ListNode head) {
     if (head == null) return;
-    traverseReversedOrder(head.next)
-    stmt;
+    traverseReversedOrder(head.next);
+    visit(head);
 }
 ```
 
