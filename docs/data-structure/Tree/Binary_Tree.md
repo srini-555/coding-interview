@@ -45,6 +45,8 @@ TreeNode {
 #### Depth-first search (DFS)
 - Pre-order
    - Order: Root, left, right.
+   - Features:
+      - This traverse can be used in top-down approach.
   ```
   void traversePreOrder(TreeNode node) {
       if (node == null) return;
@@ -55,6 +57,8 @@ TreeNode {
   ```
 - In-order
    - Order: Left, root, right.
+   - Features:
+      - In a binary search tree, in-order traversal retrieves the keys in ascending sorted order.
   ```
   void traverseInOrder(TreeNode node) {
       if (node == null) return;
@@ -65,6 +69,8 @@ TreeNode {
   ```
 - Reverse in-order
    - Order: Right, root, left.
+   - Features:
+      - In a binary search tree, reverse in-order traversal retrieves the keys in descending sorted order.
   ```
   void traverseReverseInOrder(TreeNode node) {
       if (node == null) return;
@@ -75,6 +81,8 @@ TreeNode {
   ```
 - Post-order
    - Order: Left, right, root.
+   - Features:
+      - This traverse can be used in bottom-up approach.
   ```
   void traversePostOrder(TreeNode node) {
       if (node == null) return;
