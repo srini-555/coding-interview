@@ -31,3 +31,41 @@ TreeNode {
 - **Perfect binary tree**
    - All interior nodes have two children.
    - All leaves have the same depth or same level.
+
+## Variations
+- Binary search tree (BST)
+   - Binary tree.
+   - For each internal nodes, the key greater than all the keys in the node's left subtree and less than those in its right subtree.
+- Binary heap
+   - Complete binary tree
+   - The key stored in each node is either greater than or equal to (≥) or less than or equal to (≤) the keys in the node's children.
+
+## Basic operations
+### Traverse
+#### Depth-first search (DFS)
+- Pre-order
+   - Order: Root, left, right.
+  ```
+  void traversePreOrder(TreeNode node) {
+      if n
+  }
+  ```
+- In-order
+   - Order: Left, root, right.
+  ```
+  void traverseInOrder(TreeNode node) {
+  
+  }
+  ```
+- Post-order
+   - Order: Left, right, root.
+  ```
+  void traversePostOrder(TreeNode node) {
+  
+  }
+  ```
+#### Breadth-first search (BFS)
+
+## References
+- https://en.wikipedia.org/wiki/Binary_search_tree
+- https://en.wikipedia.org/wiki/Binary_heap
