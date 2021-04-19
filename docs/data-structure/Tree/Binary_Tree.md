@@ -13,6 +13,9 @@ TreeNode {
 }
 ```
 
+## Strategies
+- Consider using a recursive function for most binary tree problems.
+
 ### Types
 - **Full binary tree**: 
    - Every node has either 0 or 2 children.
