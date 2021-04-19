@@ -10,18 +10,18 @@
 ## Solutions
 - Solution 1
   ```java
-  public boolean isSameTree(TreeNode p, TreeNode q) {
-     if (p == null && q == null) {      // p and q are both null
+  public boolean isSameTree(TreeNode t1, TreeNode t2) {
+      if (t1 == null && t2 == null) {      // t1 and t2 are both null
           return true;
       } 
-      if (p == null || q == null) {      // one of p and q is null
+      if (t1 == null || t2 == null) {      // one of t1 and t2 is null
           return false;
       }
         
-      if (p.val != q.val) {
+      if (t1.val != t2.val) {
           return false;
       } else {
-          return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
+          return isSameTree(t1.left, t2.left) && isSameTree(t1.right, t2.right);
       }
   }
   ```
