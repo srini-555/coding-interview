@@ -19,7 +19,7 @@
       // for t1: root -> left -> right    (Pre-order)
       // for t2: root -> right  -> left   (Pre-order's variation)
      return (t1.val == t2.val)
-           && isMirror(t1.left, t2.right)
+          && isMirror(t1.left, t2.right)
           && isMirror(t1.right, t2.left);   
   }
   ```
