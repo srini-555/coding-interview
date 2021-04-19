@@ -94,6 +94,24 @@ TreeNode {
       visit(node);
   }
   ```
+- **Pre-order (iterative solution)**
+  ```
+  void traversePreOrder(TreeNode root) {
+      Stack stack;
+      stack.push(root);
+      while (stack.isEmpty() == false) {
+          TreeNode node = stack.pop();
+          visit(node);
+          if (node.left != null) { 
+              stack.push(node.left);
+          }
+          if (node.right != null) {
+              stack.push(node.right);
+          }
+      }
+  }
+  ```
+  
 #### Breadth-first search (BFS)
   ```
   void traverseBreadthFirstSearch(TreeNode root) {
