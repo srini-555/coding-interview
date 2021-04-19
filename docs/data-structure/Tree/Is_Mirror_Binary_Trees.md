@@ -7,6 +7,8 @@
 - Check 2 binary trees are mirror or not.
 - Return true if 2 binary trees are mirror.
 
+![Untitled](https://user-images.githubusercontent.com/8989447/115277555-a8904b00-a101-11eb-919a-ba79d318c736.png)
+
 ## Solutions
 - Solution 1
   - For tree 1, use pre-order traverse             (root -> left -> right)
