@@ -33,17 +33,17 @@ TreeNode {
    - All leaves have the same depth or same level.
 
 ## Variations
-- Binary search tree (BST)
+- **Binary search tree (BST)**
    - Binary tree.
    - For each internal nodes, the key greater than all the keys in the node's left subtree and less than those in its right subtree.
-- Binary heap
-   - Complete binary tree
+- **Binary heap**
+   - Complete binary tree.
    - The key stored in each node is either greater than or equal to (≥) or less than or equal to (≤) the keys in the node's children.
 
 ## Basic operations
 ### Traverse
 #### Depth-first search (DFS)
-- Pre-order
+- **Pre-order**
    - Order: Root, left, right.
    - Features:
       - This traverse can be used in top-down approach.
@@ -55,7 +55,7 @@ TreeNode {
       traversePreOrder(node.right);
   }
   ```
-- In-order
+- **In-order**
    - Order: Left, root, right.
    - Features:
       - In a binary search tree, in-order traversal retrieves the keys in ascending sorted order.
@@ -67,7 +67,7 @@ TreeNode {
       traverseInOrder(node.right);
   }
   ```
-- Reverse in-order
+- **Reverse in-order**
    - Order: Right, root, left.
    - Features:
       - In a binary search tree, reverse in-order traversal retrieves the keys in descending sorted order.
@@ -79,7 +79,7 @@ TreeNode {
       traverseReverseInOrder(node.right);
   }
   ```
-- Post-order
+- **Post-order**
    - Order: Left, right, root.
    - Features:
       - This traverse can be used in bottom-up approach.
@@ -92,6 +92,22 @@ TreeNode {
   }
   ```
 #### Breadth-first search (BFS)
+  ```
+  void traverseBreadthFirstSearch(TreeNode root) {
+      Queue queue;
+      queue.enqueue(root);
+      while(queue.isEmpty() == false) {
+          TreeNode node = queue.dequeue();
+          visit(node);
+          if (node.left != null) { 
+              queue.enqueue(node.left);
+          }
+          if (node.right != null) {
+              queue.enqueue(node.right);
+          }
+      }
+  }
+  ```
 
 ## References
 - https://en.wikipedia.org/wiki/Binary_search_tree
