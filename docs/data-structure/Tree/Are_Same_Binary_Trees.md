@@ -1,4 +1,4 @@
-# Is Same Binary Tree
+# Are Same Binary Trees
 
 ## Alias
 - Leetcode (100): [Same Tree](https://leetcode.com/problems/same-tree/)
