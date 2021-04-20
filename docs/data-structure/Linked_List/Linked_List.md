@@ -1,7 +1,7 @@
 # Linked List
 
-- [Concept](#concept)
-- [Basic operations](#basic-operations)
+- [**Concept**](#concept)
+- [**Basic operations**](#basic-operations)
    - [Traverse](#traverse)
       - [Traverse in order](#traverse-in-order)
       - [Traverse in reversed order](#traverse-in-reversed-order)
@@ -19,8 +19,8 @@
          - [Remove the head node](#remove-the-head-node)
          - [Remove the tail node](#remove-the-tail-node)
          - [Remove the Kth node](#remove-the-kth-node)
-- [Strategies](#strategies)
-- [Common Topics](#common-topics)
+- [**Strategies**](#strategies)
+- [**Common Topics**](#common-topics)
 
 ## Concept
 ### Code
