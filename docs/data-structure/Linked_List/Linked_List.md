@@ -221,5 +221,20 @@ void removeKthNode(ListNode head, int k) {
 - If an operation is against the direction of a linked list, consider using a recursive function.
 - If an operation is to manipulate (add or remove) a certain node, consider getting the previous node of that node.
 
+## Common Topics
+- Check characteristics
+   - Check one list
+      - [Is Palindrome]()
+   - Compare two lists
+- Manipulation
+   - Reverse
+      - [Reverse List]()
+      - [Reverse Sub-list]()
+   - Remove
+      - [Remove Duplicates]()
+      - [Remove Duplicates from Sorted List]()
+      - [Remove Node without Accessing Previous Node]()
+      - [Remove Nodes by Value]()
+
 ## References
 - https://www.geeksforgeeks.org/nth-node-from-the-end-of-a-linked-list/
