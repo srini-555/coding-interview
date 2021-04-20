@@ -32,7 +32,7 @@ TreeNode {
    - All interior nodes have two children.
    - All leaves have the same depth or same level.
 
-## Variations
+### Variations
 - **Binary search tree (BST)**
    - Binary tree.
    - For each internal nodes, the key greater than all the keys in the node's left subtree and less than those in its right subtree.
