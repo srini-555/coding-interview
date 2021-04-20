@@ -13,9 +13,6 @@ TreeNode {
 }
 ```
 
-## Strategies
-- Consider using a recursive function for most binary tree problems.
-
 ### Types
 - **Full binary tree**: 
    - Every node has either 0 or 2 children.
@@ -129,6 +126,24 @@ TreeNode {
       }
   }
   ```
+
+## Strategies
+- Consider using a recursive function for most binary tree problems.
+
+## Common Topics
+- Check characteristics
+   - Check one tree
+      - [Is Symmetric Binary Tree]()
+      - [Is Binary Search Tree]()
+   - Compare two trees
+      - [Is Same Binary Trees]()
+      - [Is Mirror Binary Trees]()
+      - [Is Sub Binary Trees]()
+- Manipulation
+   - [Invert Binary Tree]()
+- Get metrics
+   - [Get Diameter]()
+   - [Get Height]()
 
 ## References
 - https://en.wikipedia.org/wiki/Binary_search_tree
