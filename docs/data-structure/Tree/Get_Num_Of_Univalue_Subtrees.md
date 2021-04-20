@@ -7,6 +7,17 @@
 - Get the number of uni-value subtrees from the binary tree.
 - A uni-value sub-tree means all nodes of the subtree have the same value.
 
+## Examples
+- Example 1: The number of uni-value sub-trees = 4
+  ![ex1](https://user-images.githubusercontent.com/8989447/115343715-94803400-a169-11eb-9f2c-a5984a6819b2.png)
+
+- Example 2: The number of uni-value sub-trees = 4
+  ![ex2](https://user-images.githubusercontent.com/8989447/115343748-9d710580-a169-11eb-84ad-039164c3bd2a.png)
+
+- Example 3: The number of uni-value sub-trees = 2
+  ![ex3](https://user-images.githubusercontent.com/8989447/115343754-a06bf600-a169-11eb-80ff-f31800a7ba30.png)
+
+
 ## Solutions
 - Solution 1
   ```java
