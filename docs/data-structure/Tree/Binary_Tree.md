@@ -1,5 +1,17 @@
 # Binary Tree
 
+- [**Concept**](#concept)
+   - [Rules](#rules)
+   - [Code](#code)
+   - [Types](#types)
+   - [Variations](#variations)
+- [**Basic operations**](#basic-operations)
+   - [Traverse](#traverse)
+      - [Depth-first search (DFS)](#depth-first-search-dfs)
+      - [Breadth-first search (BFS)](#breadth-first-search-bfs)
+- [**Strategies**](#strategies)
+- [**Common Topics**](#common-topics)
+
 ## Concept
 ### Rules
 - Each node has at most two children, which are referred to as the left child and the right child.
