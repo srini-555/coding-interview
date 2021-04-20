@@ -1,7 +1,6 @@
 # Linked List
 
 - [Concept](#concept)
-- [Strategies](#strategies)
 - [Basic operations](#basic-operations)
    - [Traverse](#traverse)
       - [Traverse in order](#traverse-in-order)
@@ -20,6 +19,7 @@
          - [Remove the head node](#remove-the-head-node)
          - [Remove the tail node](#remove-the-tail-node)
          - [Remove the Kth node](#remove-the-kth-node)
+- [Strategies](#strategies)
 
 ## Concept
 ### Code
@@ -29,10 +29,6 @@ ListNode {
     ListNode next;
 }
 ```
-
-## Strategies
-- If an operation is against the direction of a linked list, consider using a recursive function.
-- If an operation is to manipulate (add or remove) a certain node, consider getting the previous node of that node.
 
 ## Basic operations
 ### Traverse
@@ -220,6 +216,10 @@ void removeKthNode(ListNode head, int k) {
     }
 }
 ```
+
+## Strategies
+- If an operation is against the direction of a linked list, consider using a recursive function.
+- If an operation is to manipulate (add or remove) a certain node, consider getting the previous node of that node.
 
 ## References
 - https://www.geeksforgeeks.org/nth-node-from-the-end-of-a-linked-list/
