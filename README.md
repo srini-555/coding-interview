@@ -38,7 +38,7 @@
 |  | String | Array | Linked List |
 |----|----|----|----|
 | Palindrome | <li>[Is Palindrome]()<li>[Is Palindrome by Removing One Char]() | | <li>[Is Palindrome]() |
-| Duplicates | | | <li>[Remove Duplicates]()<li>[Remove Duplicates from Sorted List]() |
+| Duplicates | | 26. Remove Duplicates from Sorted Array | <li>[Remove Duplicates]()<li>[Remove Duplicates from Sorted List]() |
 | Reverse | | | <li>[Reverse List]()<li>[Reverse Sub-list]() |
 | Integer calculation<br>(Integer represents in other data structures) | <li>415. Add Strings<li>43. Multiply Strings | | <li>2. Add Two Numbers |
 
