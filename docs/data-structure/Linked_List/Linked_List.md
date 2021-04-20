@@ -20,6 +20,7 @@
          - [Remove the tail node](#remove-the-tail-node)
          - [Remove the Kth node](#remove-the-kth-node)
 - [Strategies](#strategies)
+- [Common Topics](#common-topics)
 
 ## Concept
 ### Code
