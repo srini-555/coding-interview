@@ -58,6 +58,7 @@
       }  
   }
   
+  // This class is used to pass 2 infos from bottom to up
   class Message {
       public boolean isContinue;         // is the value continue from sub-tree
       public int     numUniValue;        // number of uni-value
