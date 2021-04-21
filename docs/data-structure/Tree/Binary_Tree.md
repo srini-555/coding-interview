@@ -138,6 +138,7 @@ TreeNode {
       }
   }
   ```
+  ![Screen Shot 2021-04-20 at 11 36 26 PM](https://user-images.githubusercontent.com/8989447/115501908-4a628580-a231-11eb-8042-a151014242bf.png)
 
 ## Strategies
 - Consider using a recursive function for most binary tree problems.
