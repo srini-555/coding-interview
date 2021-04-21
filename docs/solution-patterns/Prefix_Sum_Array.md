@@ -5,6 +5,18 @@
 - prefixSum[i] = input[0] + input[1] + ... + input[i] = prefixSum [i-1] + input[i]
 
 ## Construction
+```
+void buildPrefixSumArray(int[] nums) {
+    int[] prefixSum[] = new int[nums.length];
+    prefixSum[0] = nums[0];
+    for (int i = 1; i < nums.length; i++) {
+        prefixSum[i] = prefixSum[i-1] + nums[i];
+    }
+}
+```
+
+## Conclusions
+- The sum of range [i, j] = prefixSum[j] - prefixSum[i-1]
 
 ## Benefit
 - Reduce the complexity from O(n<sup>2</sup>) to O(n).
