@@ -26,6 +26,7 @@
 ## Solution Patterns
 - [**Frequency Counters**](docs/solution-patterns/Frequency_Counter.md)
 - [**2 Pointers**](docs/solution-patterns/2_Pointers.md)
+- [**Prefix Sum Array**](docs/solution-patterns/Prefix_Sum_Array.md)
 - [**Sliding Window**]()
 - [**Divide and Conquer**]()
 - [**Dynamic Programming**]()
