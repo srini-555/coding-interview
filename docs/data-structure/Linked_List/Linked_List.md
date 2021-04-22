@@ -126,7 +126,7 @@ ListNode getKth(ListNode head, int k) {
           pB = pB.next;
       }
       
-      return pA
+      return pA;
   }
   ```
 - **Solution 3**: Get the (N-K+1)th node from the head.
