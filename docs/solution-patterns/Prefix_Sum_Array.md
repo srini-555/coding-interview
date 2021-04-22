@@ -16,7 +16,7 @@ void buildPrefixSumArray(int[] nums) {
 ```
 
 ## Conclusions
-- The sum of range [i, j] = prefixSum[j] - prefixSum[i-1]
+- The sum of range [i, j] of the input array: prefixSum[j] - prefixSum[i-1]
 
 ## Benefit
 - Reduce the complexity from O(n<sup>2</sup>) to O(n).
