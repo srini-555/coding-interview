@@ -22,6 +22,7 @@ void buildPrefixSumArray(int[] nums) {
 - Reduce the complexity from O(n<sup>2</sup>) to O(n).
 
 ## Problems can use prefix sum array
+- [Random Number with Weight]()
 
 ## References
 - https://en.wikipedia.org/wiki/Prefix_sum
