@@ -41,7 +41,7 @@
 | Palindrome | <li>[Is Palindrome]()<li>[Is Palindrome by Removing One Char]() | | <li>[Is Palindrome]() |
 | Duplicates | | 26. Remove Duplicates from Sorted Array | <li>[Remove Duplicates]()<li>[Remove Duplicates from Sorted List]() |
 | Reverse | | | <li>[Reverse List]()<li>[Reverse Sub-list]() |
-| Number calculation<br>(Numbers represents in other data structures) | <li>415. Add Strings<li>43. Multiply Strings <li>67. Add Binary | | <li>2. Add Two Numbers |
+| Number calculation<br>(Numbers represents in other data structures) | <li>415. Add Strings<li>43. Multiply Strings <li>67. Add Binary | <li>66. Plus One<li>989. Add to Array-Form of Integer | <li>2. Add Two Numbers |
 
 ## LeetCode Problems
 | No. | Name | Topic | Data Object | Data Structure |
