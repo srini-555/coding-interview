@@ -8,7 +8,7 @@
 - Return the head of the rotated linked list.
 
 ## Analysis
-- Right rotate a linked list in K step, is same as append the last K node from tail to the head.
+- Right rotate a linked list K steps, is same as append the last K node from tail to the head.
 - Need to consider K can be same or more than the size of the linked list.
 
 ![Untitled (4)](https://user-images.githubusercontent.com/8989447/115797265-c2938d00-a390-11eb-8382-8d0b3d2fb4e7.png)
