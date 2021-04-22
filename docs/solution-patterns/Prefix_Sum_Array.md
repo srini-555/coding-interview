@@ -23,6 +23,7 @@ void buildPrefixSumArray(int[] nums) {
 
 ## Problems can use prefix sum array
 - [Random Number with Weight]()
+- [Count Sub-array Sum Equals K]()
 
 ## References
 - https://en.wikipedia.org/wiki/Prefix_sum
