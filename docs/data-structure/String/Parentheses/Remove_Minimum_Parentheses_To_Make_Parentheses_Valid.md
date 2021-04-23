@@ -8,7 +8,7 @@
 - Return the valid parentheses string.
 
 ## Solutions
-- Solution 1: Two pass string builder
+- Solution 1: Two pass + StringBuilder
   ```java
   public String removeMinParenthesesToMakeValid(String s) {
       StringBuilder sb = new StringBuilder();
