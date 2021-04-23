@@ -31,3 +31,4 @@
 ## Binary Tree
 | Problem Name | Pattern | Solutions | Edge Cases |
 |----|----|----|----|
+| Get Height | <li>Max(leftH, rightH) + 1 | <li>Recursion | |
