@@ -8,7 +8,7 @@
 | Problem Name | Pattern | Solutions | Edge Cases |
 |----|----|----|----|
 | Is Palindrome | | <li>2 meet pointers | |
-| Is Palindrome by Removing One Char | | <li>2 meet pointers + Greedy (until l != r, check both [l, r-1] and [l+1, r] are palindrome or not) | |
+| Is Palindrome by Removing One Char | | <li>2 meet pointers + Greedy <ul><li>Until l != r, check both [l, r-1] and [l+1, r] are palindrome or not)</ul> | |
 
 ## Linked List
 | Problem Name | Pattern | Solutions | Edge Cases |
