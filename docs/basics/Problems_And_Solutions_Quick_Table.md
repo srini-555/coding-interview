@@ -17,6 +17,7 @@
 | Remove Nodes by Value | | <li>1 pointer | |
 | Reverse List | | <li>3 neighbor pointers | |
 | Reverse Sub-list | | <li>Separate and reverse the sub-list, and then merge | |
+| Rotate List Right | <li>Right rotate a linked list K positions, is same as appending the last K nodes from tail to the head. | <li>Separate and concatenate the last K nodes | <li>K can greater the size. |
   
 ## Binary Tree
 | Problem Name | Pattern | Solutions | Edge Cases |
