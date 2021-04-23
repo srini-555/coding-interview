@@ -4,6 +4,12 @@
 | Problem Name | Pattern | Solutions | Edge Cases |
 |----|----|----|----|
 
+## String
+| Problem Name | Pattern | Solutions | Edge Cases |
+|----|----|----|----|
+| Is Palindrome | | <li>2 meet pointers | |
+| Is Palindrome by Removing One Char | | <li>2 meet pointers + Greedy (until l != r, check both [l, r-1] and [l+1, r] are palindrome or not) | |
+
 ## Linked List
 | Problem Name | Pattern | Solutions | Edge Cases |
 |----|----|----|----|
