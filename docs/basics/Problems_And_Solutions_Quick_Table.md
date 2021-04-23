@@ -32,3 +32,5 @@
 | Problem Name | Pattern | Solutions | Edge Cases |
 |----|----|----|----|
 | Get Height | <li>Max(leftH, rightH) + 1 | <li>Recursion | |
+| Get Diameter | <li>Path=Max(leftPath,rightPath)+1<li>Diameter=Max(diameter,leftPath+rightPath) | <li>Recursion | |
+| Get Lowest Common Ancestor | <li>n1,n2 in different sub-tree, so current is LCA<li>Both n1,n2 in left sub-tree, go to left<li>Both n1,n2 in right sub-tree, go to right | | |
