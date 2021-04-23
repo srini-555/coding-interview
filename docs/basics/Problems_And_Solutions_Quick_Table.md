@@ -37,4 +37,10 @@
 | Get Num of Univalue Subtrees | | <li>Recursion | |
 | Is Binary Search Tree | <li>In-order traverse BST is ascending order.<li>Reversed in-order traverse BST is descending order. | <li>Recursion: In-order traverse and check it is ascending order or not.<li>Recursion: Valid range. | |
 | Is Balanced Binary Tree | | <li>Recursion<ul><ul><li>Get Height<li>Use (-1) to indicate the sub-tree is not balanced.</ul></ul> | |
+| Is Symmetric Binary Tree | | <li>isMirror(root.left,root.right) | |
+| Is Is Same Binary Trees | | <li>Recursion<ul><ul><li>(t1.v==t2.v) && isSame(t1.l,t2.l) && isSame(t1.r,t2.r)</ul></ul> | |
 | Is Mirror Binary Trees | | <li>Recursion<ul><ul><li>(t1.v==t2.v) && isMirror(t1.l,t2.r) && isMirror(t1.r,t2.l)</ul></ul> | |
+| Is Sub Binary Trees | | <li>Recursion<ul><ul><li>s.v==t.v && isSameTree(s,t)<li>isSameTree(s.l,t) || isSameTree(s.r,t)</ul></ul>
+
+
+| 
