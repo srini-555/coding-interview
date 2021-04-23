@@ -8,7 +8,10 @@
 | Problem Name | Pattern | Solutions | Edge Cases |
 |----|----|----|----|
 | Is Palindrome | | <li>2 meet pointers | |
-| Is Palindrome by Removing One Char | | <li>2 meet pointers + Greedy <ul><li>Until l != r, check both [l, r-1] and [l+1, r] are palindrome or not)</ul> | |
+| Is Palindrome by Removing One Char | | <li>2 meet pointers + Greedy (Until l != r, check both [l, r-1] and [l+1, r] are palindrome or not) | |
+| Is Valid Parentheses | | <li>Stack | |
+| Generate All Combinations of Parentheses | Cases: <li>(n-1)<li>1(n-1),2(n-2),...,(n-1)n | | |
+| Remove Minimum Parentheses to Make Parentheses Valid | | <li>Two pass + StringBuilder (1st pass: Remove extra ) at the beginning, 2nd pass: Remove extra ( at the end) | |
 
 ## Linked List
 | Problem Name | Pattern | Solutions | Edge Cases |
