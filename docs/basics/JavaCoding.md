@@ -182,7 +182,7 @@ Sorted on ascending order automatically.
   | Functions | Description |
   | ---- | ---- |
   | `add` | Add one element. |
-  | `poll` | Return and remove the first (smallest) element. |
+  | `contains` | Returns true if this queue contains the specified element. |
   | `peek` | Return (but NOT remove) the first (smallest) element. Return `null` if the queue is empty. |
   | `poll` | Removes and returns the first (smallest) element. Return `null` if the queue is empty. |
 
