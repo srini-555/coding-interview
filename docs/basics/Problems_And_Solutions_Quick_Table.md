@@ -31,7 +31,7 @@
 ## Binary Tree
 | Problem Name | Pattern | Solutions | Edge Cases |
 |----|----|----|----|
-| Get Height | | <ul><li>Recursion<ul><li>Max(leftH,rightH)+1</ul></ul> | |
+| Get Height | | <li>Recursion<ul><li>Max(leftH,rightH)+1</ul> | |
 | Get Diameter | <li>Path=Max(leftPath,rightPath)+1<li>Diameter=Max(diameter,leftPath+rightPath) | <li>Recursion | |
 | Get Lowest Common Ancestor | <li>current is n1 or n2(up-down relationship), so current is LCA<li>n1,n2 in different sub-tree, so current is LCA<li>Both n1,n2 in left sub-tree, go to left<li>Both n1,n2 in right sub-tree, go to right | <li>Recursion | |
 | Get Num of Univalue Subtrees | | <li>Recursion | |
