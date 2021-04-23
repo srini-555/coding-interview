@@ -88,7 +88,7 @@ TreeNode {
       if (node == null) return;
       traverseReverseInOrder(node.right);
       visit(node);
-      traverseReverseInOrder(node.right);
+      traverseReverseInOrder(node.left);
   }
   ```
 - **Post-order**
