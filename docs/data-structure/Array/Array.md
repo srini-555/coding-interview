@@ -22,7 +22,7 @@ void reverse(int[] nums, int i, int j) {
 ```
 
 ## Strategies
-- The problem is related to sub-array and sub, consider to use prefix sum array.
+- The problem is related to calculate the sum of sub-array, consider to use prefix sum array.
 
 ## Common topics
 - Interval
