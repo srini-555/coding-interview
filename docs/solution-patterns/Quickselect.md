@@ -59,3 +59,5 @@
       return -1                             // If don't find it, return -1
   }
   ```
+- Note
+   - K is 0-based (K = 0 is to find the 1st smallest element).
