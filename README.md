@@ -33,7 +33,7 @@
 - [**Backtraking**]()
 - [**Recursion**]()
 
-## Problem Categories
+## Problem Patterns
 
 |  | String | Array | Linked List |
 |----|----|----|----|
