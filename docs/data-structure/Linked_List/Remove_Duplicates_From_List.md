@@ -1,4 +1,4 @@
-# Remove Duplicates
+# Remove Duplicates from List
 
 ## Problem
 - Remove all duplicates from a unsorted list.
