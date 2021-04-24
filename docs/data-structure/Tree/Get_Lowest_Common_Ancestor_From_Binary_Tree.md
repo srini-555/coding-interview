@@ -1,4 +1,4 @@
-# Get Lowest Common Ancestor
+# Get Lowest Common Ancestor from Binary Tree
 
 ## Alias
 - Leetcode (236): [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
