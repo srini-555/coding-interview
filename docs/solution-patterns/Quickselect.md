@@ -56,5 +56,6 @@
               left = pivotIndex + 1;
           }
       }
+      return -1                             // If don't find it, return -1
   }
   ```
