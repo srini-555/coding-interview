@@ -6,10 +6,8 @@
 - [**HackerRank**](https://www.hackerrank.com/)
 
 ## Basics
-- [**Strategies**](docs/basics/Strategies.md)
 - [**Java Coding**](docs/basics/JavaCoding.md)
-- [**Knowledge**](docs/basics/Knowledge.md)
-- [**Problem Categories**](docs/basics/ProblemCategories.md)
+- [**Problems And Solutions Quick Table**](docs/basics/Problems_And_Solutions_Quick_Table.md)
 
 ## Complexity
 - [**Time Complexity**](docs/complexity/Time_Complexity.md)
