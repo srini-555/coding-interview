@@ -1,4 +1,4 @@
-# Is Palindrome
+# Is Palindrome String
 
 ## Problem
 - Check the input string is palindrome or not.
