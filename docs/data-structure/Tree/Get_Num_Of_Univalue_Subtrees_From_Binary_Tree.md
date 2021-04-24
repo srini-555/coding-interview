@@ -1,4 +1,4 @@
-# Get Num of Univalue Subtrees
+# Get Num of Univalue Subtrees from Binary Tree
 
 ## Alias
 - Leetcode (250): [Count Univalue Subtrees](https://leetcode.com/problems/count-univalue-subtrees/)
