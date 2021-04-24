@@ -40,7 +40,7 @@
   ```
 
 ### Select
-- Code
+- Code (In-place)
   ```
   int select(int[] nums, int k) {
       int left  = 0;
