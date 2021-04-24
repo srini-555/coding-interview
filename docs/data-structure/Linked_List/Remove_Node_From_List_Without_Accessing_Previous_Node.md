@@ -1,4 +1,4 @@
-# Remove Node without Accessing Previous Node
+# Remove Node from List without Accessing Previous Node
 
 ## Alias
 - Leetcode (237): [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)
