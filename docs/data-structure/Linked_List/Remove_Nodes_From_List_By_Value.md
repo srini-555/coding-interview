@@ -1,4 +1,4 @@
-# Remove Nodes by Value
+# Remove Nodes from List by Value
 
 ## Alias
 - Leetcode (203): [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)
