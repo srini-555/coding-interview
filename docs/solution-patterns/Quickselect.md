@@ -15,7 +15,7 @@
 - Process
    - Pick an element as the pivot:
       - Commonly pick the most right one as the pivot.
-      - You can also pick a random element as the pivot and swap it with the most right one.
+      - You can also pick a random element as the pivot and swap it with the most right one (Better performance).
    - Declare 2 pointers:
       - j: This pointer is to iterate from left to right - 1 for checking all the elements except the pivot.
       - i: This pointer is mark the left end of the 2nd part (Elements are greater than or equal to the pivot).
