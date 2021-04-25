@@ -46,7 +46,7 @@
       int left  = 0;
       int right = nums.length - 1;
       
-      while (left <= right) {
+      while (left <= right) {               // Make sure "=" is in the condition
           int pivotIndex = partition(nums, left, right);
           if (pivotIndex == k) {
               return nums[pivotIndex];
