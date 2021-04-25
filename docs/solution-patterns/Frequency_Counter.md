@@ -6,4 +6,14 @@
 ## Pros
 - Avoid the need for nested loops or O(n<sup>2</sup>) operations.
 
-## When to use
+## Code
+- Java
+  ```java
+  Map<Integer,Integer> map = new HashMap<>();
+        
+  for(int num : nums) {                            
+      map.put(num, map.getOrDefault(num, 0) + 1);
+  }
+  ```
+
+## Problems can use this pattern
