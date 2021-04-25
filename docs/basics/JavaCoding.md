@@ -161,6 +161,7 @@ Before you call `pop()`, you need to check the stack is empty or not.
   | Functions | Description |
   | ---- | ---- |
   | `add` | Add element at the tail of queue. |
+  | `isEmpty` | Check the queue is empty or not. |
   | `peek` | Return (but NOT remove) the element at the head element of queue. Return `null` if the queue is empty. |
   | `remove` | Remove and returns the head element of the queue. An `NoSuchElementException` exception is thrown if we call `remove()` when the invoking queue is empty. |
   | `poll` | Remove and returns the head element of the queue. Return `null` if the queue is empty. |
@@ -172,9 +173,11 @@ Use `peek()` to check the queue is empty or not.
 ### PriorityQueue
 Sorted on ascending order automatically.
 
+![Untitled (6)](https://user-images.githubusercontent.com/8989447/115980643-88bab600-a54b-11eb-9a2e-b9ab805da8e2.png)
+
 - **Initialize a priority queue**
   ```java
-  PriorityQueue<Integer> queue = new PriorityQueue<>();
+  Queue<Integer> queue = new PriorityQueue<>();
   ```
 
 - **Common functions for priority queue**
@@ -183,8 +186,9 @@ Sorted on ascending order automatically.
   | ---- | ---- |
   | `add` | Add one element. |
   | `contains` | Returns true if this queue contains the specified element. |
-  | `peek` | Return (but NOT remove) the first (smallest) element. Return `null` if the queue is empty. |
-  | `poll` | Removes and returns the first (smallest) element. Return `null` if the queue is empty. |
+  | `isEmpty` | Check the queue is empty or not. |
+  | `peek` | Return (but NOT remove) the head (smallest) element. Return `null` if the queue is empty. |
+  | `poll` | Removes and returns the head (smallest) element. Return `null` if the queue is empty. |
 
 - **No `empty()` function for priority queue**
 
@@ -213,9 +217,10 @@ Sorted by key in ascending order automatically.
 ### Collection
   | Function | Description |
   | ---- | ---- |
-  | `sort()` | Sort the elements in the collection |
+  | `sort()` | Sort the elements in the collection (Default is ascending order). |
   | `max()` | Get the maximum element in the collection. |
   | `min()` | Get the minimum element in the collection. |
+  | `reverse()` | Reverse the order of the elements (Use this function to get the descending order). |
 
 ---
 
@@ -318,6 +323,10 @@ Sorted by key in ascending order automatically.
     
       public int compareTo(Student s) {
           return this.score.compareTo(s.score);        // Order by ascending order of score
+          return this.score - s.score;                 // Order by ascending order of score
+          
+          return -this.score.compareTo(s.score);       // Order by descending order of score
+          return s.score - this.score;                 // Order by descending order of score
       }
   }
   ```
