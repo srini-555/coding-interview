@@ -9,7 +9,7 @@
 - Randomly return an index of the input array with probability proportional to its weight
 
 ## Example
-- Input array: {1, 6, 2, 1}
+- Input array: [1, 6, 2, 1]
 - The probability of return 0: 1 / (1+6+2+1) = 1 / 10
 - The probability of return 1: 6 / (1+6+2+1) = 6 / 10
 - The probability of return 2: 2 / (1+6+2+1) = 2 / 10
