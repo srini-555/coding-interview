@@ -28,7 +28,7 @@ void buildPrefixSumArray(int[] nums) {
    - [Get Equilibrium Index from Array]()
    - [Count Sub-array Sum Equals K]()
 - Other problems
-   - [Generate Random Number with Weight]()
+   - [Generate Random Index with Weight]()
 
 ## References
 - https://en.wikipedia.org/wiki/Prefix_sum
