@@ -23,7 +23,7 @@ void buildPrefixSumArray(int[] nums) {
 ## Conclusions
 - The sum of range [i, j] of the input array: prefixSum[j] - prefixSum[i-1]
 
-## Problems can use prefix sum array
+## Problems can use this pattern
 - Sum of sub-array problems
    - [Get Equilibrium Index from Array]()
    - [Count Sub-array Sum Equals K]()
