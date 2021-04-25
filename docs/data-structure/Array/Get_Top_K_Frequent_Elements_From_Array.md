@@ -7,7 +7,7 @@
 - Return the K most frequent elements from the input array.
 
 ## Solutions
-- Solution 1: Frequency counter + Heap
+- Solution 1: Frequency counter + Heap (Priority queue)
    - Create a HashMap and count the frequency of each number.
    - Create a priority queue and keep the size of K.
    - Add all elements from queue to array.
@@ -52,3 +52,4 @@
       }
   }
   ```
+- Solution 2: Frequency counter + Quickselect
