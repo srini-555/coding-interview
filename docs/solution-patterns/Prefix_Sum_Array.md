@@ -27,7 +27,7 @@ void buildPrefixSumArray(int[] nums) {
 - Sum of sub-array problems
    - [Get Equilibrium Index from Array]()
    - [Count Sub-array Sum Equals K]()
-- Other problems
+- Random candidate with different weight problems
    - [Generate Random Index with Weight]()
 
 ## References
