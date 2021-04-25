@@ -24,8 +24,8 @@ void buildPrefixSumArray(int[] nums) {
 - Reduce the complexity of algorightm.
 
 ## Problems can use prefix sum array
-- [Equilibrium Index]()
-- [Random Number with Weight]()
+- [Get Equilibrium Index from Array]()
+- [Generate Random Number with Weight]()
 - [Count Sub-array Sum Equals K]()
 
 ## References
