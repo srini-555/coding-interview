@@ -1,4 +1,4 @@
-# Generate Random Number with Weight
+# Generate Random Index with Weight
 
 ## Alias
 - Leetcode (528): [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/)
