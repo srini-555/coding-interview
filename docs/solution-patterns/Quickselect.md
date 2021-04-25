@@ -76,3 +76,4 @@
 ## References
 - https://en.wikipedia.org/wiki/Quickselect
 - https://www.geeksforgeeks.org/quickselect-algorithm/
+- https://www.techseries.dev/products/coderpro/categories/1831147/posts/6283428
