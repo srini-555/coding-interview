@@ -62,5 +62,17 @@
 - Note
    - K is 0-based (K = 0 is to find the 1st smallest element).
 
-## Find the Kth largest element
+## Find The Kth Largest Element
 - Find the Kth largest element = Find the (N-K)th smallest element.
+
+## Time Complexity
+- Average case: O(n)
+- Worst case: O(n<sup>2</sup>)
+
+## Notes
+- The partition process is same as Quicksort.
+- The performance is sensitive to which pivot is chosen.
+
+## References
+- https://en.wikipedia.org/wiki/Quickselect
+- https://www.geeksforgeeks.org/quickselect-algorithm/
