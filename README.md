@@ -36,7 +36,7 @@
 ## Problem Patterns
 - **Top K and Kth**
    - Top K
-      - Top K Frequent Elements
+      - [Get Top K Frequent Elements from Array]()
       - Top K Closest Points to Origin
    - Kth
       - Kth Largest Element in an Array  
