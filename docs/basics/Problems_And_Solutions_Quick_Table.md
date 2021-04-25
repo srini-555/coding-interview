@@ -4,7 +4,7 @@
 | Problem Name | Pattern | Solutions | Edge Cases |
 |----|----|----|----|
 | Get Equilibrium Index from Array | | <li>Prefix sum array | <li>EI can be the first or the last element (sum=0) |
-| Generate Random Number with Weight | | <li>Prefix sum array | |
+| Generate Random Index with Weight | | <li>Prefix sum array | |
 | Count Sub-array Sum Equals K | | <li>Prefix sum array | |
 | Merge Interval | | | <li>Left touch, right touch and full cover |
 | Generate All Product of Array except Current Element | | | <li>Number of zero: 1 or multiple |
