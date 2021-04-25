@@ -3,10 +3,10 @@
 ## Concepts
 - Use an object to record unique values and the frequency of each unique values.
 
-## Pros
+## Benefit
 - Avoid the need for nested loops or O(n<sup>2</sup>) operations.
 
-## Code
+## Construction
 - Java
   ```java
   Map<Integer,Integer> map = new HashMap<>();
