@@ -37,6 +37,7 @@
 - **Top K and Kth**
    - Top K
       - [Get Top K Frequent Elements from Array]()
+      - [Get Top K Frequent Words from Array]()
       - [Get Top K Closest Points to Origin]()
    - Kth
       - Kth Largest Element in an Array  
