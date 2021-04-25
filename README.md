@@ -34,13 +34,62 @@
 - [**Recursion**]()
 
 ## Problem Patterns
-
-|  | String | Array | Linked List |
-|----|----|----|----|
-| Palindrome | <li>[Is Palindrome]()<li>[Is Palindrome by Removing One Char]() | | <li>[Is Palindrome]() |
-| Duplicates | | 26. Remove Duplicates from Sorted Array | <li>[Remove Duplicates]()<li>[Remove Duplicates from Sorted List]() |
-| Reverse | | | <li>[Reverse List]()<li>[Reverse Sub-list]() |
-| Number calculation<br>(Numbers represents in other data structures) | <li>415. Add Strings<li>43. Multiply Strings <li>67. Add Binary | <li>66. Plus One<li>989. Add to Array-Form of Integer | <li>2. Add Two Numbers |
+- Top K and Kth
+   - Top K
+      - Top K Frequent Elements
+      - Top K Closest Points to Origin
+   - Kth
+      - Kth Largest Element in an Array  
+      - Kth Largest Element in a Stream  
+      - Kth Smallest Element in a BST
+- Manipulation
+   - Remove
+      - Remove duplicates
+         - 26. Remove Duplicates from Sorted Array
+         - Remove Duplicates from List
+         - Remove Duplicates from Sorted List
+      - Remove by value
+         - 27. Remove Element
+   - Reverse
+      - Reverse List
+      - Reverse Sub-list
+   - Rotate
+      - Rotate List Right
+      - 189. Rotate Array
+      - 796. Rotate String
+   - Merge
+      - Merge 2 sorted lists
+      - Merge K sorted lists
+- Symmetry
+   - Parentheses
+      - Is Valid Parentheses
+      - Generate All Combinations of Parentheses
+      - Remove Minimum Parentheses to Make Parentheses Valid
+   - Palindrome
+      - Is Palindrome String
+      - Is Palindrome String by Removing One Char
+      - Is Palindrome List
+- Interval
+   - Merge Interval
+   - Meeting Room
+- Longest X sequence/substring
+    - Longest Common Subsequence
+    - Longest Common Substring
+    - Longest Increasing Subsequence
+    - Longest Palindromic Substring
+    - Binary Tree Longest Consecutive Sequence
+    - Longest Common Prefix
+ - Integer Calculation (Integers represents in other data structures and then calculation)
+    - In String
+      - 415. Add Strings
+      - 43. Multiply Strings
+      - 67. Add Binary
+   - In Array
+      - 66. Plus One
+      - 989. Add to Array-Form of Integer 
+   - In Linked List
+      - 2. Add Two Numbers
+ - Cycle
 
 ## LeetCode Problems
 | No. | Name | Topic | Data Object | Data Structure |
