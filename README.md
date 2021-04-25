@@ -73,6 +73,7 @@
 - **Random**
    - [Generate Random Index of Target Number]()
    - [Generate Random Index with Weight]()
+   - [Get Random Node from List]()
 - **Frequency**
    - [Get Top K Frequent Elements from Array]()
    - [Get Top K Frequent Words from Array]()
