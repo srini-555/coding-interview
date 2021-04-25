@@ -81,15 +81,16 @@
     - Longest Common Prefix
  - Integer Calculation (Integers represents in other data structures and then calculation)
     - In String
-      - 415. Add Strings
-      - 43. Multiply Strings
-      - 67. Add Binary
-   - In Array
-      - 66. Plus One
-      - 989. Add to Array-Form of Integer 
-   - In Linked List
-      - 2. Add Two Numbers
+       - 415. Add Strings
+       - 43. Multiply Strings
+       - 67. Add Binary
+    - In Array
+       - 66. Plus One
+       - 989. Add to Array-Form of Integer 
+    - In Linked List
+       - 2. Add Two Numbers
  - Cycle
+    - 1041. Robot Bounded In Circle
 
 ## LeetCode Problems
 | No. | Name | Topic | Data Object | Data Structure |
