@@ -44,8 +44,9 @@
   }
   ```
 - Solution 2: Reservoir sampling
-   - At each time when the current element is matching the target number, we have to make the decision of whether or not to choose the current candicate.
-   - The overall probability of each candicate being chosen is same (1 / Total number of candicates).
+   - Treat the elements which matches the target number as candidates.
+   - At each time when we find a new candidate, we have to make the decision of whether or not to choose this candidate.
+   - The overall probability of each candidate being chosen is same (1 / Total number of candicates).
   ```java
   class Solution {
       private int[] nums;
