@@ -77,3 +77,9 @@
 - https://en.wikipedia.org/wiki/Quickselect
 - https://www.geeksforgeeks.org/quickselect-algorithm/
 - https://www.techseries.dev/products/coderpro/categories/1831147/posts/6283428
+
+## Appendix
+- Example of patition process
+
+![Untitled (5)](https://user-images.githubusercontent.com/8989447/115977836-bfd39c00-a538-11eb-8b72-063a1c6e6070.png)
+
