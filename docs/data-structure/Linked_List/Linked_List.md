@@ -220,7 +220,7 @@ void removeKthNode(ListNode head, int k) {
 
 ## Strategies
 - If an operation is against the direction of a linked list, consider using a recursive function.
-- If an operation is to manipulate (add or remove) a certain node, consider getting the previous node of that node.
+- If an operation is to manipulate (add or remove) a certain node, consider getting the previous node of the target node.
 
 ## Common Topics
 - Check characteristics
