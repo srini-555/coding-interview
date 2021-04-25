@@ -72,14 +72,14 @@
 - **Interval**
    - Merge Interval
    - Meeting Room
-- **Longest X sequence/substring
+- **Longest X sequence/substring**
    - Longest Common Subsequence
    - Longest Common Substring
    - Longest Increasing Subsequence
    - Longest Palindromic Substring
    - Binary Tree Longest Consecutive Sequence
    - Longest Common Prefix
-- Integer Calculation (Integers represents in other data structures and then calculation)
+- **Integer Calculation** (Integers represents in other data structures and then calculation)
    - In String
       - 415 Add Strings
       - 43 Multiply Strings
@@ -89,7 +89,7 @@
       - 989 Add to Array-Form of Integer 
    - In Linked List
       - 2 Add Two Numbers
-- Cycle
+- **Cycle**
    - 1041. Robot Bounded In Circle
 
 ## LeetCode Problems
