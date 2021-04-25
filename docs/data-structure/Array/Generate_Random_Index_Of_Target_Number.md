@@ -43,3 +43,34 @@
       }
   }
   ```
+- Solution 2: Reservoir sampling
+   - At each time when the current element is matching the target number, we have to make the decision of whether or not to choose the current candicate.
+   - The overall probability of each candicate being chosen is same (1 / Total number of candicates).
+  ```java
+  class Solution {
+      private int[] nums;
+      private Random rand;
+    
+      public Solution(int[] nums) {
+          this.nums = nums;
+          this.rand = new Random();
+      }
+    
+      public int pick(int target) {
+          int n = this.nums.length;
+          int count = 0;
+          int idx = 0;
+          for (int i = 0; i < n; ++i) {
+              
+              if (this.nums[i] == target) {         // If nums[i] is equal to target, i is a potential candidate
+                  count++;                          // Increment the count of total candidates
+             
+                  if (rand.nextInt(count) == 0) {   // We pick the current number with probability 1 / count (reservoir sampling)
+                      idx = i;
+                  }
+              }
+          }
+          return idx;
+      }
+  }
+  ```
