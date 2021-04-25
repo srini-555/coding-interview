@@ -45,18 +45,18 @@
 - Manipulation
    - Remove
       - Remove duplicates
-         - 26. Remove Duplicates from Sorted Array
+         - 26 Remove Duplicates from Sorted Array
          - Remove Duplicates from List
          - Remove Duplicates from Sorted List
       - Remove by value
-         - 27. Remove Element
+         - 27 Remove Element
    - Reverse
       - Reverse List
       - Reverse Sub-list
    - Rotate
       - Rotate List Right
-      - 189. Rotate Array
-      - 796. Rotate String
+      - 189 Rotate Array
+      - 796 Rotate String
    - Merge
       - Merge 2 sorted lists
       - Merge K sorted lists
@@ -81,14 +81,14 @@
     - Longest Common Prefix
  - Integer Calculation (Integers represents in other data structures and then calculation)
     - In String
-       - 415. Add Strings
-       - 43. Multiply Strings
-       - 67. Add Binary
+       - 415 Add Strings
+       - 43 Multiply Strings
+       - 67 Add Binary
     - In Array
-       - 66. Plus One
-       - 989. Add to Array-Form of Integer 
+       - 66 Plus One
+       - 989 Add to Array-Form of Integer 
     - In Linked List
-       - 2. Add Two Numbers
+       - 2 Add Two Numbers
  - Cycle
     - 1041. Robot Bounded In Circle
 
