@@ -70,6 +70,9 @@
       - [Is Palindrome String]()
       - [Is Palindrome String by Removing One Char]()
       - [Is Palindrome List]()
+- **Random**
+   - [Generate Random Index of Target Number]()
+   - [Generate Random Index with Weight]()
 - **Interval**
    - Merge Interval
    - Meeting Room
