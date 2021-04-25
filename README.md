@@ -45,7 +45,7 @@
 - Manipulation
    - Remove
       - Remove duplicates
-         - 26. Remove Duplicates from Sorted Array
+         - 26 Remove Duplicates from Sorted Array
          - Remove Duplicates from List
          - Remove Duplicates from Sorted List
       - Remove by value
