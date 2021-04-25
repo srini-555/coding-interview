@@ -37,7 +37,7 @@
 - **Top K and Kth**
    - Top K
       - [Get Top K Frequent Elements from Array]()
-      - Top K Closest Points to Origin
+      - [Get Top K Closest Points to Origin]()
    - Kth
       - Kth Largest Element in an Array  
       - Kth Largest Element in a Stream  
@@ -46,8 +46,8 @@
    - **Remove**
       - Remove duplicates
          - 26 Remove Duplicates from Sorted Array
-         - Remove Duplicates from List
-         - Remove Duplicates from Sorted List
+         - [Remove Duplicates from List]()
+         - [Remove Duplicates from Sorted List]()
       - Remove by value
          - 27 Remove Element
    - **Reverse**
@@ -66,9 +66,9 @@
       - Generate All Combinations of Parentheses
       - Remove Minimum Parentheses to Make Parentheses Valid
    - **Palindrome**
-      - Is Palindrome String
-      - Is Palindrome String by Removing One Char
-      - Is Palindrome List
+      - [Is Palindrome String]()
+      - [Is Palindrome String by Removing One Char]()
+      - [Is Palindrome List]()
 - **Interval**
    - Merge Interval
    - Meeting Room
