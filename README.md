@@ -73,6 +73,9 @@
 - **Random**
    - [Generate Random Index of Target Number]()
    - [Generate Random Index with Weight]()
+- **Frequency**
+   - [Get Top K Frequent Elements from Array]()
+   - [Get Top K Frequent Words from Array]()
 - **Interval**
    - Merge Interval
    - Meeting Room
