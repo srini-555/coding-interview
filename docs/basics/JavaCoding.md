@@ -129,6 +129,14 @@ This page is to document some coding standard operations.
       }
   };
   ```
+- **Common functions for stack**
+  | Function | Description |
+  | ---- | ---- |
+  | `get` | Get the value by key. |
+  | `getOrDefault(key, defaultValue)` | Get the value by key. If key is not in the map, return the default the value. |
+  | `put` | Add or update the key-value pair into map. |
+  | `keySet` | Get all the keys. |
+  | `values` | Get all the values. |
 
 ### Stack
 - **Initialize a stack**
@@ -214,6 +222,11 @@ Sorted by key in ascending order automatically.
 
 ## Util
 ### Arrays
+  | Function | Description |
+  | ---- | ---- |
+  | `sort()` | Sort the elements in the array (Default is ascending order). |
+  | copyOfRange(array, i, j) | Get the sub-array [i, j-1]. |
+  
 ### Collection
   | Function | Description |
   | ---- | ---- |
