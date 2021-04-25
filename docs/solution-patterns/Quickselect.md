@@ -70,6 +70,7 @@
 - Worst case: O(n<sup>2</sup>)
 
 ## Problems can use this pattern
+- Top K and Kth
 
 ## Notes
 - The partition process is same as Quicksort.
