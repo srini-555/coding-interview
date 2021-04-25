@@ -69,6 +69,8 @@
 - Average case: O(n)
 - Worst case: O(n<sup>2</sup>)
 
+## Problems can use this pattern
+
 ## Notes
 - The partition process is same as Quicksort.
 - The performance is sensitive to which pivot is chosen.
