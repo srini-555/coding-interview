@@ -7,7 +7,7 @@
   ![Untitled (3)](https://user-images.githubusercontent.com/8989447/115646395-4b51f080-a2df-11eb-9fd4-21315870d887.png)
 
 ## Benefit
-- Reduce the complexity of algorightm.
+- Reduce the complexity of algorithm from O(n<sup>2</sup>) to O(n).
 
 ## Construction
 ```
