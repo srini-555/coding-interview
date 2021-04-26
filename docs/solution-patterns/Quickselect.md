@@ -67,9 +67,12 @@
 ## Find The Kth Largest Element
 - Find the Kth largest element = Find the (N-K)th smallest element.
 
-## Time Complexity
-- Average case: O(n)
-- Worst case: O(n<sup>2</sup>)
+## Complexity
+- Time complexity
+   - Average case: O(n)
+   - Worst case: O(n<sup>2</sup>)
+- Space complexity
+   - O(1)
 
 ## Problems can use this pattern
 - Top K and Kth
