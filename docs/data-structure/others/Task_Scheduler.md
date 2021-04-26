@@ -14,6 +14,18 @@
 
 ## Solutions
 - Solution 1: Frequency counter + Custom class
+   - Use frequency counter to counter the frequency of each task.
+   - Create a custom class to represent each task and its frequency and number of block period
+   - Create a list to store the list of task.
+   - Each time, get the unblock and the most frequency task to execute
+      - If there is no unblocked task:
+         - Idle
+         - Reduce the number of block period of each task by 1
+      - If there is a unblock task:
+         - Execute the task
+         - Update the frequency and the number of block period of it
+         - Reduce the number of block period of each task (except the current taks) by 1
+         - If there is no frequency for it, remove it.
   ```java
   class Solution {
       private List<Task>      taskList;
