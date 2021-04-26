@@ -34,3 +34,17 @@
       return chosenCandidate;                   // Return the chosen candidate
   }
   ```
+
+## Complexity
+- Time complexity
+   - O(n)
+- Space complexity
+   - O(1)
+
+## Problems can use this pattern
+- Random candidate with same weight problems
+   - [Generate Random Index of Target Number]()
+   - [Get Random Node from List]()
+
+## References
+- https://en.wikipedia.org/wiki/Reservoir_sampling#:~:text=Reservoir%20sampling%20is%20a%20family,to%20fit%20into%20main%20memory.
