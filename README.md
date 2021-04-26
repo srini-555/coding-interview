@@ -71,9 +71,11 @@
       - [Is Palindrome String by Removing One Char]()
       - [Is Palindrome List]()
 - **Random**
-   - [Generate Random Index of Target Number]()
-   - [Generate Random Index with Weight]()
-   - [Get Random Node from List]()
+   - **Candidate with same weight**
+      - [Generate Random Index of Target Number]()
+      - [Get Random Node from List]()
+   - **Candidate with different weights**
+      - [Generate Random Index with Weight]()
 - **Frequency**
    - [Get Top K Frequent Elements from Array]()
    - [Get Top K Frequent Words from Array]()
