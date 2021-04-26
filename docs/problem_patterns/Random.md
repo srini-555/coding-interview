@@ -13,3 +13,7 @@
 | Each candidate with same weight/probability |  |Each candidate with different weights/probabilities |
 |---|---|----|
 | [3, 3, 4, 5, 6, 6, 6, 7] | = | [{3, 2}, {4, 1}, {5, 1}, {6, 3}, {7, 1}] |
+
+## Strategies
+- For getting random candidate with same weight, consider using [Reservoir Sampling]()
+- For getting random candidate with different weight, consider using [Prefix Sum Array]()
