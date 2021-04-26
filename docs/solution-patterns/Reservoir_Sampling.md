@@ -8,6 +8,7 @@
 - You don't have to declare a new collecion.
 - The overall probability of each candidate being chosen is same (Probability = 1 / N).
    - The probability of ith candidate: 
+     
      ![Untitled (7)](https://user-images.githubusercontent.com/8989447/116016497-03420f00-a5fa-11eb-9a6c-a8334fb3ec5b.png)
 
 ## Algorithm
