@@ -13,7 +13,31 @@
 - Return the least number of units of times that the CPU will take to finish all the given tasks.
 
 ## Solutions
-- Solution 1: Frequency counter + Custom class
+- Solution 1: Greedy
+  ```java
+  public int leastInterval(char[] tasks, int n) {
+      int[] taskFrequency = new int[26];           // Create an array to count the frequency of each task (A-Z)
+      for (char task : tasks) {
+          taskFrequency[task-'A']++; 
+      }
+        
+      Arrays.sort(taskFrequency);                  // Sort the task frequency array 
+                                                   // and make the most frequency at the end of the array
+      int maxFrequency = taskFrequency[25];        // Get the frequency of the most frequent task
+      int idlePeriods   = (maxFrequency - 1) * n;  // Calculate how many idle periods needed to fill the gap of most frequent task 
+    
+      for (int i=24; i>=0; i--) {                  // Replace the idles with other actual tasks
+          idlePeriods = idlePeriods - Math.min(taskFrequency[i], maxFrequency - 1);
+      }
+        
+      if (idlePeriods > 0) {                       // If there are still some idles remaining
+          return idlePeriods + tasks.length;       
+      } else {
+          return tasks.length;
+      }
+  }
+  ```
+- Solution 2: Frequency counter + Custom class
    - Use frequency counter to counter the frequency of each task.
    - Create a custom class to represent each task and its frequency and number of block period
    - Create a list to store the list of task.
