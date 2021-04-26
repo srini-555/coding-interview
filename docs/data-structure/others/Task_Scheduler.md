@@ -31,7 +31,6 @@
       private List<Task>      taskList;
       private List<Character> sequenceList;
     
-      // try to do different tasks in a sequence
       public int leastInterval(char[] tasks, int n) {
           this.taskList     = new ArrayList<>();
           this.sequenceList = new ArrayList<>();
