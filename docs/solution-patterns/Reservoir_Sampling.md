@@ -47,4 +47,5 @@
    - [Get Random Node from List]()
 
 ## References
-- https://en.wikipedia.org/wiki/Reservoir_sampling#:~:text=Reservoir%20sampling%20is%20a%20family,to%20fit%20into%20main%20memory.
+- https://en.wikipedia.org/wiki/Reservoir_sampling
+- https://www.geeksforgeeks.org/reservoir-sampling/
