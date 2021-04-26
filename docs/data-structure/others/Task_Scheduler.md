@@ -14,6 +14,13 @@
 
 ## Solutions
 - Solution 1: Greedy
+   - The most frequent task frames the working sequence.
+   - Use idles to fill the gap of most frequent task.
+   - Replace the idle slots by other actual tasks.
+   - At the end, see how many idle slots remain.
+
+   <img width="1049" alt="Screen Shot 2021-04-26 at 3 12 36 PM" src="https://user-images.githubusercontent.com/8989447/116151602-0c86b680-a6a2-11eb-8978-98e437a4ee70.png">
+
   ```java
   public int leastInterval(char[] tasks, int n) {
       int[] taskFrequency = new int[26];           // Create an array to count the frequency of each task (A-Z)
