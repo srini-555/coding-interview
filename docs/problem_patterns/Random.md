@@ -17,3 +17,4 @@
 ## Strategies
 - For getting random candidate with same weight, consider using [Reservoir Sampling]()
 - For getting random candidate with different weight, consider using [Prefix Sum Array]()
+- You can also consider converting the problem into another type of random problem and use corresponding solution pattern.
