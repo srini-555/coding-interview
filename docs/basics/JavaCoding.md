@@ -362,6 +362,11 @@ Sorted by key in ascending order automatically.
   Random ran = new Random();
   int randomInt = min + ran.nextInt(max - min + 1);
   ```
-- Get a random double between [0,1)
+- Get a random double between `[0,1)`
   ```java
+  double randomDouble = Math.random();
+  ```
+- Get a random double between `[0,max)`
+  ```java
+  double randomDouble = max * Math.random();
   ```
