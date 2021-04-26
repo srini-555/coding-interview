@@ -7,5 +7,4 @@
 | Type | Example | Range Presentation |
 |----|----|----|
 | Each candidate with same weight/probability | | |
-| Each candidate with different weights/probabilities | ![dw1](https://user-images.githubusercontent.com/8989447/116018672-d264d880-a5ff-11eb-9cf8-eba1edb62f01.png)
- | |
+| Each candidate with different weights/probabilities | ![dw1](https://user-images.githubusercontent.com/8989447/116018822-17890a80-a600-11eb-8bcd-b8a8dc74ebc4.png) | |
