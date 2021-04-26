@@ -26,6 +26,7 @@
 - [**2 Pointers**](docs/solution-patterns/2_Pointers.md)
 - [**Prefix Sum Array**](docs/solution-patterns/Prefix_Sum_Array.md)
 - [**Quickselect**](docs/solution-patterns/Quickselect.md)
+- [**Reservoir Sampling**](docs/solution-patterns/Reservoir_Sampling.md)
 - [**Sliding Window**]()
 - [**Divide and Conquer**]()
 - [**Dynamic Programming**]()
