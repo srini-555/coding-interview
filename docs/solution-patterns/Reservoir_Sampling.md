@@ -7,7 +7,7 @@
 - You don't have to know the size of data (Advantage for linked list).
 - You don't have to declare a new collecion.
 - The overall probability of each candidate being chosen is same (Probability = 1 / N).
-   - The probability of <i>i</i>th candidate: 
+   - The probability of i<i>th</i> candidate: 
      
      ![Untitled (7)](https://user-images.githubusercontent.com/8989447/116016497-03420f00-a5fa-11eb-9a6c-a8334fb3ec5b.png)
 
