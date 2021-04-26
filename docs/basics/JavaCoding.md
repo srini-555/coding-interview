@@ -348,3 +348,20 @@ Sorted by key in ascending order automatically.
   List<Student> students;
   Collections.sort(students);
   ```
+
+---
+
+## Random Number
+- Get a random integer between [0, max]
+  ```java
+  Random ran = new Random();
+  int randomInt = ran.nextInt(max + 1);
+  ```
+- Get a random integer between [min, max]
+  ```java
+  Random ran = new Random();
+  int randomInt = min + ran.nextInt(max - min + 1);
+  ```
+- Get a random double between [0,1)
+  ```java
+  ```
