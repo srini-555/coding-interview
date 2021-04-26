@@ -10,7 +10,6 @@
 | Each candidate with different weights/probabilities | ![dw1](https://user-images.githubusercontent.com/8989447/116018822-17890a80-a600-11eb-8bcd-b8a8dc74ebc4.png) | ![dw3](https://user-images.githubusercontent.com/8989447/116019646-ead5f280-a601-11eb-8880-320f8beb405c.png) |
 
 ## Transform between Types
-- Example
-  | Each candidate with same weight/probability |  |Each candidate with different weights/probabilities |
-  |---|---|----|
-  | [3, 3, 4, 5, 6, 6, 6, 7] | = | [{3, 2}, {4, 1}, {5, 1}, {6, 3}, {7, 1}] |
+| Each candidate with same weight/probability |  |Each candidate with different weights/probabilities |
+|---|---|----|
+| [3, 3, 4, 5, 6, 6, 6, 7] | = | [{3, 2}, {4, 1}, {5, 1}, {6, 3}, {7, 1}] |
