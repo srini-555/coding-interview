@@ -21,7 +21,8 @@ This page is to document some coding standard operations.
 - [Arithmetic Operations](#arithmetic-operations)
    - [Division](#division)
    - [Modulo (get the remainder after division)](#modulo-get-the-remainder-after-division)
-- [Custom Sorting]()
+- [Custom Sorting](#custom-sorting)
+- [Random Number](#random-number)
 
 ## Basic Types
 ### String
