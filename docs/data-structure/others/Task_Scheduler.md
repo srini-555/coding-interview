@@ -14,19 +14,16 @@
 
 ## Solutions
 - Solution 1: Greedy
-   - The most frequent task frames the working sequence.
-   - Use idles to fill the gap of most frequent task.
      
      ![de1](https://user-images.githubusercontent.com/8989447/116152501-3ab8c600-a6a3-11eb-977b-7a4df6cf4a2e.png)
      
+   - The most frequent task frames the working sequence.
+   - Use idles to fill the gap of most frequent task.
    - Replace the idle slots by other actual tasks from 2nd most frequent tasks to least frequency task.
    - At the end, see how many idle slots remaining.
-      - If there is still idle slots remaining, the total period = idleSlots + tasks.length;
-        
+      - If there is still idle slots remaining, the total period = idleSlots + tasks.length
+      - If there is no slots remaining, the total period = tasks.length.
         ![de2](https://user-images.githubusercontent.com/8989447/116153904-40afa680-a6a5-11eb-8bc8-ab1a3a4a8e09.png)
-        
-      - If there is no slots remaining, the total period = tasks.length;
-
         ![de3](https://user-images.githubusercontent.com/8989447/116153938-4907e180-a6a5-11eb-9a6c-454dfb64e5b1.png)
 
   ```java
