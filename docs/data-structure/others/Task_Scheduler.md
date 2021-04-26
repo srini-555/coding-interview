@@ -1,0 +1,99 @@
+# Task Scheduler
+
+## Alias
+- Leetcode (621): [Task Scheduler](https://leetcode.com/problems/task-scheduler/)
+
+## Problem
+- There are a list of tasks that CPU needs to finish.
+   - Tasks are represented in upper-case English letters.
+   - Tasks could be done in any order. 
+   - Each task is done in one unit of time.
+   - For each unit of time, the CPU could complete either one task or just be idle.
+- There is a cooldown period between two same tasks.
+- Return the least number of units of times that the CPU will take to finish all the given tasks.
+
+## Solutions
+- Solution 1: Frequency counter + Custom class
+  ```java
+  class Solution {
+      private List<Task>      taskList;
+      private List<Character> sequenceList;
+    
+      // try to do different tasks in a sequence
+      public int leastInterval(char[] tasks, int n) {
+          this.taskList     = new ArrayList<>();
+          this.sequenceList = new ArrayList<>();
+        
+          Map<Character, Integer> taskMap = new HashMap<>();
+          for(char task : tasks) {
+              taskMap.put(task, taskMap.getOrDefault(task, 0) + 1);
+          }
+        
+          for(char task : taskMap.keySet()) {
+              this.taskList.add(new Task(task, taskMap.get(task), 0));
+          }
+        
+          Collections.sort(taskList);     // Get all the unblock tasks, and then get the most frequency task
+        
+          while(!taskList.isEmpty()) {
+              Task leftTask = this.taskList.get(0);
+            
+              if (leftTask.blockCount > 0) {  // If there is no task is free
+                  // Add an idle task
+                  this.sequenceList.add('?'); 
+                
+                  // Reduce blockCount by 1 on the tasks which blockCount > 0
+                  for (int i = 0; i < this.taskList.size(); i++) {
+                      if (taskList.get(i).blockCount > 0) {
+                          taskList.get(i).blockCount = taskList.get(i).blockCount - 1;
+                      }
+                  }
+              } else {                        // If there is a task free
+                  // Let leftTask run
+                  this.sequenceList.add(leftTask.name);
+                               
+                  // Update remaining frequency and block count of leftTask
+                  leftTask.frequency = leftTask.frequency - 1;
+                  leftTask.blockCount = n;
+                
+                  // Reduce blockCount by 1 on the tasks which blockCount > 0
+                  for (int i = 1; i < this.taskList.size(); i++) {
+                      if (taskList.get(i).blockCount > 0) {
+                          taskList.get(i).blockCount = taskList.get(i).blockCount - 1;
+                      }
+                  }
+                
+                  // If no frequency need to execute for leftTask, remove it from list
+                  if (leftTask.frequency == 0) {
+                      this.taskList.remove(0);
+                  }
+              }
+            
+              Collections.sort(this.taskList);
+          }
+        
+          return this.sequenceList.size();
+      }
+  }
+
+  class Task implements Comparable<Task> {
+      public char name;
+      public int  frequency;        // The remaining frequency this task need to run
+      public int  blockCount;       // How many periods this task need to be blocked
+    
+      public Task(char name, int frequency, int blockCount) {
+          this.name       = name;
+          this.frequency  = frequency;
+          this.blockCount = blockCount;
+      }
+      
+      public int compareTo(Task t) {
+          int result = this.blockCount - t.blockCount;      // 1st priority: Get the unblock tasks (blockCount = 0) first
+          if (result != 0) {
+              return result;
+          } else {
+              return -(this.frequency - t.frequency);       // 2nd priority: Get most frequency task first
+          }
+      }
+  }
+  ```
