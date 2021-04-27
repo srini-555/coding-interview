@@ -33,6 +33,7 @@ void buildPrefixSumArray(int[] nums) {
 - Sum of sub-array problems
    - [Get Equilibrium Index from Array]()
    - [Count Sub-array Sum Equals K]()
+   - [Check Sub-array Sum Is Multiple of K]()
 - Random candidate with different weight problems
    - [Generate Random Index with Weight]()
 
