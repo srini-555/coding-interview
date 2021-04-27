@@ -28,7 +28,11 @@
    - Add the new node to the bottom level of the heap at the leftmost open space.
    - Compare the new node with its parent: 
       - If they are in the correct order, stop.
-      - If they are NOT in the correct order, swap the new node with its parent. Continue this comparison.
+      - If they are NOT in the correct order, swap the new node with its parent. Continue this step.
 ### Extract
 - Process
+   - Replace the root of the heap with the last element on the last level.
+   - Compare the new root with its children: 
+      - If they are in the correct order, stop.
+      - If they are NOT in the correct order, swap the new node with one of its children. Continue this step.
    
