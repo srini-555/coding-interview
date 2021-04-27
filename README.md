@@ -66,6 +66,7 @@
    - **Merge**
       - Merge 2 sorted lists
       - Merge K sorted lists
+      - [Merge 2 Sorted Arrays]()
 - **Symmetry**
    - **Parentheses**
       - Is Valid Parentheses
