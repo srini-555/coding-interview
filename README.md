@@ -14,12 +14,12 @@
 - [**Space Complexity**](docs/complexity/Space_Complexity.md)
 
 ## Data Structures
-- [**String**](docs/data-structure/String/String.md)
-- [**Array**](docs/data-structure/Array/Array.md)
-- [**Linked List**](docs/data-structure/Linked_List/Linked_List.md)
-- [**Queue**](docs/data-structure/Queue/Queue.md)
-- [**Stack**](docs/data-structure/Stack/Stack.md)
-- [**Binary Search Tree**](docs/data-structure/Tree/Binary_Search_Tree.md)
+- [**String**](docs/data-structure/string/String.md)
+- [**Array**](docs/data-structure/array/Array.md)
+- [**Linked List**](docs/data-structure/linked_list/Linked_List.md)
+- [**Queue**](docs/data-structure/queue/Queue.md)
+- [**Stack**](docs/data-structure/stack/Stack.md)
+- [**Binary Tree**](docs/data-structure/tree/Binary_Tree.md)
 
 ## Solution Patterns
 - [**Frequency Counters**](docs/solution-patterns/Frequency_Counter.md)
