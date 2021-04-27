@@ -1,8 +1,7 @@
 # Linked List
 
-- [Concept](#concept)
-- [Strategies](#strategies)
-- [Basic operations](#basic-operations)
+- [**Concept**](#concept)
+- [**Basic operations**](#basic-operations)
    - [Traverse](#traverse)
       - [Traverse in order](#traverse-in-order)
       - [Traverse in reversed order](#traverse-in-reversed-order)
@@ -20,6 +19,8 @@
          - [Remove the head node](#remove-the-head-node)
          - [Remove the tail node](#remove-the-tail-node)
          - [Remove the Kth node](#remove-the-kth-node)
+- [**Strategies**](#strategies)
+- [**Common Topics**](#common-topics)
 
 ## Concept
 ### Code
@@ -30,10 +31,6 @@ ListNode {
 }
 ```
 
-## Strategies
-- If an operation is against the direction of a linked list, consider using a recursive function.
-- If an operation is to manipulate (add or remove) a certain node, consider getting the previous node of that node.
-
 ## Basic operations
 ### Traverse
 #### Traverse in order
@@ -41,7 +38,7 @@ ListNode {
 void traverse(ListNode head) {
     ListNode current = head;
     while (current != null) {
-        stmt;
+        visit(head);
         current = current.next;
     }
 }
@@ -51,8 +48,8 @@ void traverse(ListNode head) {
 ```
 void traverseReversedOrder(ListNode head) {
     if (head == null) return;
-    traverseReversedOrder(head.next)
-    stmt;
+    traverseReversedOrder(head.next);
+    visit(head);
 }
 ```
 
@@ -129,7 +126,7 @@ ListNode getKth(ListNode head, int k) {
           pB = pB.next;
       }
       
-      return pA
+      return pA;
   }
   ```
 - **Solution 3**: Get the (N-K+1)th node from the head.
@@ -220,6 +217,25 @@ void removeKthNode(ListNode head, int k) {
     }
 }
 ```
+
+## Strategies
+- If an operation is against the direction of a linked list, consider using a recursive function.
+- If an operation is to manipulate (add or remove) a certain node, consider getting the previous node of the target node.
+
+## Common Topics
+- Check characteristics
+   - Check one list
+      - [Is Palindrome]()
+   - Compare two lists
+- Manipulation
+   - Reverse
+      - [Reverse List]()
+      - [Reverse Sub-list]()
+   - Remove
+      - [Remove Duplicates]()
+      - [Remove Duplicates from Sorted List]()
+      - [Remove Node without Accessing Previous Node]()
+      - [Remove Nodes by Value]()
 
 ## References
 - https://www.geeksforgeeks.org/nth-node-from-the-end-of-a-linked-list/

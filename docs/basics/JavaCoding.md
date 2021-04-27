@@ -21,7 +21,8 @@ This page is to document some coding standard operations.
 - [Arithmetic Operations](#arithmetic-operations)
    - [Division](#division)
    - [Modulo (get the remainder after division)](#modulo-get-the-remainder-after-division)
-- [Custom Sorting]()
+- [Custom Sorting](#custom-sorting)
+- [Random Number](#random-number)
 
 ## Basic Types
 ### String
@@ -129,6 +130,14 @@ This page is to document some coding standard operations.
       }
   };
   ```
+- **Common functions for stack**
+  | Function | Description |
+  | ---- | ---- |
+  | `get` | Get the value by key. |
+  | `getOrDefault(key, defaultValue)` | Get the value by key. If key is not in the map, return the default the value. |
+  | `put` | Add or update the key-value pair into map. |
+  | `keySet` | Get all the keys. |
+  | `values` | Get all the values. |
 
 ### Stack
 - **Initialize a stack**
@@ -161,6 +170,7 @@ Before you call `pop()`, you need to check the stack is empty or not.
   | Functions | Description |
   | ---- | ---- |
   | `add` | Add element at the tail of queue. |
+  | `isEmpty` | Check the queue is empty or not. |
   | `peek` | Return (but NOT remove) the element at the head element of queue. Return `null` if the queue is empty. |
   | `remove` | Remove and returns the head element of the queue. An `NoSuchElementException` exception is thrown if we call `remove()` when the invoking queue is empty. |
   | `poll` | Remove and returns the head element of the queue. Return `null` if the queue is empty. |
@@ -172,9 +182,11 @@ Use `peek()` to check the queue is empty or not.
 ### PriorityQueue
 Sorted on ascending order automatically.
 
+![Untitled (6)](https://user-images.githubusercontent.com/8989447/115980643-88bab600-a54b-11eb-9a2e-b9ab805da8e2.png)
+
 - **Initialize a priority queue**
   ```java
-  PriorityQueue<Integer> queue = new PriorityQueue<>();
+  Queue<Integer> queue = new PriorityQueue<>();
   ```
 
 - **Common functions for priority queue**
@@ -182,9 +194,10 @@ Sorted on ascending order automatically.
   | Functions | Description |
   | ---- | ---- |
   | `add` | Add one element. |
-  | `poll` | Return and remove the first (smallest) element. |
-  | `peek` | Return (but NOT remove) the first (smallest) element. Return `null` if the queue is empty. |
-  | `poll` | Removes and returns the first (smallest) element. Return `null` if the queue is empty. |
+  | `contains` | Returns true if this queue contains the specified element. |
+  | `isEmpty` | Check the queue is empty or not. |
+  | `peek` | Return (but NOT remove) the head (smallest) element. Return `null` if the queue is empty. |
+  | `poll` | Removes and returns the head (smallest) element. Return `null` if the queue is empty. |
 
 - **No `empty()` function for priority queue**
 
@@ -210,12 +223,18 @@ Sorted by key in ascending order automatically.
 
 ## Util
 ### Arrays
+  | Function | Description |
+  | ---- | ---- |
+  | `sort()` | Sort the elements in the array (Default is ascending order). |
+  | copyOfRange(array, i, j) | Get the sub-array [i, j-1]. |
+  
 ### Collection
   | Function | Description |
   | ---- | ---- |
-  | `sort()` | Sort the elements in the collection |
+  | `sort()` | Sort the elements in the collection (Default is ascending order). |
   | `max()` | Get the maximum element in the collection. |
   | `min()` | Get the minimum element in the collection. |
+  | `reverse()` | Reverse the order of the elements (Use this function to get the descending order). |
 
 ---
 
@@ -318,6 +337,10 @@ Sorted by key in ascending order automatically.
     
       public int compareTo(Student s) {
           return this.score.compareTo(s.score);        // Order by ascending order of score
+          return this.score - s.score;                 // Order by ascending order of score
+          
+          return -this.score.compareTo(s.score);       // Order by descending order of score
+          return s.score - this.score;                 // Order by descending order of score
       }
   }
   ```
@@ -325,4 +348,26 @@ Sorted by key in ascending order automatically.
   ```
   List<Student> students;
   Collections.sort(students);
+  ```
+
+---
+
+## Random Number
+- Get a random integer between [0, max]
+  ```java
+  Random ran = new Random();
+  int randomInt = ran.nextInt(max + 1);
+  ```
+- Get a random integer between [min, max]
+  ```java
+  Random ran = new Random();
+  int randomInt = min + ran.nextInt(max - min + 1);
+  ```
+- Get a random double between `[0,1)`
+  ```java
+  double randomDouble = Math.random();
+  ```
+- Get a random double between `[0,max)`
+  ```java
+  double randomDouble = max * Math.random();
   ```

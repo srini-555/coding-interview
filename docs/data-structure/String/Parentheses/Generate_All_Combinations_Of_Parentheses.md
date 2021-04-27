@@ -1,5 +1,8 @@
 # Generate All Combinations of Parentheses
 
+## Alias
+- Leetcode (22): [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
+
 ## Problem
 - All combinations of `n` parentheses.
 - Return a list of all combinations.
@@ -7,7 +10,7 @@
 ## Solution
 - Solution 1
   ```java
-  public List<String> generateAllCombinationsParenthesis(int n) {
+  public List<String> generateParenthesis(int n) {
       if (n == 1) {
           List<String> list = new ArrayList<>();
           list.add("()");

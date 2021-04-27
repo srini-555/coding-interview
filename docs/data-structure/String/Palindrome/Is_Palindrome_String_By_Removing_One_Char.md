@@ -1,4 +1,7 @@
-# Is Palindrome by Removing One Char
+# Is Palindrome String by Removing One Char
+
+## Alias
+- Leetcode (680): [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)
 
 ## Problem
 - Check the input string is palindrome or not.

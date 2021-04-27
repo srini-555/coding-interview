@@ -1,9 +1,10 @@
 # String
 
 ## Common topics
-- Symmetric problems
-   - Parentheses
-   - Palindrome
+- Check characteristics
+   - Symmetric
+      - Parentheses
+      - Palindrome
 
 ## Strategies
 - **Parentheses**

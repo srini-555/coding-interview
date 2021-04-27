@@ -1,4 +1,7 @@
-# Get Middle Node
+# Get Middle Node from List
+
+## Alias
+- Leetcode (876): [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
 
 ## Problem
 - Get the middle node of a linked list.

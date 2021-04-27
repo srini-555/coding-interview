@@ -3,7 +3,20 @@
 ## Concepts
 - Use an object to record unique values and the frequency of each unique values.
 
-## Pros
+## Benefit
 - Avoid the need for nested loops or O(n<sup>2</sup>) operations.
 
-## When to use
+## Construction
+- Java
+  ```java
+  Map<Integer,Integer> map = new HashMap<>();
+        
+  for(int num : nums) {                            
+      map.put(num, map.getOrDefault(num, 0) + 1);
+  }
+  ```
+
+## Problems can use this pattern
+- Frequency problems
+   - [Get Top K Frequent Elements from Array]()
+   - [Get Top K Frequent Words from Array]()
