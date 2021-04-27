@@ -19,6 +19,9 @@
      ![min_heap](https://user-images.githubusercontent.com/8989447/116179698-03630d00-a6d5-11eb-90b3-83c4933b9a4a.png)
      
 ## Array Representation
+- Index(Left) = Index(Parent) x 2 + 1
+- Index(Right) = Index(Parent) x 2 + 1
+- Index(Parent) = RoundUp((Index(Child) - 2) / 2)
 
 ![heap_array](https://user-images.githubusercontent.com/8989447/116182267-2e4f6000-a6d9-11eb-8acb-684198d741ea.png)
 
