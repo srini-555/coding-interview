@@ -39,3 +39,7 @@
       - If they are in the correct order, stop.
       - If they are NOT in the correct order, swap the new node with one of its children. Continue this step.
    
+## References
+- https://en.wikipedia.org/wiki/Heap_(data_structure)
+- https://en.wikipedia.org/wiki/Binary_heap
+- https://www.youtube.com/watch?v=t0Cq6tVNRBA
