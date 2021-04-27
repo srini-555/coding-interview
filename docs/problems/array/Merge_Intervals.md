@@ -1,4 +1,4 @@
-# Merge Interval
+# Merge Intervals
 
 ## Alias
 - Leetcode (56): [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
