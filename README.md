@@ -94,6 +94,9 @@
    - Longest Palindromic Substring
    - Binary Tree Longest Consecutive Sequence
    - Longest Common Prefix
+- **String Prefix**
+   - [Implement Trie]()
+   - [Implement Trie with Wildcard Seach]()
 - **Integer Calculation** (Integers represents in other data structures and then calculation)
    - In String
       - 415 Add Strings
