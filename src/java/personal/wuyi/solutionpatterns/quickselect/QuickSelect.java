@@ -1,13 +1,7 @@
 package personal.wuyi.solutionpatterns.quickselect;
 
 public class QuickSelect {
-	public static void main(String[] args) {
-		int[] nums = new int[] {3,4,7,1,9,3,6};
-		int result = select(nums,nums.length - 1);
-		System.out.println(result);
-	}
-	
-	public static int select(int[] nums, int k) {
+	public int select(int[] nums, int k) {
 	    int left  = 0;
 	    int right = nums.length - 1;
 	    
@@ -25,7 +19,7 @@ public class QuickSelect {
 	    return -1;
 	}
 	
-	public static int partition(int[] nums, int left, int right) {		
+	public int partition(int[] nums, int left, int right) {		
 	    int pivot = nums[right];
 	    int i = left;
 	    for (int j = left; j < right; j++) {
