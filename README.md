@@ -86,7 +86,8 @@
    - [Get Top K Frequent Elements from Array]()
    - [Get Top K Frequent Words from Array]()
 - **Interval**
-   - Merge Intervals
+   - [Merge Intervals]()
+   - [Intersect 2 Interval Lists]()
    - Meeting Room
 - **Longest X sequence/substring**
    - Longest Common Subsequence
