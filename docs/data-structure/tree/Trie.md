@@ -10,9 +10,12 @@
    - Hash table implementation
      ```java
      class TrieNode {
-         Map<Character, TrieNode> children = new HashMap();
-         boolean isWord                    = false;          // To indicate the node is a leaf
-         public TrieNode() {}
+         Map<Character, TrieNode> children;
+         boolean isWord;                       // To indicate the node is a leaf or not
+         public TrieNode() {
+             this.children = new HashMap<>();
+             this.isWord = false;
+         }
      }
      ```
 
