@@ -76,3 +76,7 @@
       return node != null && node.isWord;
   }
   ```
+
+## References
+- https://en.wikipedia.org/wiki/Trie
+- https://www.youtube.com/watch?v=zIjfhVPRZCg
