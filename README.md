@@ -20,6 +20,8 @@
 - [**Queue**](docs/data-structure/queue/Queue.md)
 - [**Stack**](docs/data-structure/stack/Stack.md)
 - [**Binary Tree**](docs/data-structure/tree/Binary_Tree.md)
+- [**Heap**](docs/data-structure/tree/Heap.md)
+- [**Trie**](docs/data-structure/tree/Trie.md)
 
 ## Solution Patterns
 - [**Frequency Counters**](docs/solution-patterns/Frequency_Counter.md)
@@ -27,6 +29,8 @@
 - [**Prefix Sum Array**](docs/solution-patterns/Prefix_Sum_Array.md)
 - [**Quickselect**](docs/solution-patterns/Quickselect.md)
 - [**Reservoir Sampling**](docs/solution-patterns/Reservoir_Sampling.md)
+- [**Heap (Priority Queue)**](docs/data-structure/tree/Heap.md)
+- [**Trie**](docs/data-structure/tree/Trie.md)
 - [**Sliding Window**]()
 - [**Divide and Conquer**]()
 - [**Dynamic Programming**]()
