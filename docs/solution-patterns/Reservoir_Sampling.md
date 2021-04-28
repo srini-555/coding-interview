@@ -27,7 +27,7 @@
       
       for (int i = 0; i < nums.length; i++) {
           numOfCand++;
-          if (rand.nextInt(numOfCand) {         // Get random number from [0, NumOfCand - 1] and check it is 0 or not
+          if (rand.nextInt(numOfCand) == 0) {   // Get random number from [0, NumOfCand - 1] and check it is 0 or not
               chosenCandidate = nums[i];        // Record the current candidate as the chosen candidate
           }
       }
