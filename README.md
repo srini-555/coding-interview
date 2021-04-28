@@ -76,7 +76,7 @@
       - [Is Palindrome String]()
       - [Is Palindrome String by Removing One Char]()
       - [Is Palindrome List]()
-- **Random**
+- [**Random**](docs/problem_patterns/Random.md)
    - **Candidate with same weight**
       - [Generate Random Index of Target Number]()
       - [Get Random Node from List]()
