@@ -16,6 +16,12 @@
 
 ## Solutions
 - Solution 1: Divide and conquer
+   - Separate the number into billion, million, thousand sub-problems, each sub-problem has 3 digits at most.
+   - For each 3-digit number, separate into 1 digit for hundred and 2 digits
+   - For each 2-digit number, consider
+      - 0 ~ 9
+      - 10 ~ 19
+      - 20 ~ 99
   ```java
   public String numberToWords(int num) {
       if (num == 0) return "Zero";
