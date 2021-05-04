@@ -22,6 +22,9 @@
       - 0 ~ 9
       - 10 ~ 19
       - 20 ~ 99
+
+  ![word](https://user-images.githubusercontent.com/8989447/117063263-cb198b00-ace1-11eb-8217-b512ee5da169.png)
+
   ```java
   public String numberToWords(int num) {
       if (num == 0) return "Zero";
