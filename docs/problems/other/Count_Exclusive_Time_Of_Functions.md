@@ -16,8 +16,8 @@
    - Logs: `["0:start:0","1:start:2","1:end:5","0:end:6"]`
    - Output: `[3,4]`
    - Explanation
-      - Function 0 runs 0~2 and 5~6, total is 3.
-      - Function 1 runs 2~5, total is 4.
+      - Function 0 runs `0~2` and `6~6`, total is 3.
+      - Function 1 runs `2~5`, total is 4.
 
       ![fun1](https://user-images.githubusercontent.com/8989447/117215792-fa042f80-adbb-11eb-9e5f-f359d5750b78.png)
 
@@ -25,8 +25,8 @@
    - Logs: `["0:start:0","0:start:2","0:end:5","1:start:7","1:end:7","0:end:8"]`
    - Ouput: `[8,1]`
    - Explanation
-      - Function 0 runs 0~2, 2~5, 6~6, 8~8, total is 8.
-      - Function 1 runs 7~7, total is 7.
+      - Function 0 runs `0~2`, `2~5`, `6~6`, `8~8`, total is 8.
+      - Function 1 runs `7~7`, total is 7.
       
       ![func1](https://user-images.githubusercontent.com/8989447/117216416-f4f3b000-adbc-11eb-8009-0190e3c240cf.png)
 
