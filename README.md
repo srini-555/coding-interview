@@ -75,6 +75,7 @@
    - **Palindrome**
       - [Is Palindrome String]()
       - [Is Palindrome String by Removing One Char]()
+      - [Is Palindrome String by Only Considering Alphanumeric Characters]()
       - [Is Palindrome List]()
 - [**Random**](docs/problem_patterns/Random.md)
    - **Candidate with same weight**
