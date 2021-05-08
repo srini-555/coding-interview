@@ -22,6 +22,8 @@
           - The last node we visit is the end of the current level, add the last node to the result list.
           - Push null in the queue to mark the end of the next level.
 
+  ![queue](https://user-images.githubusercontent.com/8989447/117553974-fc5fc700-b011-11eb-8f34-bd3726691a8d.png)
+
   ```java
   public List<Integer> rightSideView(TreeNode root) {
       if (root == null) return new ArrayList<Integer>();
@@ -56,4 +58,3 @@
       return resultList;
   }
   ```
-  ![queue](https://user-images.githubusercontent.com/8989447/117553974-fc5fc700-b011-11eb-8f34-bd3726691a8d.png)
