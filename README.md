@@ -1,4 +1,4 @@
-# Programming Interview
+# Coding Interview
 
 ## Learning Resources
 - [**LeetCode**](https://leetcode.com/)
