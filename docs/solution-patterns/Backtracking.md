@@ -60,7 +60,8 @@
    - Example
      | Problem | Element | Choices |
      |---|---|---|
-     | Get All Possible Strings by Removing Minimum Number of Invalid Parentheses | Each character | <ul><li>Keep<li>Remove</ul> |
+     | Get All Possible Strings by Removing Minimum Number of Invalid Parentheses | Each character | <ul><li>Keep the current character<li>Remove character</ul> |
+     | Generate All Combinations of Parentheses | Each character | <ul><li>Add `(`<li>Add `)`</ul>
 
 ## References
 - https://en.wikipedia.org/wiki/Backtracking
