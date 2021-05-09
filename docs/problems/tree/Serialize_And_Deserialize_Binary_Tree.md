@@ -25,7 +25,6 @@
             - If the node is not null
                - Add "<node.val>," to the string.
                - Add left node and right node to the queue without checking null.
-
    - Deserialize
       - Split the string by `,`.
       - The extra opertion in each step of BFS:
