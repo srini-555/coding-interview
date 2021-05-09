@@ -38,10 +38,29 @@
   }
   ```
 
+## Complexity
+- Time complexity
+   - The number of choices is C, so the time complexity is O(C<sup>n</sup>)
+- Space complexity
+   - O(n)
+
 ## Problems can use this pattern
 - Find all possible solutions
    - [Generate All Combinations of Parentheses]()
    - [Get All Possible Strings by Removing Minimum Number of Invalid Parentheses]()
+
+## Strategies
+- For the problems of finding all possible solutions, consider other solution patterns first, if not possible, use backtracking.
+   - Reason: The time complexity of backtracking is the worst.
+- When using backtracking, identify:
+   - 3 key points
+      - What is the element?
+      - What are the choices for each element?
+      - What are constraints?
+   - Example
+     | Problem | Element | Choices |
+     |---|---|---|
+     | Get All Possible Strings by Removing Minimum Number of Invalid Parentheses | Each character | <li>Keep<li>Remove |
 
 ## References
 - https://en.wikipedia.org/wiki/Backtracking
