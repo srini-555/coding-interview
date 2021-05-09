@@ -9,7 +9,7 @@
 
 ## Solution
 - Solution 1: Divide and conquer
-   - A problem(n) can be separated as
+   - A problem(n) can be separated as (+ is string concatenation)
       - `(` + problem(n-1) + `)`
       - problem(1)+problem(n-1), problem(2)+problem(n-2), problem(3)+problem(n-3), ...., problem(n-1)+problem(1)
   ```java
