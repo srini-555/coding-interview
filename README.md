@@ -23,8 +23,6 @@
 - [**Heap**](docs/data-structure/tree/Heap.md)
 - [**Trie**](docs/data-structure/tree/Trie.md)
 
-![Problem_Solution_Pattern_Mapping](https://user-images.githubusercontent.com/8989447/117561800-38694b00-b057-11eb-8fce-320d45e03fca.png)
-
 ## Solution Patterns
 - [**Frequency Counters**](docs/solution-patterns/Frequency_Counter.md)
 - [**2 Pointers**](docs/solution-patterns/2_Pointers.md)
@@ -119,6 +117,8 @@
    - [Get All Possible Strings by Removing Minimum Number of Invalid Parentheses]()
 - **Cycle**
    - 1041. Robot Bounded In Circle
+
+![Problem_Solution_Pattern_Mapping](https://user-images.githubusercontent.com/8989447/117561800-38694b00-b057-11eb-8fce-320d45e03fca.png)
 
 ## LeetCode Problems
 | No. | Name | Topic | Data Object | Data Structure |
