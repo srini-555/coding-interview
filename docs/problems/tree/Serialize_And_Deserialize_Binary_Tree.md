@@ -54,7 +54,6 @@
       return sb.toString();
   }
 
-  // Decodes your encoded data to tree.
   public TreeNode deserialize(String data) {
       String[] nodes = data.split(",");
       Queue<TreeNode> queue = new LinkedList<>();
