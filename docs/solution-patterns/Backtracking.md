@@ -45,7 +45,7 @@
    - O(n)
 
 ## Problems can use this pattern
-- Find all possible solutions
+- Enumeration (Find all possible solutions)
    - [Generate All Combinations of Parentheses]()
    - [Get All Possible Strings by Removing Minimum Number of Invalid Parentheses]()
 
