@@ -1,5 +1,7 @@
 # Programming Interview
 
+![Problem_Solution_Pattern_Mapping](https://user-images.githubusercontent.com/8989447/117561800-38694b00-b057-11eb-8fce-320d45e03fca.png)
+
 ## Learning Resources
 - [**LeetCode**](https://leetcode.com/)
 - [**InterviewBit**](https://www.interviewbit.com/)
