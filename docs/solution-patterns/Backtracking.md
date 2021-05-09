@@ -60,7 +60,7 @@
    - Example
      | Problem | Element | Choices |
      |---|---|---|
-     | Get All Possible Strings by Removing Minimum Number of Invalid Parentheses | Each character | <ul><li>Keep the current character<li>Remove character</ul> |
+     | Get All Possible Strings by Removing Minimum Number of Invalid Parentheses | Each character | <ul><li>Keep the current character<li>Remove the current character</ul> |
      | Generate All Combinations of Parentheses | Each character | <ul><li>Add `(`<li>Add `)`</ul>
 
 ## References
