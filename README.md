@@ -111,7 +111,7 @@
       - 989 Add to Array-Form of Integer 
    - In Linked List
       - 2 Add Two Numbers
-- **Find all possible solutions**
+- **Enumeration (Find all possible solutions)**
    - [Generate All Combinations of Parentheses]()
    - [Get All Possible Strings by Removing Minimum Number of Invalid Parentheses]()
 - **Cycle**
