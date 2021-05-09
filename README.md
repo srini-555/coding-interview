@@ -31,12 +31,13 @@
 - [**Reservoir Sampling**](docs/solution-patterns/Reservoir_Sampling.md)
 - [**Heap (Priority Queue)**](docs/data-structure/tree/Heap.md)
 - [**Trie**](docs/data-structure/tree/Trie.md)
+- [**Backtraking**](docs/solution-patterns/Backtracking.md)
 - [**Sliding Window**]()
 - [**Divide and Conquer**]()
 - [**Dynamic Programming**]()
 - [**Greedy**]()
-- [**Backtraking**]()
 - [**Recursion**]()
+
 
 ## Problem Patterns
 - **Top K and Kth**
