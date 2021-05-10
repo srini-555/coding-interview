@@ -156,6 +156,7 @@ TreeNode {
    - [Invert Binary Tree]()
 - Path
    - [Get Longest Path Length from Binary Tree]()
+   - [Get Maximum Path Sum from Binary Tree]()
 - Get metrics
    - [Get Height]()
 
