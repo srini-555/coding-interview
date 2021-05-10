@@ -37,7 +37,7 @@
 | Problem Name | Pattern | Solutions | Edge Cases |
 |----|----|----|----|
 | Get Height from Binary Tree | | <li>Recursion<ul><ul><li>Max(leftH,rightH)+1</ul></ul> | |
-| Get Diameter from Binary Tree | | <li>Recursion<ul><ul><li>Path=Max(leftPath,rightPath)+1<li>Diameter=Max(diameter,leftPath+rightPath)</ul></ul> | |
+| Get Longest Path Length from Binary Tree | | <li>Recursion<ul><ul><li>Path=Max(leftPath,rightPath)+1<li>Diameter=Max(diameter,leftPath+rightPath)</ul></ul> | |
 | Get Lowest Common Ancestor from Binary Tree | | <li>Recursion<ul><ul><li>current is n1 or n2(up-down relationship), so current is LCA<li>n1,n2 in different sub-tree, so current is LCA<li>Both n1,n2 in left sub-tree, go to left<li>Both n1,n2 in right sub-tree, go to right</ul></ul> | |
 | Get Num of Univalue Subtrees from Binary Tree | | <li>Recursion | |
 | Is Binary Search Tree | <li>In-order traverse BST is ascending order.<li>Reversed in-order traverse BST is descending order. | <li>Recursion: In-order traverse and check it is ascending order or not.<li>Recursion: Valid range. | |
