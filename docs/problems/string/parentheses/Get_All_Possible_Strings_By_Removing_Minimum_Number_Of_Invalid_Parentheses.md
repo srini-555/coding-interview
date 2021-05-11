@@ -83,3 +83,5 @@
       }
   }
   ```
+
+  ![Get_All_Possible_Strings_By_Removing_Minimum_Number_Of_Invalid_Parentheses](https://user-images.githubusercontent.com/8989447/117758249-e7845e80-b1de-11eb-9f49-11935ee6d6fb.png)
