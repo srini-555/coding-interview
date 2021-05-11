@@ -18,6 +18,11 @@
          - If the current character is a parenthesis:
             - Keep the character and recurse to the next character.
             - Remove the character and recurse to the next character.
+   - Backtracking analysis
+      - Element: Each character
+      - Choices: Keep or remove
+      - Constraints
+         - If it's an right parentthese, only recurse if rightCount < leftCount
   ```java
   class Solution {
       private Set<String> validExpressions = new HashSet<String>();    // Store all the possible solutions
