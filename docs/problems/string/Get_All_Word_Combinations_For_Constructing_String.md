@@ -71,3 +71,5 @@
       }
   }
   ```
+
+  ![Get_All_Word_Combinations_For_Constructing_String drawio](https://user-images.githubusercontent.com/8989447/117890302-29aab000-b272-11eb-9cb5-84dbe2616142.png)
