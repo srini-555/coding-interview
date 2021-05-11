@@ -48,6 +48,7 @@
 - Enumeration (Find all possible solutions)
    - [Generate All Combinations of Parentheses]()
    - [Get All Possible Strings by Removing Minimum Number of Invalid Parentheses]()
+   - [Get All Word Combinations for Constructing String]()
 
 ## Strategies
 - For the problems of finding all possible solutions, consider other solution patterns first, if not possible, use backtracking.
