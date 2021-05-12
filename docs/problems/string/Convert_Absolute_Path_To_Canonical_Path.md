@@ -11,4 +11,19 @@
    - Multiple consecutive slashes (like `///`): Should be treated as a single slash (`/`).
 - Canonical Path should follow the following rules
    - The path starts with a single slash `/`.
-   - The path does not end with a trailing `/`
+   - The path does not end with a trailing `/`.
+   - The path does not have `..` and `.` and multiple consecutive slashes.
+
+## Examples
+- Example 1
+   - Absolute path: `/home/`
+   - Canonical path: `/home`
+- Example 2
+   - Absolute path: `/home//foo/`
+   - Canonical path: `/home/foo`
+- Example 3
+   - Absolute path: `/a/./b/../../c/`
+   - Canonical path: `/c`
+- Example 4
+   - Absolute path: `/d/a/./b/../../c/`
+   - Canonical path: `/d/c`
