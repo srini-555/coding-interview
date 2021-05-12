@@ -43,6 +43,8 @@
             - Value is all the values in that point.
          - Type
             - PriorityQueue is to sort values. When a point has mulitple values (like both 5 and 6 are at point (2,0) in the example), we need to output them in asending order.
+
+        ![vt2](https://user-images.githubusercontent.com/8989447/118025599-43ed9800-b31d-11eb-84dd-140d5e68faf0.png)
    - Process
       - Initialize 2 HashMaps.
       - Traverse the binary tree to populate those 2 HashMaps.
@@ -105,3 +107,5 @@
       }
   }
   ```
+  
+  ![vt3](https://user-images.githubusercontent.com/8989447/118025402-0852ce00-b31d-11eb-9d45-7b4e9f1757b2.png)
