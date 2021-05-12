@@ -27,3 +27,58 @@
 - Example 4
    - Absolute path: `/d/a/./b/../../c/`
    - Canonical path: `/d/c`
+
+## Solutions
+- Solution 1
+   - Remove heading and tailing slashes.
+   - Split the absolute path to an string array.
+   - Iterate the string array from right to left
+      - If the current element is null (it means that this element will be ignored), continue.
+      - If the current element is a `..`
+         - Set it as null.
+         - Find the next left element which is an actual directory name, set it as null.
+      - If the current element is `.` or `""`, set it as null.
+   - Iterate the string array from left to right
+      - Only consider the element which is not null.
+  ```java
+  public String simplifyPath(String path) {
+      if (path.charAt(path.length() - 1) == '/') {
+          path = path.substring(0, path.length()-1);
+      }
+      if (path.length() != 0 && path.charAt(0) == '/') {
+          path = path.substring(1, path.length());
+      }
+        
+      String[] array = path.split("/");
+        
+      for (int i = array.length-1; i >=0; i--) {
+          if (array[i] == null) {
+              continue;
+          }
+            
+          if (array[i].equals("..")) {                       // If the current is "..",  and delete the previous valid element 
+              array[i] = null;                               // delete the current element,
+              for (int j = i-1; j >=0; j--) {                // delete the previous element which is a actual directory name
+                  if(array[j] != null && !array[j].equals("..") && !array[j].equals(".") && !array[j].equals("")) {
+                      array[j] = null;
+                      break;
+                  }
+              }
+              continue;
+          }
+            
+          if (array[i].equals(".") || array[i].equals("")) { // If the current is "." or "", delete the the current element
+              array[i] = null;
+          }
+      }
+        
+      StringBuilder sb = new StringBuilder();
+      for (int i = 0; i < array.length; i++) {
+          if (array[i] != null) {
+              sb.append("/" + array[i]);
+          }
+      }
+        
+      return sb.toString().length() == 0? "/" : sb.toString();
+  }
+  ```
