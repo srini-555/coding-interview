@@ -20,7 +20,7 @@
 
   ![ca1](https://user-images.githubusercontent.com/8989447/117916383-4bbd2600-b2a4-11eb-9dc1-4c6e3c18b85a.png)
   
-  ![ca2](https://user-images.githubusercontent.com/8989447/117916391-4fe94380-b2a4-11eb-87ba-ec13dd7c5ef8.png)
+  ![ca2 (1)](https://user-images.githubusercontent.com/8989447/117916523-8e7efe00-b2a4-11eb-9dfc-393ed352711e.png)
   
   ![case3](https://user-images.githubusercontent.com/8989447/117916399-537cca80-b2a4-11eb-8dc6-d45e43c3c07e.png)
 
