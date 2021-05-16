@@ -17,8 +17,8 @@
    - 2D array can be traversed by depth-first search starting from any cell.
    - Use serial numbers to identify different cells.
   ```
-  int[] rowChange = {-1, 0, 1, 0};                    // The row    change for going up, left, down, and right
-  int[] colChange = {0, -1, 0, 1};                    // The column change for going up, left, down, and right
+  int[] rowChange = {-1, 0, 1, 0};                             // The row    change for going up, left, down, and right
+  int[] colChange = {0, -1, 0, 1};                             // The column change for going up, left, down, and right
 
   public int calculateIslandSize(int[][] grid, int row, int col, int RN, int CN) {
       Stack stack;
