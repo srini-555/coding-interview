@@ -6,10 +6,27 @@
 
 ## Applications
 ### Binary Tree
-```
-```
+  ```
+  void traverseBreadthFirstSearch(TreeNode root) {
+      Queue queue;
+      queue.enqueue(root);
+      while(queue.isEmpty() == false) {
+          TreeNode node = queue.dequeue();
+          visit(node);
+          if (node.left != null) { 
+              queue.enqueue(node.left);
+          }
+          if (node.right != null) {
+              queue.enqueue(node.right);
+          }
+      }
+  }
+  ```
 
 ### 2D Array
+- Introduction
+   - 2D array can be traversed by depth-first search starting from any cell.
+   - Use serial numbers to identify different cells.
   ```
   int[] rowChange = {-1, 0, 1, 0};                             // The row    change for going up, left, down, and right
   int[] colChange = {0, -1, 0, 1};                             // The column change for going up, left, down, and right
