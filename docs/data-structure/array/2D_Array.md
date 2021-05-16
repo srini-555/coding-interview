@@ -2,7 +2,7 @@
 
 ## Basic operations
 ### Traverse
-- By row traverse
+- **By-row traversal**
 ```
 void traverseByRow(int[][] grid) {
     for (int i = 0; i < grid.length; i++) {
@@ -13,10 +13,13 @@ void traverseByRow(int[][] grid) {
 }
 ```
 
-- Depth-first search (DFS)
+- **Depth-first search (DFS)**
    - 2D array can be traversed by depth-first search starting from any cell.
-   - Use serial numbers to identify different cells
+   - Use serial numbers to identify different cells.
 ```
+int[] rowChange = {-1, 0, 1, 0};                    // The row    change for going up, left, down, and right
+int[] colChange = {0, -1, 0, 1};                    // The column change for going up, left, down, and right
+
 public int calculateIslandSize(int[][] grid, int row, int col, int RN, int CN) {
     Stack stack;
     Set   visitedSet;                                        // The set for recording all the visited cells
