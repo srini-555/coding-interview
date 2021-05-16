@@ -20,6 +20,8 @@
   int[] rowChange = {-1, 0, 1, 0};                             // The row    change for going up, left, down, and right
   int[] colChange = {0, -1, 0, 1};                             // The column change for going up, left, down, and right
 
+  // row and col is the row and column of the starting cell
+  // RN is the number of rows, CN is the number of columns
   public int calculateIslandSize(int[][] grid, int row, int col, int RN, int CN) {
       Stack stack;
       Set   visitedSet;                                        // The set for recording all the visited cells
@@ -47,3 +49,21 @@
       }
   }
   ```
+
+## Strategies
+- For 2D array, you can use serial numbers to identified different cells.
+   - Construction
+      - The leftmost cell in the first row will be 0
+      - The next cell on the right will increment 1.
+      - The leftmost cell in each row is increased by 1 from the rightmost cell in the last row.
+   - The serial number of each cell can be calculated from or to the row and column of that cell.
+      - From row+colum to serial number: `SerialNumber = row x CN + column` (`CN` is the number of row)
+      - From serial number to row+column: 
+        ```
+        row    = serialNumber / CN
+        column = serialNumber % CN
+        ```
+   - Benefit
+      - Use one number to identify a cell rather than 2 numbers (row and column).
+      - Can still store the row and column information.
+      - Can be used to identify different cells (like primary key).
