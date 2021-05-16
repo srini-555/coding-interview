@@ -12,6 +12,13 @@
 - Soluton 1: Depth-first search
    - For each 0 cell, temporarily change it to 1, calculate the size of the island from that cell.
    - Use depth-first search to calculate the size of an island.
+   - For depth-first search
+      - Each cell will be represented as a serial number for identification, from 0 to N*N.
+      - The serial number of a cell can be calculated from or to the row and column of the cell.
+      - Each cell will have 4 directions to go: up, left, down, right.
+
+        ![Island](https://user-images.githubusercontent.com/8989447/118382150-be354b00-b5af-11eb-8fe7-0827d0a1b01e.png)
+      
   ```java
   class Solution {
       int[] rowChange = new int[]{-1, 0, 1, 0};                    // The row    change for going up, left, down, and right
@@ -40,11 +47,11 @@
           Set<Integer> visitedCells = new HashSet();               // The set for recording all the visited cells
           stack.push(r0 * N + c0);                                 // Push the current cell to the stack (each cell has a unique number)
           visitedCells.add(r0 * N + c0);                           // Add the current cell to the visited cells
-                                                                 // (each cell can be represented as a serial number, from 0 to N*N)
+                                                                   // (each cell can be represented as a serial number, from 0 to N*N)
           while (!stack.isEmpty()) {
-              int code = stack.pop();
-              int r = code / N;                                    // Calculate the row from the serial number
-              int c = code % N;                                    // Calculate the column from the serial number
+              int serialNum = stack.pop();
+              int r = serialNum / N;                               // Calculate the row from the serial number
+              int c = serialNum % N;                               // Calculate the column from the serial number
               for (int k = 0; k < 4; ++k) {                        // For current cell, there are 4 directions: up, left, down, right
                   int nr = r + rowChange[k], nc = c + colChange[k];// Get the row and column of the next direction cell
                   if (!visitedCells.contains(nr * N + nc)          // If the next direction cell is not visited
