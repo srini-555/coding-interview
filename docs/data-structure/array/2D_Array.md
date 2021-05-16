@@ -56,6 +56,9 @@
       - The leftmost cell in the first row will be 0
       - The next cell on the right will increment 1.
       - The leftmost cell in each row is increased by 1 from the rightmost cell in the last row.
+
+        ![sern1](https://user-images.githubusercontent.com/8989447/118384894-66a2d980-b5c7-11eb-9999-65113aea1db2.png)
+        
    - The serial number of each cell can be calculated from or to the row and column of that cell.
       - From row+colum to serial number: `SerialNumber = row x CN + column` (`CN` is the number of row)
       - From serial number to row+column: 
@@ -63,6 +66,9 @@
         row    = serialNumber / CN
         column = serialNumber % CN
         ```
+        
+        ![sern2](https://user-images.githubusercontent.com/8989447/118384987-27c15380-b5c8-11eb-86d8-51db936300df.png)
+
    - Benefit
       - Use one number to identify a cell rather than 2 numbers (row and column).
       - Can still store the row and column information.
