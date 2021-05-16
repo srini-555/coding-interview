@@ -16,6 +16,7 @@
 ## Data Structures
 - [**String**](docs/data-structure/string/String.md)
 - [**Array**](docs/data-structure/array/Array.md)
+- [**2D Array**](docs/data-structure/array/2D_Array.md)
 - [**Linked List**](docs/data-structure/linked_list/Linked_List.md)
 - [**Queue**](docs/data-structure/queue/Queue.md)
 - [**Stack**](docs/data-structure/stack/Stack.md)
