@@ -33,6 +33,7 @@
 - [**Heap (Priority Queue)**](docs/data-structure/tree/Heap.md)
 - [**Trie**](docs/data-structure/tree/Trie.md)
 - [**Backtraking**](docs/solution-patterns/Backtracking.md)
+- [**Depth-First Search (BFS)**](docs/solution-patterns/Depth_First_Search.md)
 - [**Sliding Window**]()
 - [**Divide and Conquer**]()
 - [**Dynamic Programming**]()
