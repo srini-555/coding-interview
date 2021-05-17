@@ -30,7 +30,7 @@
       - Option 1: Use -1 (-1 means root node).
       - Option 2: Use its own node ID (each node's parent is itself).
 
-  ![Union_Find_1](https://user-images.githubusercontent.com/8989447/118570540-9d98fc80-b739-11eb-9848-eac0b5207af5.png)
+        ![Union_Find_1](https://user-images.githubusercontent.com/8989447/118570540-9d98fc80-b739-11eb-9848-eac0b5207af5.png)
 
 ### Find
 - Process
