@@ -63,3 +63,33 @@
       }
   }
   ```
+- Solution 2: Union find
+  ```java
+  public int findCircleNum(int[][] isConnected) {
+      int[] parent = new int[isConnected.length];         // Parent array store the parent node's index of each node
+      Arrays.fill(parent, -1);                            // Fill all elements in parent array as -1 (each node is a single group)
+      for (int i = 0; i < isConnected.length; i++) {
+          for (int j = 0; j < isConnected.length; j++) {
+              if (isConnected[i][j] == 1 && i != j) {     // If node i and node j are connected, union 2 nodes
+                  union(parent, i, j);
+              }
+          }
+      }
+      int count = 0;
+      for (int i = 0; i < parent.length; i++) {           // Count how many root nodes (it means that how many groups we have)
+          if (parent[i] == -1) count++;
+      }
+      return count;
+  }
+
+  void union(int parent[], int x, int y) {                // Union 2 nodes
+      int xset = find(parent, x);                         // Find the root node of node x
+      int yset = find(parent, y);                         // Find the root node of node y
+      if (xset != yset) parent[xset] = yset;              // If 2 nodes are in different groups (different root nodes), let the x node's group attach to y node's group
+  }
+
+  int find(int parent[], int i) {                         // Find the root node of the current node i
+      if (parent[i] == -1) return i;                      // If the current node is -1, it means that it is a root node
+      return find(parent, parent[i]);                     // Otherwise, continue search the root node
+  }
+  ```
