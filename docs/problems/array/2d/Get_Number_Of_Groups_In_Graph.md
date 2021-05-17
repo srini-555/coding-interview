@@ -2,7 +2,8 @@
 
 ## Alias
 - Leetcode (547): [Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
-- HackerRank (Amazon Online Assessment): [Gifting Group]()
+- Leetcode (323): [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
+- HackerRank: [Gifting Group]()
 
 ## Problems
 - There are N nodes in the graph.
