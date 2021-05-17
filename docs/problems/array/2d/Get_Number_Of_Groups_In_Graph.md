@@ -64,6 +64,14 @@
   }
   ```
 - Solution 2: Union find
+   - Create a parent array
+      - Each element store the index of the parent node of the current node.
+      - The root node will use -1 to represent.
+   - Process
+      - Loop through each cell in the 2D array by row.
+      - If the current cell is 1 and it is not self-connnected, union 2 nodes.
+      - Union will find the root node of each node. If they have different root node (it means that they are in different groups), join 2 groups.
+      - Loop through the parent array to see how many root nodes we have, it means that how many groups we have.
   ```java
   public int findCircleNum(int[][] isConnected) {
       int[] parent = new int[isConnected.length];         // Parent array store the parent node's index of each node
