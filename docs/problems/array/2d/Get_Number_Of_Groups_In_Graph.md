@@ -101,3 +101,5 @@
       return find(parent, parent[i]);                     // Otherwise, continue search the root node
   }
   ```
+  
+  ![no](https://user-images.githubusercontent.com/8989447/118566728-aab1ed80-b731-11eb-9475-d1ed0f54b6ff.png)
