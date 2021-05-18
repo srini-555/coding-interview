@@ -85,6 +85,9 @@
 - Detecting Cycle
    - [Detect Cycle in Undirected Graph]()
 
+## Strategies
+- For the problems can be solved by Union find, they often can be solved by Depth-first search. But Union find solution can provide a better performance.
+
 ## References
 - https://en.wikipedia.org/wiki/Disjoint-set_data_structure#Proof_of_O(log*(n))_time_complexity_of_Union-Find
 - https://www.geeksforgeeks.org/union-find/
