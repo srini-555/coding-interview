@@ -20,7 +20,7 @@
 
 - Example 2
    - Edges:`[[0, 1], [1, 2], [2, 0], [3, 4]]`
-   - Has cycle: false
+   - Has cycle: true
    - Explanation: 
    
      ![cy2](https://user-images.githubusercontent.com/8989447/118594610-f632be80-b766-11eb-83b0-90390f2da3cf.png)
