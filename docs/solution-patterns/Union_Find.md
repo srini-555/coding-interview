@@ -71,3 +71,8 @@
       if (iRoot != jRoot) parent[iRoot] = jRoot; // If 2 root nodes are different (it means that node i and node j are in different groups), merge them
   }
   ```
+
+## Time complexity
+- Find: O(a(n))
+- Union: O(a(n))
+(Note: a(n) is inverse Ackermann function, it grows extremely slow)
