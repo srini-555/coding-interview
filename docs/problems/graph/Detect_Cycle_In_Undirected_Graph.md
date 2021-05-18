@@ -33,13 +33,13 @@
        Arrays.fill(parent, -1);
        for (int i = 0; i < edges.length; i++) {
            if (union(parent, edges[i][0], edges[i][1])) {
-        		    return true;
-        	 }
+               return true;
+           }
        }
        return false;
   }
 	
-	int find(int parent[], int i) {
+  int find(int parent[], int i) {
       if (parent[i] == -1) return i;
       return find(parent, parent[i]);
   }
@@ -50,6 +50,8 @@
       if (iRoot != jRoot) { 
           parent[iRoot] = jRoot;
           return false;
-      } else return true;
+      } else { 
+          return true;                 // If node i and node j already have same root (node i already has a path to node j), 
+      }                                // it means that this new edge i-j will make a cycle
   }
   ```
