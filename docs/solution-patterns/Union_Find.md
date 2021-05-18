@@ -80,7 +80,7 @@
 
 ## Problems can use this pattern
 - Grouping
-   - [Get Number of Groups in Graph]()
+   - [Get Number of Groups in Undirected Graph]()
    - [Accounts Merge]()
 - Detecting Cycle
    - []
