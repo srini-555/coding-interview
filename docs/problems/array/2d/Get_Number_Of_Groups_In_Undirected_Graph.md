@@ -1,4 +1,4 @@
-# Get Number of Groups in Graph
+# Get Number of Groups in Undirected Graph
 
 ## Alias
 - Leetcode (547): [Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
