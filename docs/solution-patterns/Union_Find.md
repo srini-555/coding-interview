@@ -77,3 +77,12 @@
 - Union: O(a(n))
 
 (a(n) is inverse Ackermann function, it grows extremely slow)
+
+## Problems can use this pattern
+- Grouping
+   - [Get Number of Groups in Graph]()
+   - [Accounts Merge]()
+
+## References
+- https://en.wikipedia.org/wiki/Disjoint-set_data_structure#Proof_of_O(log*(n))_time_complexity_of_Union-Find
+- https://www.geeksforgeeks.org/union-find/
