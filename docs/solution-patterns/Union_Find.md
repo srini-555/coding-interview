@@ -75,4 +75,5 @@
 ## Time complexity
 - Find: O(a(n))
 - Union: O(a(n))
-(Note: a(n) is inverse Ackermann function, it grows extremely slow)
+
+(a(n) is inverse Ackermann function, it grows extremely slow)
