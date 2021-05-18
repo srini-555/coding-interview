@@ -82,6 +82,8 @@
 - Grouping
    - [Get Number of Groups in Graph]()
    - [Accounts Merge]()
+- Detecting Cycle
+   - []
 
 ## References
 - https://en.wikipedia.org/wiki/Disjoint-set_data_structure#Proof_of_O(log*(n))_time_complexity_of_Union-Find
