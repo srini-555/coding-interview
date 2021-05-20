@@ -3,8 +3,8 @@
 ## Concept
 - Rules
    - Each node store one character.
-      - Root node store a empty character.
-      - Each child node store a alphabet.
+      - Root node store an empty character.
+      - Each child node store an alphabet.
    - The path from the root to a leaf can consist a word.
 - Code
    - Hash table implementation
