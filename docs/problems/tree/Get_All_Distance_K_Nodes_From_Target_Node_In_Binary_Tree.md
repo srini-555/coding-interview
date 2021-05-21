@@ -28,3 +28,102 @@
       - Nodes in another branch (Target=5, K=3)
 
         ![branch](https://user-images.githubusercontent.com/8989447/119075847-ba8a3580-b9ae-11eb-9c54-5941e523a89e.png)
+  ```java
+  public List<Integer> distanceK(TreeNode root, TreeNode target, int K) {
+      if (K == 0) {
+          return Arrays.asList(target.val);
+      }
+        
+      List<Integer> resultList = new ArrayList<>();
+      findChildNodesDistanceK(target, resultList, K);             // Get all the K distance child nodes of the target node
+      resultList.addAll(distanceKRecurse(root, target, K));       // Get the K distance parent node and the nodes in another branch
+        
+      return resultList;
+  }
+    
+  public List<Integer> distanceKRecurse(TreeNode root, TreeNode target, int K) {
+      List<Integer> resultList = new ArrayList<>();
+        
+      int leftDis  = findTargetNodesDistance(root.left, target);
+      int rightDis = findTargetNodesDistance(root.right, target);
+        
+      if (leftDis != -1) {
+          if (leftDis > K) {
+              // find (leftDis - K) distance node from root on left branch
+              findChildNodesDistanceKWithTarget(root.left, target, resultList, K, (leftDis-K-1));
+          } else if (leftDis < K) {
+              // find (K - leftDis) distance node from root on right branch
+              findChildNodesDistanceK(root.right, resultList, (K-leftDis-1));
+              resultList.addAll(distanceKRecurse(root.left, target, K));
+          } else {
+              resultList.add(root.val);
+              resultList.addAll(distanceKRecurse(root.left, target, K));
+          }
+      }
+        
+      if (rightDis != -1) {
+          if (rightDis > K) {
+              // find (rightDis - K) distance node from root on right branch
+              findChildNodesDistanceKWithTarget(root.right, target, resultList, K, (rightDis-K-1));
+          } else if (rightDis < K) {
+              // find (K - rightDis) distance node from root on left branch
+              findChildNodesDistanceK(root.left, resultList, (K-rightDis-1));
+              resultList.addAll(distanceKRecurse(root.right, target, K));
+          } else {
+              resultList.add(root.val);
+              resultList.addAll(distanceKRecurse(root.right, target, K));
+          }
+      }
+        
+      return resultList;
+  }
+    
+  // Get the K distance child node from the current node
+  public void findChildNodesDistanceK(TreeNode node, List<Integer> resultList, int K) {
+      if (node == null) return;
+      if (K == 0) resultList.add(node.val);
+      findChildNodesDistanceK(node.left, resultList, K-1);
+      findChildNodesDistanceK(node.right, resultList, K-1);
+  }
+    
+  // Calculate the distance from the current node to the target node
+  // Return -1 if any child nodes don't have the target node
+  public int findTargetNodesDistance(TreeNode node, TreeNode target) {
+      if (node == null) return -1;
+      if (node.val == target.val) return 1;
+        
+      int leftDis  = findTargetNodesDistance(node.left, target);
+      int rightDis = findTargetNodesDistance(node.right, target);
+        
+      if (leftDis == -1 && rightDis == -1) {
+          return -1;
+      } else if (rightDis != -1) {
+          return rightDis + 1;
+      } else {
+          return leftDis + 1;
+      }
+  }
+    
+  // Find the child node of the current node which is the K distance parent node and the nodes in another branch
+  public void findChildNodesDistanceKWithTarget(TreeNode node, TreeNode target, List<Integer> resultList, int K, int depth) {
+      if (node == null) return;
+        
+      int leftDis  = findTargetNodesDistance(node.left, target);
+      int rightDis = findTargetNodesDistance(node.right, target);
+        
+      if (depth == 0 && (leftDis != -1 || rightDis != -1)) resultList.add(node.val);    // Add the K distance parent node to the result list
+        
+      if (leftDis != -1) {                                                              // If the left branch has the target node
+          findChildNodesDistanceKWithTarget(node.left, target, resultList, K, depth-1); // Recurse on the left branch
+          if (depth < 0) {
+              findChildNodesDistanceK(node.right, resultList, K-leftDis-1);             // Consider the K distance nodes in another branch
+          }
+      }
+      if (rightDis != -1) {                                                             // If the right branch has the target node
+          findChildNodesDistanceKWithTarget(node.right, target, resultList, K, depth-1);// Recurse on the right branch
+          if (depth < 0) {
+              findChildNodesDistanceK(node.left, resultList, K-rightDis-1);             // Consider the K distance nodes in another branch
+          }
+      }
+  }
+  ```
