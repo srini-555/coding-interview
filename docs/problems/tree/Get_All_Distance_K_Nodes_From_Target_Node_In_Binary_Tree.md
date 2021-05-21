@@ -1,4 +1,4 @@
-# All Distance K Nodes from Target Node in Binary Tree
+# Get All Distance K Nodes from Target Node in Binary Tree
 
 ## Alias
 - Leetcode (863): [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)
