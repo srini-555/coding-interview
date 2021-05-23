@@ -120,8 +120,12 @@
    - [Generate All Combinations of Parentheses]()
    - [Get All Possible Strings by Removing Minimum Number of Invalid Parentheses]()
    - [Get All Word Combinations for Constructing String]()
-- **Cycle**
-   - 1041. Robot Bounded In Circle
+- **Grouping**
+   - [Get Number of Groups in Undirected Graph]()
+   - [Accounts Merge]()
+- **Detect Cycle**
+   - [Detect Cycle in Undirected Graph]()
+   - 1041 Robot Bounded In Circle
 
 ![Problem_Solution_Pattern_Mapping](https://user-images.githubusercontent.com/8989447/117561800-38694b00-b057-11eb-8fce-320d45e03fca.png)
 
