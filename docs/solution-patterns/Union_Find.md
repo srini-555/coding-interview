@@ -56,6 +56,10 @@
       return find(parent, parent[i]);            // If not, continue searching on the parent node
   }
   ```
+- Example
+   - find(0) = 2 (Find the root node of the node 0)
+     
+     ![Untitled (5)](https://user-images.githubusercontent.com/8989447/119250092-eea25980-bb5a-11eb-85f3-40d1a78e19cd.png)
 
 ### Union
 - Idea
