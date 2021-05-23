@@ -123,6 +123,7 @@
 - **Grouping**
    - [Get Number of Groups in Undirected Graph]()
    - [Accounts Merge]()
+   - [Group Shifted Strings]()
 - **Detect Cycle**
    - [Detect Cycle in Undirected Graph]()
    - 1041 Robot Bounded In Circle
