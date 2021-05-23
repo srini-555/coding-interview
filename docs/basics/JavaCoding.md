@@ -226,7 +226,8 @@ Sorted by key in ascending order automatically.
   | Function | Description |
   | ---- | ---- |
   | `sort()` | Sort the elements in the array (Default is ascending order). |
-  | copyOfRange(array, i, j) | Get the sub-array [i, j-1]. |
+  | `copyOfRange(array, i, j)` | Get the sub-array [i, j-1]. |
+  | `fill(array, value)` | Fill all the elements in the array by that value. |
   
 ### Collection
   | Function | Description |
