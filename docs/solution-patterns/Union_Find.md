@@ -26,6 +26,7 @@
    - Treat each node as a single group.
 - Process
    - Create a N size array or HashMap.
+      - The value of each element is to track the parent node of the current node.
    - Assign each node's parent node ID: 
       - Option 1: Use -1 (-1 means root node).
       - Option 2: Use its own node ID (each node's parent is itself).
