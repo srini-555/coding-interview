@@ -17,9 +17,16 @@
          - If both dividend and divisor are all positive or all negative, we need to convert the quotient from negative to positive.
   ```java
   public int divide(int dividend, int divisor) {
-      // Special case: overflow.
-      if (dividend == Integer.MIN_VALUE && divisor == -1) {
-          return Integer.MAX_VALUE;
+      // Handle special cases
+      if (dividend == Integer.MIN_VALUE) {
+          if (divisor == -1) return Integer.MAX_VALUE;
+          if (divisor == 1) return Integer.MIN_VALUE;
+      }
+      if (dividend == divisor) {
+          return 1;
+      }
+      if (dividend == -divisor) {
+          return -1;
       }
 
       /* We need to convert both numbers to negatives
