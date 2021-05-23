@@ -127,6 +127,9 @@
 - **Detect Cycle**
    - [Detect Cycle in Undirected Graph]()
    - 1041 Robot Bounded In Circle
+- **Math**
+   - [Implement Pow(x,n)]()
+   - [Divide Two Integers]()
 
 ![Problem_Solution_Pattern_Mapping](https://user-images.githubusercontent.com/8989447/117561800-38694b00-b057-11eb-8fce-320d45e03fca.png)
 
