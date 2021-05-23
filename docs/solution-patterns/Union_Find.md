@@ -56,7 +56,7 @@
       return find(parent, parent[i]);            // If not, continue searching on the parent node
   }
   ```
-- Example
+- Examples
    - find(0) = 2 (Find the root node of the node 0)
    - find(2) = 2 (Find the root node of the node 2)
      
@@ -77,6 +77,10 @@
       if (iRoot != jRoot) parent[iRoot] = jRoot; // If 2 root nodes are different (it means that node i and node j are in different groups), merge them
   }
   ```
+- Examples
+   - Union(0,4) (Merge the group has the node 0 with the group has the node 4)
+   
+     ![uf](https://user-images.githubusercontent.com/8989447/119250427-48a41e80-bb5d-11eb-8762-a93de17d88c1.png)
 
 ## Time complexity
 - Find: O(a(n))
