@@ -116,7 +116,7 @@
       - What is the index of parent?
 - **Trie**
    - What is trie?
-   - What is the class structure for trie?
+   - What is the class structure for trie node?
    - Write a code to add a word into a trie.
    - Write a code to search a prefix from a trie.
 
