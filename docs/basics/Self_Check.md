@@ -1,6 +1,6 @@
 # Self-Check
 
-## Basic
+## Java Basics
 - **Integer**
    - How to get the max integer?
    - How to get the min integer?
@@ -30,3 +30,36 @@
    - How to get all the keys?
    - How to get all the values?
    - How to convert all the values from a map to a list?
+- **Stack**
+   - How to initialize a stack?
+   - How to add an element?
+   - How to get and remove the top element?
+   - How to get the top element without removing?
+- **Queue**
+   - How to initilize a queue?
+   - How to add an element?
+   - How to get and remove the head element?
+   - How to get the head element without removing?
+- **Priority Queue**
+   - What is priority queue?
+   - How to initilize a priority queue?
+   - How to initilize a max priority queue?
+   - The head element is the smallest or largest?
+- **TreeMap**
+   - What is TreeMap?
+   - How to get the smallest key?
+   - How to get the largest key?
+- **Type Conversions**
+   - From String
+      - String to int
+      - String to double
+      - String to char
+      - String to char array
+   - To String
+      - int to String
+      - double to String
+      - char array to String
+      - char to String
+   - Array and list
+      - From array to list
+      - From list to array
