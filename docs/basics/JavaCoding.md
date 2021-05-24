@@ -114,17 +114,27 @@ This page is to document some coding standard operations.
      ```  
 
 ### List
-- **Sort a list**
+- **Sort a list in ascending order**
   ```java
   Collections.sort(list);
   ```
   > NOTE: This function will not return a sorted list. It will sort the `list` in-place.
 
+- **Sort a list in descending order**
+  ```java
+  Collections.sort(list);
+  Collections.reverse(list);
+  ```
 - **Initialize a list of lists**
   ```java
   List<List<Integer>> list = new ArrayList<>();
   ```
-
+- **Common functions for stack**
+  | Function | Description |
+  | ---- | ---- |
+  | `sublist(i,j)` | Get the sub-list `[i,j-1]` of the existing list. |
+  | `disjoint(list1, list2)` | Return true if there is no common elements in both lists. | 
+  
 ### Map
 - **Initialize a map with keys and values**
   ```java
