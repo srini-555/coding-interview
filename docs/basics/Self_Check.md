@@ -100,6 +100,7 @@
    - Variations
       - What is binary search tree?
       - What is binary heap?
+      - What is trie?
    - Traversal
       - Depth-first search
          - Write code for pre-order, in-order, post-order
