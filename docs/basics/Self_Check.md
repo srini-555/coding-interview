@@ -79,3 +79,21 @@
    - How to get a random integer from min to max?
    - How to get a random double from 0 to 1?
    - How to get a random double from 0 to max?
+
+## Data Structure
+- **Array**
+   - 1D array
+      - Write a code to reverse an array in place?
+   - 2D array
+      - Serial number
+         - The purpose of assigning a serial number to each cell.
+         - Convert row and column to serial number
+         - Convert serial number to row and column
+- **Linked List**
+   - Strategies
+      - What is the solution for the operations which is againest the direction of the linked list?
+      - What is the key step for manipulating (add or remove) a certain node?
+
+
+## Problem Patterns
+- 
