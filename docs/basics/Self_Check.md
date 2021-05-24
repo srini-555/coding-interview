@@ -93,7 +93,21 @@
    - Strategies
       - What is the solution for the operations which is againest the direction of the linked list?
       - What is the key step for manipulating (add or remove) a certain node?
-
+- **Binary Tree**
+   - Types
+      - What is complete binary tree?
+      - What is balanced binary tree?
+   - Variations
+      - What is binary search tree?
+      - What is binary heap?
+   - Traversal
+      - Depth-first search
+         - Write code for pre-order, in-order, post-order
+         - What is the node visiting sequence for pre-order, in-order, post-order?
+         - Write code for pre-order (iterative solution)
+      - Breadth-first search
+         - Write code for breadth-first search
+         
 
 ## Problem Patterns
 - 
