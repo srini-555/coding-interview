@@ -26,6 +26,19 @@ This page is to document some coding standard operations.
 
 ## Basic Types
 ### String
+- **Traverse**
+   - `substring()`
+     ```java
+     for (int i = 0; i < str.length(); i++) {
+         str.substring(i, i+1);
+     }
+     ```
+   - `charAt()`
+     ```java
+     for (int i = 0; i < str.length(); i++) {
+         str.charAt(i);
+     }
+     ```
 - **Delete**
    - General strategies
       - StringBuilder is more convenient to do deleting operation. 
@@ -36,15 +49,8 @@ This page is to document some coding standard operations.
      int index = sb.indexOf("x");       // delete the first occurrence of char
      sb.deleteCharAt(index);
      ```
-
-- **Traverse each character by `substring()`**
-  ```java
-  for (int i = 0; i < str.length(); i++) {
-      str.substring(i, i+1);
-  }
-  ```
 - **Get prefix**
-  If you use substring to get prefix, make sure the criteria is `i <= str.length()` and the initialization is `int i = 1`.
+   - If you use substring to get prefix, make sure the criteria is `i <= str.length()` and the initialization is `int i = 1`.
   ```java
   for (int i = 1; i <= str.length(); i++) {
       String prefix = str.substring(0, i);
