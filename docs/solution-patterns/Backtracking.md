@@ -49,6 +49,7 @@
    - [Generate All Combinations of Parentheses]()
    - [Get All Possible Strings by Removing Minimum Number of Invalid Parentheses]()
    - [Get All Word Combinations for Constructing String]()
+   - [Get All Operator Combinations to Make Expression Match Target Number]()
 
 ## Strategies
 - For the problems of finding all possible solutions, consider other solution patterns first, if not possible, use backtracking.
