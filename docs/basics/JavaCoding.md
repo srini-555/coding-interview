@@ -209,6 +209,10 @@ This page is to document some coding standard operations.
   ```java
   Queue<Integer> queue = new PriorityQueue<>();
   ```
+- **Initialize a max priority queue**
+  ```java
+  Queue<Integer> queue = new PriorityQueue<>(10, Collections.reverseOrder());
+  ```
 - **Common functions for priority queue**
   | Functions | Description |
   | ---- | ---- |
