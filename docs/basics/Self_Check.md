@@ -19,4 +19,14 @@
    - How to fill all the elements by the same value in 1D array?
    - How to get a sub-array from 1D array?
 - **List**
-   - 
+   - How to sort a list in ascending order?
+   - How to sort a list in descending order?
+   - How to get a sub-list from a list?
+   - How to check there is an common element in both 2 lists?
+- **Map**
+   - How to initialize a map?
+   - How to initialize a map with values?
+   - How to get the value by key?
+   - How to get all the keys?
+   - How to get all the values?
+   - How to convert all the values from a map to a list?
