@@ -108,7 +108,17 @@
          - Write code for pre-order (iterative solution)
       - Breadth-first search
          - Write code for breadth-first search
-         
+- **Heap**
+   - What is heap?
+   - Array representation
+      - What is the index of left child?
+      - What is the index of right child?
+      - What is the index of parent?
+- **Trie**
+   - What is trie?
+   - What is the class structure for trie?
+   - Write a code to add a word into a trie.
+   - Write a code to search a prefix from a trie.
 
 ## Problem Patterns
 - 
