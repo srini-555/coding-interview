@@ -81,36 +81,37 @@ This page is to document some coding standard operations.
 
 ## Data Structures
 ### Array
-- **Initialize an array with values**
-   - 1-D array
+- **1-D array**
+   - Initialization
      ```java
      int[] array1 = new int[10];
      int[] array2 = new int[] {10,20,30,40,50,60};      // Intialize 1-D array with values
      ```
-   - 2-D array
+- **2-D array**
+   - Initialization
      ```java
-     int[][] array1 = new int[10][];                    // OK
-     int[][] array2 = new int[10][9];
+     int[][] array1 = new int[10][9];
+     int[][] array2 = new int[10][];                    // OK
      int[][] array3 = {{1, 2, 3}, {4, 5, 6}};           // Intialize 1-D array with values
      ```
-- **Traverse 2-D array**
-  ```java
-  int[][] array = new int[3][3]; 
-  for (int i = 0; i < array.length; i++) { 
-      for (int j = 0; j < array[i].length; j++) { 
-          array[i][j] = i + j; 
-      } 
-  }
-  ```
-- **Assign by row**
-  ```java
-  int[][] array = new int[3][3];
-  for (int i = 0; i < array.length; i++) { 
-      for (int j = 0; j < array[i].length; j++) { 
-          array[i] = new int[] {10,20,30,40,50,60};
-      } 
-  }
-  ```
+   - Traversal
+     ```java
+     int[][] array = new int[3][3]; 
+     for (int i = 0; i < array.length; i++) { 
+         for (int j = 0; j < array[i].length; j++) { 
+             array[i][j] = i + j; 
+         } 
+     }
+     ```
+   - Assign by row
+     ```java
+     int[][] array = new int[3][3];
+     for (int i = 0; i < array.length; i++) { 
+         for (int j = 0; j < array[i].length; j++) { 
+             array[i] = new int[] {10,20,30,40,50,60};
+         } 
+     }
+     ```  
 
 ### List
 - **Sort a list**
