@@ -128,7 +128,7 @@ This page is to document some coding standard operations.
 ### Map
 - **Initialize a map with keys and values**
   ```java
-  Map<String, String> phone = new HashMap<String, String>() {
+  Map<String, String> map = new HashMap<String, String>() {
       {
           put("2", "abc");
           put("3", "def");
@@ -145,6 +145,11 @@ This page is to document some coding standard operations.
   | `put` | Add or update the key-value pair into map. |
   | `keySet` | Get all the keys. |
   | `values` | Get all the values. |
+- **Convert all the values into a list**
+  ```java
+  Map<Integer, String> map = new HashMap<>();
+  List<String> list = new ArrayList<>(map.values());
+  ```
 
 ### Stack
 - **Initialize a stack**
