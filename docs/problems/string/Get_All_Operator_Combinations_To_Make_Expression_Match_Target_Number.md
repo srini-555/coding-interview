@@ -37,6 +37,10 @@
          - `x` operator
       - At the end
          - If the value of the expression can match the target number, add the current combination into the result list.
+   - Backtracking analysis
+      - Element: Each gap for each 2 digits.
+      - Choices: no operator and 3 operators.
+      - Constraints: The value of the expression can match the target value.
   ```java
   class Solution {
       public ArrayList<String> answer;                            // The result list
