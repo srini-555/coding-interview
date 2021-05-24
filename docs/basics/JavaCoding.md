@@ -168,8 +168,7 @@ This page is to document some coding standard operations.
   | `search` | It determines whether an object exists in the stack. If the element is found, it returns the position of the element from the top of the stack. Else, it returns -1. |
 
 - **Use `pop()` with caution**
-
-Before you call `pop()`, you need to check the stack is empty or not.
+   - Before you call `pop()`, you need to check the stack is empty or not.
 
 ### Queue
 - **Initialize a queue**
@@ -188,21 +187,19 @@ Before you call `pop()`, you need to check the stack is empty or not.
   | `poll` | Remove and returns the head element of the queue. Return `null` if the queue is empty. |
 
 - **No `empty()` function for queue**
-
-Use `peek()` to check the queue is empty or not.
+   - Use `peek()` to check the queue is empty or not.
 
 ### PriorityQueue
-Sorted on ascending order automatically.
+- Concept
+   - Sorted on ascending order automatically.
 
-![Untitled (6)](https://user-images.githubusercontent.com/8989447/115980643-88bab600-a54b-11eb-9a2e-b9ab805da8e2.png)
+     ![Untitled (6)](https://user-images.githubusercontent.com/8989447/115980643-88bab600-a54b-11eb-9a2e-b9ab805da8e2.png)
 
 - **Initialize a priority queue**
   ```java
   Queue<Integer> queue = new PriorityQueue<>();
   ```
-
 - **Common functions for priority queue**
-
   | Functions | Description |
   | ---- | ---- |
   | `add` | Add one element. |
@@ -212,17 +209,15 @@ Sorted on ascending order automatically.
   | `poll` | Removes and returns the head (smallest) element. Return `null` if the queue is empty. |
 
 - **No `empty()` function for priority queue**
-
-Use `peek()` to check the priority queue is empty or not.
+   - Use `peek()` to check the priority queue is empty or not.
 
 ### TreeMap
-Sorted by key in ascending order automatically.
-
+- Concept
+   - Sorted by key in ascending order automatically.
 - **Initialize a tree map**
   ```java
   TreeMap<Integer, Integer> sortedMap = new TreeMap<>();
   ```
-
 - **Common functions for tree map**
 
   | Functions | Description |
