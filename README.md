@@ -131,7 +131,7 @@
    - [Implement Pow(x,n)]()
    - [Divide Two Integers]()
 
-![Problem_Solution_Pattern_Mapping](https://user-images.githubusercontent.com/8989447/117561800-38694b00-b057-11eb-8fce-320d45e03fca.png)
+![Problem_Solution_Pattern_Mapping (1)](https://user-images.githubusercontent.com/8989447/119408408-e1908200-bca2-11eb-9427-10c181bef6c3.png)
 
 ## LeetCode Problems
 | No. | Name | Topic | Data Object | Data Structure |
