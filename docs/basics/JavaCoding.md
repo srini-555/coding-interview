@@ -232,7 +232,8 @@ This page is to document some coding standard operations.
 ### Arrays
   | Function | Description |
   | ---- | ---- |
-  | `sort()` | Sort the elements in the array (Default is ascending order). |
+  | `sort(array)` | Sort the elements in ascending order. |
+  | `sort(array, Collections.reverseOrder())` | Sort the elements in descending order. |
   | `copyOfRange(array, i, j)` | Get the sub-array [i, j-1]. |
   | `fill(array, value)` | Fill all the elements in the array by that value. |
   
