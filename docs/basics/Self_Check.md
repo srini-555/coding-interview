@@ -63,3 +63,19 @@
    - Array and list
       - From array to list
       - From list to array
+- **Arithmetic Operations**
+   - Calculate those
+      - 3 / 2   = ?
+      - 3 / 2.0 = ?
+      - 3 / 4   = ?
+      - 999 / 100  = ?
+      - 999 / 1000 = ?
+      - 999 % 1000 = ?
+      - 999 % 100  = ?
+- **Class with custom sorting**
+   - How to create a class with custom sorting?
+- **Random Number**
+   - How to get a random integer from 0 to max?
+   - How to get a random integer from min to max?
+   - How to get a random double from 0 to 1?
+   - How to get a random double from 0 to max?
