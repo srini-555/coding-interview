@@ -52,3 +52,4 @@
 | Balance Binary Search Tree | | <li>Convert tree into list and rebuild BST from list | |
 | Convert Binary Search Tree to Sorted Doubly Linked List | | <li>In-order traverse<li>Record last visit node<li>last.right=curr,node.left = last | |
 | Get All Distance K Nodes from Target Node in Binary Tree | Distance K nodes in following cases<li>Child nodes<li>Parent node<li>Nodes in another branch | <li>Recursion | |
+| Get Right Side View of Binary Tree | | <li>Breadth-first search<li>Use null to separate each level<li>If current node is null, so last node is right view |
