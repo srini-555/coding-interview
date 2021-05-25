@@ -31,9 +31,9 @@
   int[] rowChange = {-1, 0, 1, 0};                             // The row    change for going up, left, down, and right
   int[] colChange = {0, -1, 0, 1};                             // The column change for going up, left, down, and right
 
-  // row and col is the row and column of the starting cell
+  // row and col is the row and column of the starting position
   // RN is the number of rows, CN is the number of columns
-  public int calculateIslandSize(int[][] grid, int row, int col, int RN, int CN) {
+  public int traverseBreadthFirstSearch(int[][] grid, int row, int col, int RN, int CN) {
       Stack stack;
       Set   visitedSet;                                        // The set for recording all the visited cells
 
