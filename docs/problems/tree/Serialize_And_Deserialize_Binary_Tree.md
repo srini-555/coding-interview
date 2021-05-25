@@ -18,7 +18,7 @@
 ## Solutions
 - Solution 1: Breadth-first search
    - Serialize
-      - The extra opertion in each step of BFS:
+      - The extra operation in each step of BFS:
          - Check the current node is null or not:
             - If the node is null
                - Add "null," to the string.
