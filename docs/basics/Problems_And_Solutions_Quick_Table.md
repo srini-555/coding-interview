@@ -8,6 +8,7 @@
 | Count Sub-array Sum Equals K | | <li>Prefix sum array | |
 | Merge Interval | | | <li>Left touch, right touch and full cover |
 | Generate All Product of Array except Current Element | | | <li>Number of zero: 1 or multiple |
+| Calculate Dot Product of 2 Arrays | | Use HashMap to store non-0 values only | |
 
 ## String
 | Problem Name | Pattern | Solutions | Edge Cases |
