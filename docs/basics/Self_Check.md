@@ -107,7 +107,10 @@
          - What is the node visiting sequence for pre-order, in-order, post-order?
          - Write code for pre-order (iterative solution)
       - Breadth-first search
-         - Write code for breadth-first search
+         - Write code for breadth-first search.
+- **Binary Search Tree**
+   - Which traversal will visit in ascending order?
+   - Which traversal will visit in descending order?
 - **Heap**
    - What is heap?
    - Array representation
@@ -121,4 +124,11 @@
    - Write a code to search a prefix from a trie.
 
 ## Problem Patterns
-- 
+- What is the common solution for string prefix problems?
+- What is the common solution for symmetry problems (parenthesis, panlidrome)?
+- What are the common solutions (2) for top K or Kth problems?
+- What are the common solutions (2) for binary tree problems?
+- What are the common solutions (2) for ramdom problems?
+- What is the common solution for sum of sub-array problems?
+- What is the common solution for enumeration problem (find all combinations)?
+- What is the common solution for grouping problem?
