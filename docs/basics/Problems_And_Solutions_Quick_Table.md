@@ -51,3 +51,4 @@
 | Is Sub Binary Trees | | <li>Recursion<ul><ul><li>s.v==t.v && isSameTree(s,t)<li>isSameTree(s.l,t) or isSameTree(s.r,t)</ul></ul> | |
 | Balance Binary Search Tree | | <li>Convert tree into list and rebuild BST from list | |
 | Convert Binary Search Tree to Sorted Doubly Linked List | | <li>In-order traverse<li>Record last visit node<li>last.right=curr,node.left = last | |
+| Get All Distance K Nodes from Target Node in Binary Tree | Distance K nodes in following cases<li>Child nodes<li>Parent node<li>Nodes in another branch | <li>Recursion | |
