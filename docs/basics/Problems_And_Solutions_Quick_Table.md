@@ -10,6 +10,7 @@
 | Generate All Product of Array except Current Element | | | <li>Number of zero: 1 or multiple |
 | Calculate Dot Product of 2 Arrays | | Use HashMap to store non-0 values only | |
 | Check Sub-array Sum Is Multiple of K | | <li>Prefix sum array | |
+| Generate Random Index of Target Number | | <li>Reservoir sampling | |
 
 ## String
 | Problem Name | Pattern | Solutions | Edge Cases |
