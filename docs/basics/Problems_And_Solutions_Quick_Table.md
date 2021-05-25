@@ -50,4 +50,4 @@
 | Is Mirror Binary Trees | | <li>Recursion<ul><ul><li>(t1.v==t2.v) && isMirror(t1.l,t2.r) && isMirror(t1.r,t2.l)</ul></ul> | |
 | Is Sub Binary Trees | | <li>Recursion<ul><ul><li>s.v==t.v && isSameTree(s,t)<li>isSameTree(s.l,t) or isSameTree(s.r,t)</ul></ul> | |
 | Balance Binary Search Tree | | <li>Convert tree into list and rebuild BST from list | |
-| Convert Binary Search Tree to Sorted Doubly Linked List | |  | |
+| Convert Binary Search Tree to Sorted Doubly Linked List | | <li>In-order traverse<li>Record last visit node<li>last.right=curr,node.left = last | |
