@@ -7,7 +7,7 @@
 - Avoid the need for nested loops or O(n<sup>2</sup>) operations.
 
 ## Construction
-- Java
+- Java HashMap
   ```java
   Map<Integer,Integer> map = new HashMap<>();
         
@@ -15,8 +15,23 @@
       map.put(num, map.getOrDefault(num, 0) + 1);
   }
   ```
+- Java Array
+   - Situation
+      - You only need to count the occurrences of 26 English letters in lowercase or uppercase.
+   - Code
+      ```java
+      int[] counter = new int[26];
+      Arrays.fill(counter, 0);
+      for (int i = 0; i < str.length(); i++) {
+          counter[ch-'a']++;          // counter[ch-'A'] for uppercase English letter
+      }
+      ```
+   - Examples
+      - [Can Characters of String Form Palindrome]()
+      - [Task Scheduler]()
 
 ## Problems can use this pattern
 - Frequency problems
    - [Get Top K Frequent Elements from Array]()
    - [Get Top K Frequent Words from Array]()
+   - [Can Characters of String Form Palindrome]()

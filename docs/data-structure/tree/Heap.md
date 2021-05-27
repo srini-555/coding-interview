@@ -20,8 +20,8 @@
      
 ## Array Representation
 - Left  = Index x 2 + 1
-- Right = Index x 2 + 1
-- Parent = RoundUp((Index - 2) / 2)
+- Right = Index x 2 + 2
+- Parent = RoundDown((Index - 1) / 2)
 
 ![heap_array](https://user-images.githubusercontent.com/8989447/116182267-2e4f6000-a6d9-11eb-8acb-684198d741ea.png)
 

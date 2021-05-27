@@ -3,9 +3,12 @@
 ## Concept
 - Rules
    - Each node store one character.
-      - Root node store a empty character.
-      - Each child node store a alphabet.
-   - The path from the root to a leaf can consist a word.
+      - Root node store an empty character.
+      - Each child node store an alphabet.
+   - The path from the root to a leaf can construct a word.
+
+     ![trie](https://user-images.githubusercontent.com/8989447/119071551-40a27e00-b9a7-11eb-817f-9f9b2a539d51.png)
+
 - Code
    - Hash table implementation
      ```java

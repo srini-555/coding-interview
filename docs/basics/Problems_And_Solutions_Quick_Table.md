@@ -8,6 +8,9 @@
 | Count Sub-array Sum Equals K | | <li>Prefix sum array | |
 | Merge Interval | | | <li>Left touch, right touch and full cover |
 | Generate All Product of Array except Current Element | | | <li>Number of zero: 1 or multiple |
+| Calculate Dot Product of 2 Arrays | | Use HashMap to store non-0 values only | |
+| Check Sub-array Sum Is Multiple of K | | <li>Prefix sum array | |
+| Generate Random Index of Target Number | | <li>Reservoir sampling | |
 
 ## String
 | Problem Name | Pattern | Solutions | Edge Cases |
@@ -37,7 +40,7 @@
 | Problem Name | Pattern | Solutions | Edge Cases |
 |----|----|----|----|
 | Get Height from Binary Tree | | <li>Recursion<ul><ul><li>Max(leftH,rightH)+1</ul></ul> | |
-| Get Diameter from Binary Tree | | <li>Recursion<ul><ul><li>Path=Max(leftPath,rightPath)+1<li>Diameter=Max(diameter,leftPath+rightPath)</ul></ul> | |
+| Get Longest Path Length from Binary Tree | | <li>Recursion<ul><ul><li>Path=Max(leftPath,rightPath)+1<li>Diameter=Max(diameter,leftPath+rightPath)</ul></ul> | |
 | Get Lowest Common Ancestor from Binary Tree | | <li>Recursion<ul><ul><li>current is n1 or n2(up-down relationship), so current is LCA<li>n1,n2 in different sub-tree, so current is LCA<li>Both n1,n2 in left sub-tree, go to left<li>Both n1,n2 in right sub-tree, go to right</ul></ul> | |
 | Get Num of Univalue Subtrees from Binary Tree | | <li>Recursion | |
 | Is Binary Search Tree | <li>In-order traverse BST is ascending order.<li>Reversed in-order traverse BST is descending order. | <li>Recursion: In-order traverse and check it is ascending order or not.<li>Recursion: Valid range. | |
@@ -46,3 +49,7 @@
 | Is Is Same Binary Trees | | <li>Recursion<ul><ul><li>(t1.v==t2.v) && isSame(t1.l,t2.l) && isSame(t1.r,t2.r)</ul></ul> | |
 | Is Mirror Binary Trees | | <li>Recursion<ul><ul><li>(t1.v==t2.v) && isMirror(t1.l,t2.r) && isMirror(t1.r,t2.l)</ul></ul> | |
 | Is Sub Binary Trees | | <li>Recursion<ul><ul><li>s.v==t.v && isSameTree(s,t)<li>isSameTree(s.l,t) or isSameTree(s.r,t)</ul></ul> | |
+| Balance Binary Search Tree | | <li>Convert tree into list and rebuild BST from list | |
+| Convert Binary Search Tree to Sorted Doubly Linked List | | <li>In-order traverse<li>Record last visit node<li>last.right=curr,node.left = last | |
+| Get All Distance K Nodes from Target Node in Binary Tree | Distance K nodes in following cases<li>Child nodes<li>Parent node<li>Nodes in another branch | <li>Recursion | |
+| Get Right Side View of Binary Tree | | <li>Breadth-first search<li>Use null to separate each level<li>If current node is null, so last node is right view |

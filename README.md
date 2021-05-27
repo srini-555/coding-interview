@@ -1,6 +1,4 @@
-# Programming Interview
-
-![Problem_Solution_Pattern_Mapping](https://user-images.githubusercontent.com/8989447/117561800-38694b00-b057-11eb-8fce-320d45e03fca.png)
+# Coding Interview
 
 ## Learning Resources
 - [**LeetCode**](https://leetcode.com/)
@@ -18,6 +16,7 @@
 ## Data Structures
 - [**String**](docs/data-structure/string/String.md)
 - [**Array**](docs/data-structure/array/Array.md)
+- [**2D Array**](docs/data-structure/array/2D_Array.md)
 - [**Linked List**](docs/data-structure/linked_list/Linked_List.md)
 - [**Queue**](docs/data-structure/queue/Queue.md)
 - [**Stack**](docs/data-structure/stack/Stack.md)
@@ -34,11 +33,13 @@
 - [**Heap (Priority Queue)**](docs/data-structure/tree/Heap.md)
 - [**Trie**](docs/data-structure/tree/Trie.md)
 - [**Backtraking**](docs/solution-patterns/Backtracking.md)
-- [**Sliding Window**]()
-- [**Divide and Conquer**]()
-- [**Dynamic Programming**]()
-- [**Greedy**]()
-- [**Recursion**]()
+- [**Depth-First Search (BFS)**](docs/solution-patterns/Depth_First_Search.md)
+- [**Union Find**](docs/solution-patterns/Union_Find.md)
+- [Sliding Window]()
+- [Divide and Conquer]()
+- [Dynamic Programming]()
+- [Greedy]()
+- [Recursion]()
 
 
 ## Problem Patterns
@@ -79,6 +80,7 @@
       - [Is Palindrome String]()
       - [Is Palindrome String by Removing One Char]()
       - [Is Palindrome String by Only Considering Alphanumeric Characters]()
+      - [Can Characters of String Form Palindrome]()
       - [Is Palindrome List]()
 - [**Random**](docs/problem_patterns/Random.md)
    - **Candidate with same weight**
@@ -117,8 +119,19 @@
 - **Enumeration (Find all possible solutions)**
    - [Generate All Combinations of Parentheses]()
    - [Get All Possible Strings by Removing Minimum Number of Invalid Parentheses]()
-- **Cycle**
-   - 1041. Robot Bounded In Circle
+   - [Get All Word Combinations for Constructing String]()
+- **Grouping**
+   - [Get Number of Groups in Undirected Graph]()
+   - [Accounts Merge]()
+   - [Group Shifted Strings]()
+- **Detect Cycle**
+   - [Detect Cycle in Undirected Graph]()
+   - 1041 Robot Bounded In Circle
+- **Math**
+   - [Implement Pow(x,n)]()
+   - [Divide Two Integers]()
+
+![Problem_Solution_Pattern_Mapping (1)](https://user-images.githubusercontent.com/8989447/119408408-e1908200-bca2-11eb-9427-10c181bef6c3.png)
 
 ## LeetCode Problems
 | No. | Name | Topic | Data Object | Data Structure |

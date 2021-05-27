@@ -26,6 +26,19 @@ This page is to document some coding standard operations.
 
 ## Basic Types
 ### String
+- **Traverse**
+   - `substring()`
+     ```java
+     for (int i = 0; i < str.length(); i++) {
+         str.substring(i, i+1);
+     }
+     ```
+   - `charAt()`
+     ```java
+     for (int i = 0; i < str.length(); i++) {
+         str.charAt(i);
+     }
+     ```
 - **Delete**
    - General strategies
       - StringBuilder is more convenient to do deleting operation. 
@@ -36,15 +49,8 @@ This page is to document some coding standard operations.
      int index = sb.indexOf("x");       // delete the first occurrence of char
      sb.deleteCharAt(index);
      ```
-
-- **Traverse each character by `substring()`**
-  ```java
-  for (int i = 0; i < str.length(); i++) {
-      str.substring(i, i+1);
-  }
-  ```
 - **Get prefix**
-  If you use substring to get prefix, make sure the criteria is `i <= str.length()` and the initialization is `int i = 1`.
+   - If you use substring to get prefix, make sure the criteria is `i <= str.length()` and the initialization is `int i = 1`.
   ```java
   for (int i = 1; i <= str.length(); i++) {
       String prefix = str.substring(0, i);
@@ -75,53 +81,64 @@ This page is to document some coding standard operations.
 
 ## Data Structures
 ### Array
-- **Initialize an array with values**
-   - 1-D array
+- **1-D array**
+   - Initialization
      ```java
      int[] array1 = new int[10];
      int[] array2 = new int[] {10,20,30,40,50,60};      // Intialize 1-D array with values
      ```
-   - 2-D array
+- **2-D array**
+   - Initialization
      ```java
-     int[][] array1 = new int[10][];                    // OK
-     int[][] array2 = new int[10][9];
+     int[][] array1 = new int[10][9];
+     int[][] array2 = new int[10][];                    // OK
      int[][] array3 = {{1, 2, 3}, {4, 5, 6}};           // Intialize 1-D array with values
      ```
-- **Traverse 2-D array**
-  ```java
-  int[][] array = new int[3][3]; 
-  for (int i = 0; i < array.length; i++) { 
-      for (int j = 0; j < array[i].length; j++) { 
-          array[i][j] = i + j; 
-      } 
-  }
-  ```
-- **Assign by row**
-  ```java
-  int[][] array = new int[3][3];
-  for (int i = 0; i < array.length; i++) { 
-      for (int j = 0; j < array[i].length; j++) { 
-          array[i] = new int[] {10,20,30,40,50,60};
-      } 
-  }
-  ```
+   - Traversal
+     ```java
+     int[][] array = new int[3][3]; 
+     for (int i = 0; i < array.length; i++) { 
+         for (int j = 0; j < array[i].length; j++) { 
+             array[i][j] = i + j; 
+         } 
+     }
+     ```
+   - Assign by row
+     ```java
+     int[][] array = new int[3][3];
+     for (int i = 0; i < array.length; i++) { 
+         for (int j = 0; j < array[i].length; j++) { 
+             array[i] = new int[] {10,20,30,40,50,60};
+         } 
+     }
+     ```  
 
 ### List
-- **Sort a list**
+- **Sort a list in ascending order**
   ```java
   Collections.sort(list);
   ```
   > NOTE: This function will not return a sorted list. It will sort the `list` in-place.
 
+- **Sort a list in descending order**
+  ```java
+  Collections.sort(list);
+  Collections.reverse(list);
+  ```
 - **Initialize a list of lists**
   ```java
   List<List<Integer>> list = new ArrayList<>();
   ```
-
+- **Common functions for stack**
+  | Function | Description |
+  | ---- | ---- |
+  | `sublist(i,j)` | Get the sub-list `[i,j-1]` of the existing list. |
+  | `disjoint(list1, list2)` | Return true if there is no common elements in both lists. | 
+  
 ### Map
 - **Initialize a map with keys and values**
   ```java
-  Map<String, String> phone = new HashMap<String, String>() {
+  Map<String, String> map = new HashMap<String, String>() {
       {
           put("2", "abc");
           put("3", "def");
@@ -138,6 +155,11 @@ This page is to document some coding standard operations.
   | `put` | Add or update the key-value pair into map. |
   | `keySet` | Get all the keys. |
   | `values` | Get all the values. |
+- **Convert all the values into a list**
+  ```java
+  Map<Integer, String> map = new HashMap<>();
+  List<String> list = new ArrayList<>(map.values());
+  ```
 
 ### Stack
 - **Initialize a stack**
@@ -156,8 +178,7 @@ This page is to document some coding standard operations.
   | `search` | It determines whether an object exists in the stack. If the element is found, it returns the position of the element from the top of the stack. Else, it returns -1. |
 
 - **Use `pop()` with caution**
-
-Before you call `pop()`, you need to check the stack is empty or not.
+   - Before you call `pop()`, you need to check the stack is empty or not.
 
 ### Queue
 - **Initialize a queue**
@@ -176,21 +197,23 @@ Before you call `pop()`, you need to check the stack is empty or not.
   | `poll` | Remove and returns the head element of the queue. Return `null` if the queue is empty. |
 
 - **No `empty()` function for queue**
-
-Use `peek()` to check the queue is empty or not.
+   - Use `peek()` to check the queue is empty or not.
 
 ### PriorityQueue
-Sorted on ascending order automatically.
+- Concept
+   - Sorted on ascending order automatically.
 
-![Untitled (6)](https://user-images.githubusercontent.com/8989447/115980643-88bab600-a54b-11eb-9a2e-b9ab805da8e2.png)
+     ![Untitled (6)](https://user-images.githubusercontent.com/8989447/115980643-88bab600-a54b-11eb-9a2e-b9ab805da8e2.png)
 
 - **Initialize a priority queue**
   ```java
   Queue<Integer> queue = new PriorityQueue<>();
   ```
-
+- **Initialize a max priority queue**
+  ```java
+  Queue<Integer> queue = new PriorityQueue<>(10, Collections.reverseOrder());
+  ```
 - **Common functions for priority queue**
-
   | Functions | Description |
   | ---- | ---- |
   | `add` | Add one element. |
@@ -200,17 +223,15 @@ Sorted on ascending order automatically.
   | `poll` | Removes and returns the head (smallest) element. Return `null` if the queue is empty. |
 
 - **No `empty()` function for priority queue**
-
-Use `peek()` to check the priority queue is empty or not.
+   - Use `peek()` to check the priority queue is empty or not.
 
 ### TreeMap
-Sorted by key in ascending order automatically.
-
+- Concept
+   - Sorted by key in ascending order automatically.
 - **Initialize a tree map**
   ```java
   TreeMap<Integer, Integer> sortedMap = new TreeMap<>();
   ```
-
 - **Common functions for tree map**
 
   | Functions | Description |
@@ -225,8 +246,10 @@ Sorted by key in ascending order automatically.
 ### Arrays
   | Function | Description |
   | ---- | ---- |
-  | `sort()` | Sort the elements in the array (Default is ascending order). |
-  | copyOfRange(array, i, j) | Get the sub-array [i, j-1]. |
+  | `sort(array)` | Sort the elements in ascending order. |
+  | `sort(array, Collections.reverseOrder())` | Sort the elements in descending order. |
+  | `copyOfRange(array, i, j)` | Get the sub-array [i, j-1]. |
+  | `fill(array, value)` | Fill all the elements in the array by that value. |
   
 ### Collection
   | Function | Description |
