@@ -5,77 +5,51 @@
 
 ## Problem
 - Divide two integers and get the quotient without using multiplication, division, and mod operator.
+- Given a positive numerator and a positve divisor, print the quotient and the reminder without division and mod operation.
+
+## Examples
+- Example 1
+   - `31/5` 
+   - Quotient = 6
+   - Reminder = 1
 
 ## Solutions
 - Solution 1: Substraction
-   - Step 1: Convert both dividend and divisor to negetives
-      - The reason why don't convert to positives
-         - If dividend = -2147483648 (Integer.MIN_VALUE), then converting it to a positive number will behave differently depending on the language/compiler/interpreter you're using. This is because the positive form (2147483648) is outside of the 32-bit signed integer range.
-   - Step 2: Count how many times the divisor has to be added to get the dividend. The count will be the quotient.
-   - Step 3: Convert the quotient to positive number if needed.
-         - The quotient will be negative.
-         - If both dividend and divisor are all positive or all negative, we need to convert the quotient from negative to positive.
   ```java
-  public int divide(int dividend, int divisor) {
-      // Handle special cases
-      if (dividend == Integer.MIN_VALUE) {
-          if (divisor == -1) return Integer.MAX_VALUE;
-          if (divisor == 1) return Integer.MIN_VALUE;
-      }
-      if (dividend == divisor) {
-          return 1;
-      }
-      if (dividend == -divisor) {
-          return -1;
-      }
-
-      /* We need to convert both numbers to negatives
-       * for the reasons explained above.
-       * Also, we count the number of negatives signs. */
-      int negatives = 2;
-      if (dividend > 0) {
-          negatives--;
-          dividend = -dividend;
-      }
-      if (divisor > 0) {
-          negatives--;
-          divisor = -divisor;
-      }
-
-      /* Count how many times the divisor has to be added
-       * to get the dividend. This is the quotient. */
+  public void printQuotientAndReminder(int numerator, int divisor) {
       int quotient = 0;
-      while (dividend - divisor <= 0) {
-          quotient--;
-          dividend = dividend - divisor;
-      }
 
-      /* If there was originally one negative sign, then
-       * the quotient remains negative. Otherwise, switch
-       * it to positive. */
-      if (negatives != 1) {
-          quotient = -quotient;
+      while (numerator - divisor >= 0) {
+          numerator = numerator - divisor;
+          quotient++;
       }
-      return quotient;
+      int reminder = numerator;
+      System.out.println("quotient: " + quotient + ", reminder = " + reminder);
   }
   ```
-- Solution 2: Bit manipulation
+- Solution 2: Binary search
+   - The division operation can be defined as `numerator - i * divisor = reminder`
+   - So the problem can be abstracted as searching `i`.
+   - So we can use binary search to search `i`;
+   - The upper bound of `i` can be the numerator (example: 31/31), the lower bound of `i` can be `0` (example: 3/5).
   ```java
-  public int divide(int dividend, int divisor) {
-      if(dividend == Integer.MIN_VALUE && divisor == -1){
-          return Integer.MAX_VALUE;
-      }
-      int a = Math.abs(dividend);
-      int b = Math.abs(divisor);
-      int res = 0;
-      while(a - b >= 0){
-          int x = 0;
-          while( a - (b << 1 << x) >= 0){
-              x++;
+  public static void printQuotientAndReminder2(int numerator, int divisor) {
+      int low = 0;
+      int high = numerator;
+
+      while (low <= high) {
+          int mid = (low + high) / 2;
+          int reminder = numerator - mid * divisor;
+
+          if (reminder < 0) {
+              high = mid - 1;
+          } else if (reminder < divisor) {
+              System.out.println("quotient: " + mid + ", reminder = " + reminder);
+          } else {
+              low = mid + 1;
           }
-          res += 1 << x;
-          a -= b << x;
       }
-      return (dividend >= 0) == (divisor >= 0) ? res :-res;
   }
   ```
+
+   
