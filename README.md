@@ -133,6 +133,17 @@
 
 ![Problem_Solution_Pattern_Mapping (1)](https://user-images.githubusercontent.com/8989447/119408408-e1908200-bca2-11eb-9427-10c181bef6c3.png)
 
+## Problems In Real Interviews
+| Problem | Company | Interview Stage |
+|----|----|----|
+| [Get Equilibrium Index from Array]() | Facebook | Screening |
+| [Get Sums of All Root-to-leaf Paths]() | Facebook | Onsite |
+| [Find Missing Ranges from Array]() | Facebook | Onsite |
+| [Get Range Sum of Binary Search Tree]() | Facebook | Onsite |
+| [Divide Two Integers]() | Facebook | Onsite | 
+| [Gifting Group (Get Number of Groups in Undirected Graph)] | Amazon | Screening |
+
+
 ## LeetCode Problems
 | No. | Name | Topic | Data Object | Data Structure |
 |---|---|---|---|---|
