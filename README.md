@@ -141,7 +141,8 @@
 | [Find Missing Ranges from Array]() | Facebook | Onsite |
 | [Get Range Sum of Binary Search Tree]() | Facebook | Onsite |
 | [Divide Two Integers]() | Facebook | Onsite | 
-| [Gifting Group (Get Number of Groups in Undirected Graph)] | Amazon | Screening |
+| [Optimizing Box Weights]() | Amazon | Screening |
+| [Gifting Group (Get Number of Groups in Undirected Graph)]() | Amazon | Screening |
 
 
 ## LeetCode Problems
