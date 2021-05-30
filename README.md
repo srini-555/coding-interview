@@ -2,8 +2,9 @@
 
 ## Learning Resources
 - [**LeetCode**](https://leetcode.com/)
-- [**InterviewBit**](https://www.interviewbit.com/)
 - [**HackerRank**](https://www.hackerrank.com/)
+- [**Algo Monster**](https://algo.monster/)
+- [**InterviewBit**](https://www.interviewbit.com/)
 
 ## Basics
 - [**Java Coding**](docs/basics/JavaCoding.md)
@@ -40,7 +41,6 @@
 - [Dynamic Programming]()
 - [Greedy]()
 - [Recursion]()
-
 
 ## Problem Patterns
 - **Top K and Kth**
