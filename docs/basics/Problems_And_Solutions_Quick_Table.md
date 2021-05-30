@@ -1,5 +1,10 @@
 # Problems And Solutions Quick Table
 
+- [Array](#array)
+- [String](#string)
+- [Linked List](#linked-list)
+- [Binary Tree](#binary-tree)
+
 ## Array
 | Problem Name | Pattern | Solutions | Edge Cases |
 |----|----|----|----|
