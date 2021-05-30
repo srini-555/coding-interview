@@ -1,5 +1,13 @@
 # Coding Interview
 
+- [**Learning Resources**](#learning-resources)
+- [**Basics**](#basics)
+- [**Complexity**](#complexity)
+- [**Data Structures**](#data-structures)
+- [**Solution Patterns**](#solution-patterns)
+- [**Problem Patterns**](#problem-patterns)
+- [**Problems In Real Interviews**](#problems-in-real-interviews)
+
 ## Learning Resources
 - [**LeetCode**](https://leetcode.com/)
 - [**HackerRank**](https://www.hackerrank.com/)
