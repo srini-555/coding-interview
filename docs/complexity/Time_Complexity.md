@@ -1,5 +1,11 @@
 # Time Complexity
 
+- [Big O Notation](#big-o-notation)
+- [Order of time complexity](#order-of-time-complexity)
+- [General rules](#general-rules)
+- [Master theorem](#master-theorem)
+- [References](#references)
+
 ## Big O Notation
 - Concept: The upper bound of the algorithm
 - Notation: O
