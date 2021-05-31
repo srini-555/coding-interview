@@ -1,7 +1,8 @@
 # 2D Array
 
-- [Basic operations](#basic-operations)
-- [Strategies](#strategies)
+- [**Basic operations**](#basic-operations)
+   - [Traverse](#traverse)
+- [**Strategies**](#strategies)
 
 ## Basic operations
 ### Traverse
