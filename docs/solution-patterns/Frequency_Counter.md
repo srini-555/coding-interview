@@ -1,5 +1,10 @@
 # Frequency Counter
 
+- [**Concepts**](#concepts)
+- [**Benefit**](#benefit)
+- [**Construction**](#construction)
+- [**Problems can use this pattern**](#problems-can-use-this-pattern)
+
 ## Concepts
 - Use an object to record unique values and the frequency of each unique values.
 
