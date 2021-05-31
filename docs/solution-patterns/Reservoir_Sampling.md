@@ -1,5 +1,12 @@
 # Reservoir Sampling
 
+- [**Concepts**](#concepts)
+- [**Benefits**](#concepts)
+- [**Algorithm**](#algorithm)
+- [**Complexity**](#complexity)
+- [**Problems can use this pattern**](#problems-can-use-this-pattern)
+- [**References**](#references)
+
 ## Concepts
 - Reservoir sampling is a sampling algorithm to get random candidate(s) over a population of **unknown size** with **constant space**.
 
