@@ -1,5 +1,14 @@
 # 2 Pointers
 
+- [**Concepts**](#concepts)
+- [**Variations**](#variations)
+   - [Fast slow pointers](#fast-slow-pointers)
+   - [Brute force pointers](#brute-force-pointers)
+   - [Meet pointers](#meet-pointers)
+   - [Neighbor pointers](#neighbor-pointers)
+   - [Constant distance pointer](#constant-distance-pointer)
+- [**References**](#references)
+
 ## Concepts
 - Use 2 pointers to access different elements for comparision and data manipulation.
 
