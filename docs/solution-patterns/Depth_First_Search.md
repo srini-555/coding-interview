@@ -1,11 +1,16 @@
 # Depth-First Search
 
+- [**Concept**](#concept)
+- [**Applications**](#applications)
+   - [Binary tree](#binary-tree)
+   - [2D array](#2d-array)
+
 ## Concept
 - Depth-first search (DFS) is an algorithm for traversing or searching tree or graph data structures.
 - The idea of Depth-first search can be applied to other data structures or problems.
 
 ## Applications
-### Binary Tree
+### Binary tree
   ```
   void traverseBreadthFirstSearch(TreeNode root) {
       Queue queue;
@@ -23,7 +28,7 @@
   }
   ```
 
-### 2D Array
+### 2D array
 - Introduction
    - 2D array can be traversed by depth-first search starting from any cell.
    - Use serial numbers to identify different cells.
