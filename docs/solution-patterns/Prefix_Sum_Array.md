@@ -1,5 +1,13 @@
 # Prefix Sum Array
 
+- [**Concepts**](#concepts)
+- [**Benefit**](#benefit)
+- [**Construction**](#construction)
+- [**Conclusions**](#conclusions)
+- [**Complexity**](#complexity)
+- [**Problems can use this pattern**](#problems-can-use-this-pattern)
+- [**References**](#references)
+
 ## Concepts
 - Each element in a prefix sum array is the sum of all the elements which is in and before the current element of the input array.
 - prefixSum[i] = input[0] + input[1] + ... + input[i] = prefixSum [i-1] + input[i]
