@@ -1,5 +1,17 @@
 # Quickselect
 
+- [**Concepts**](#concepts)
+- [**Benefit**](#benefit)
+- [**Algorithm**](#algorithm)
+   - [Patition](#patition)
+   - [Select](#select)
+- [**Find the Kth largest element**](#find-the-kth-largest-element)
+- [**Complexity**](#complexity)
+- [**Problems can use this pattern**](#problems-can-use-this-pattern)
+- [**Notes**](#notes)
+- [**References**](#references)
+- [**Appendix**](#appendix)
+
 ## Concepts
 - Quickselect is a selection algorithm to find the Kth smallest element in an unordered array.
 
@@ -64,7 +76,7 @@
 - Note
    - K is 0-based (K = 0 is to find the 1st smallest element).
 
-## Find The Kth Largest Element
+## Find the Kth largest element
 - Find the Kth largest element = Find the (N-K)th smallest element.
 
 ## Complexity
