@@ -1,5 +1,13 @@
 # Trie
 
+- [**Concept**](#concept)
+- [**Basic operations**](#basic-operations)
+   - [Add word](#add-word)
+   - [Search prefix](#search-prefix)
+   - [Start with](#start-with)
+   - [Is word](#is-word)
+- [**References**](#references)
+
 ## Concept
 - Rules
    - Each node store one character.
@@ -41,7 +49,7 @@
   }
   ```
 
-### Search Prefix
+### Search prefix
 - Function
    - Search a prefix/word in trie.
    - Return the node which match the last character of the prefix.
@@ -61,7 +69,7 @@
   }
   ```
 
-### Start With
+### Start with
 - Function
    - Check trie has a prefix or word or not.
 - Code
@@ -72,7 +80,7 @@
   }
   ```
 
-### Is Word
+### Is word
 - Function
    - Check trie has a word or not.
 - Code
