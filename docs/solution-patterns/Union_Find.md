@@ -1,5 +1,17 @@
 # Union Find
 
+- [**Alias**](#alias)
+- [**Concepts**](#concepts)
+- [**Algorithm**](#algorithm)
+   - [Basics](#basics)
+   - [Initialization](#initialization)
+   - [Find](#find)
+   - [Union](#union)
+- [**Time complexity**](#time-complexity)
+- [**Problems can use this pattern**](#problems-can-use-this-pattern)
+- [**trategies**](#strategies)
+- [**References**](#references)
+
 ## Alias
 - Disjoint set
 - Merge find
