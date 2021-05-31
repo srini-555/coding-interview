@@ -1,5 +1,12 @@
 # Backtracking
 
+- [**Concepts**](#concepts)
+- [**Algorithm**](#algorithm)
+- [**Complexity**](#complexity)
+- [**Problems can use this pattern**](#problems-can-use-this-pattern)
+- [**Strategies**](#strategies)
+- [**References**](#references)
+
 ## Concepts
 - Backtracking is to find all or some feasible solutions for constraint satisfaction problems (A set of objects whose state must satisfy a number of constraints or limitations).
 
