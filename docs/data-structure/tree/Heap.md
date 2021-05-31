@@ -1,5 +1,13 @@
 # Heap
 
+- [**Concept**](#concept)
+- [**Types**](#types)
+- [**Array Representation**](#array-representation)
+- [**Basic operations**](#basic-operations)
+   - [Insert](#insert)
+   - [Extract](#extract)
+- [**References**](#references)
+
 ## Concept
 - Complete binary tree.
 - The key stored in each node is either greater than or equal to (≥) or less than or equal to (≤) the keys in the node's children.
