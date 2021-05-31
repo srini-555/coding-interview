@@ -1,5 +1,8 @@
 # 2D Array
 
+- [Basic operations](#basic-operations)
+- [Strategies](#strategies)
+
 ## Basic operations
 ### Traverse
 - **By-row traversal**
