@@ -50,8 +50,8 @@
 
 ## Problems can use this pattern
 - Random candidate with same weight problems
-   - [Generate Random Index of Target Number]()
-   - [Get Random Node from List]()
+   - [Generate Random Index of Target Number](../../docs/problems/array/Generate_Random_Index_With_Weight.md)
+   - [Get Random Node from List](../../docs/problems/linked_list/Get_Random_Node_From_List.md)
 
 ## References
 - https://en.wikipedia.org/wiki/Reservoir_sampling
