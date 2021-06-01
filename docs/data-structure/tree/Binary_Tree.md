@@ -146,7 +146,7 @@ TreeNode {
 ## Common Topics
 - Check characteristics
    - Check one tree
-      - [Is Symmetric Binary Tree]()
+      - [Is Symmetric Binary Tree](../../../docs/problems/tree/Is_Symmetric_Binary_Tree.md)
       - [Is Binary Search Tree]()
    - Compare two trees
       - [Is Same Binary Trees]()
