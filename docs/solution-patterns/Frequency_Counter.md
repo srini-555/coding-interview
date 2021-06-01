@@ -37,6 +37,6 @@
 
 ## Problems can use this pattern
 - Frequency problems
-   - [Get Top K Frequent Elements from Array](../../../docs/problems/array/Get_Top_K_Frequent_Elements_From_Array.md)
+   - [Get Top K Frequent Elements from Array](../../docs/problems/array/Get_Top_K_Frequent_Elements_From_Array.md)
    - [Get Top K Frequent Words from Array](../../../docs/problems/array/Get_Top_K_Frequent_Words_From_Array.md)
    - [Can Characters of String Form Palindrome](../../../docs/problems/string/palindrome/Can_Characters_Of_String_Form_Palindrome.md)
