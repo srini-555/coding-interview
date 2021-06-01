@@ -1,4 +1,4 @@
-# Get Sums of All Root-to-leaf Paths
+# Get Sums of All Root-to-leaf Paths from Binary Tree
 
 ## Alias
 
