@@ -225,17 +225,17 @@ void removeKthNode(ListNode head, int k) {
 ## Common Topics
 - Check characteristics
    - Check one list
-      - [Is Palindrome]()
+      - [Is Palindrome List](docs/problems/linked_list/Is_Palindrome_List.md)
    - Compare two lists
 - Manipulation
    - Reverse
-      - [Reverse List]()
-      - [Reverse Sub-list]()
+      - [Reverse List](docs/problems/linked_list/Reverse_List.md)
+      - [Reverse Sub-list](docs/problems/linked_list/Reverse_Sub_List.md)
    - Remove
-      - [Remove Duplicates]()
-      - [Remove Duplicates from Sorted List]()
-      - [Remove Node without Accessing Previous Node]()
-      - [Remove Nodes by Value]()
+      - [Remove Duplicates from List](docs/problems/linked_list/Remove_Duplicates_From_List.md)
+      - [Remove Duplicates from Sorted List](docs/problems/linked_list/Remove_Duplicates_From_Sorted_List.md)
+      - [Remove Node without Accessing Previous Node](docs/problems/linked_list/Remove_Node_From_List_Without_Accessing_Previous_Node.md)
+      - [Remove Nodes by Value](docs/problems/linked_list/Remove_Nodes_From_List_By_Value.md)
 
 ## References
 - https://www.geeksforgeeks.org/nth-node-from-the-end-of-a-linked-list/
