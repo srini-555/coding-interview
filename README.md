@@ -94,52 +94,52 @@
       - [Is Palindrome List](docs/problems/linked_list/Is_Palindrome_List.md)
 - [**Random**](docs/problem_patterns/Random.md)
    - **Candidate with same weight**
-      - [Generate Random Index of Target Number]()
-      - [Get Random Node from List]()
+      - [Generate Random Index of Target Number](docs/problems/array/Generate_Random_Index_Of_Target_Number.md)
+      - [Get Random Node from List](docs/problems/linked_list/Get_Random_Node_From_List.md)
    - **Candidate with different weights**
-      - [Generate Random Index with Weight]()
+      - [Generate Random Index with Weight](docs/problems/array/Generate_Random_Index_With_Weight.md)
 - **Frequency**
-   - [Get Top K Frequent Elements from Array]()
-   - [Get Top K Frequent Words from Array]()
+   - [Get Top K Frequent Elements from Array](problems/array/Get_Top_K_Frequent_Elements_From_Array.md)
+   - [Get Top K Frequent Words from Array](docs/problems/array/Get_Top_K_Frequent_Words_From_Array.md)
 - **Interval**
-   - [Merge Intervals]()
-   - [Intersect 2 Interval Lists]()
-   - [Merge K Interval Lists And Find Gaps]()
-   - Meeting Room
+   - [Merge Intervals](docs/problems/array/Merge_Intervals.md)
+   - [Intersect 2 Interval Lists](docs/problems/array/Intersect_2_Interval_Lists.md)
+   - [Merge K Interval Lists And Find Gaps](docs/problems/array/Merge_K_Interval_Lists_And_Find_Gaps.md)
+   - LeetCode-252 Meeting Rooms
+   - LeetCode-253 Meeting Rooms II
 - **Longest X sequence/substring**
-   - Longest Common Subsequence
-   - Longest Common Substring
-   - Longest Increasing Subsequence
-   - Longest Palindromic Substring
-   - Binary Tree Longest Consecutive Sequence
-   - Longest Common Prefix
+   - LeetCode-1143 Longest Common Subsequence
+   - LeetCode-300 Longest Increasing Subsequence
+   - LeetCode-5 Longest Palindromic Substring
+   - LeetCode-298 Binary Tree Longest Consecutive Sequence
+   - LeetCode-14 Longest Common Prefix
 - **String Prefix**
-   - [Implement Trie]()
-   - [Implement Trie with Wildcard Seach]()
+   - [Implement Trie](docs/problems/tree/Implement_Trie.md)
+   - [Implement Trie with Wildcard Seach](docs/problems/tree/Implement_Trie_With_Wildcard_Seach.md)
 - **Integer Calculation** (Integers represents in other data structures and then calculation)
    - In String
-      - 415 Add Strings
-      - 43 Multiply Strings
-      - 67 Add Binary
+      - LeetCode-415 Add Strings
+      - LeetCode-43 Multiply Strings
+      - LeetCode-67 Add Binary
    - In Array
-      - 66 Plus One
-      - 989 Add to Array-Form of Integer 
+      - LeetCode-66 Plus One
+      - LeetCode-989 Add to Array-Form of Integer 
    - In Linked List
-      - 2 Add Two Numbers
+      - LeetCode-2 Add Two Numbers
 - **Enumeration (Find all possible solutions)**
-   - [Generate All Combinations of Parentheses]()
-   - [Get All Possible Strings by Removing Minimum Number of Invalid Parentheses]()
-   - [Get All Word Combinations for Constructing String]()
+   - [Generate All Combinations of Parentheses](docs/problems/string/parentheses/Generate_All_Combinations_Of_Parentheses.md)
+   - [Get All Possible Strings by Removing Minimum Number of Invalid Parentheses](docs/problems/string/parentheses/Get_All_Possible_Strings_By_Removing_Minimum_Number_Of_Invalid_Parentheses.md)
+   - [Get All Word Combinations for Constructing String](docs/problems/string/Get_All_Word_Combinations_For_Constructing_String.md)
 - **Grouping**
-   - [Get Number of Groups in Undirected Graph]()
-   - [Accounts Merge]()
-   - [Group Shifted Strings]()
+   - [Get Number of Groups in Undirected Graph](Get Number of Groups in Undirected Graph)
+   - [Accounts Merge](docs/problems/other/Accounts_Merge.md)
+   - [Group Shifted Strings](docs/problems/string/Group_Shifted_Strings.md)
 - **Detect Cycle**
-   - [Detect Cycle in Undirected Graph]()
-   - 1041 Robot Bounded In Circle
+   - [Detect Cycle in Undirected Graph](docs/problems/graph/Detect_Cycle_In_Undirected_Graph.md)
+   - LeetCode-1041 Robot Bounded In Circle
 - **Math**
-   - [Implement Pow(x,n)]()
-   - [Divide Two Integers]()
+   - [Implement Pow(x,n)](docs/problems/math/Implement_Pow_X_N.md)
+   - [Divide Two Integers](docs/problems/math/Divide_Two_Integers.md)
 
 ![Problem_Solution_Pattern_Mapping (1)](https://user-images.githubusercontent.com/8989447/119408408-e1908200-bca2-11eb-9427-10c181bef6c3.png)
 
