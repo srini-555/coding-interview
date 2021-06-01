@@ -102,10 +102,10 @@
 
 ## Problems can use this pattern
 - Grouping
-   - [Get Number of Groups in Undirected Graph]()
-   - [Accounts Merge]()
+   - [Get Number of Groups in Undirected Graph](../../docs/problems/graph/Get_Number_Of_Groups_In_Undirected_Graph.md)
+   - [Accounts Merge](../../docs/problems/other/Accounts_Merge.md)
 - Detecting Cycle
-   - [Detect Cycle in Undirected Graph]()
+   - [Detect Cycle in Undirected Graph](../../docs/problems/graph/Detect_Cycle_In_Undirected_Graph.md)
 
 ## Strategies
 - For the problems can be solved by Union find, they often can be solved by Depth-first search. But Union find solution can provide a better performance.
