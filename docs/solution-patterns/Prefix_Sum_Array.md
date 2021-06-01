@@ -39,11 +39,11 @@ void buildPrefixSumArray(int[] nums) {
 
 ## Problems can use this pattern
 - Sum of sub-array problems
-   - [Get Equilibrium Index from Array]()
-   - [Count Sub-array Sum Equals K]()
-   - [Check Sub-array Sum Is Multiple of K]()
+   - [Get Equilibrium Index from Array](../../docs/problems/array/Get_Equilibrium_Index_From_Array.md)
+   - [Count Sub-array Sum Equals K](../../docs/problems/array/Count_Sub_Array_Sum_Equals_K.md)
+   - [Check Sub-array Sum Is Multiple of K](../../docs/problems/array/Check_Sub_Array_Sum_Is_Multiple_Of_K.md)
 - Random candidate with different weight problems
-   - [Generate Random Index with Weight]()
+   - [Generate Random Index with Weight](../../docs/problems/array/Generate_Random_Index_With_Weight.md)
 
 ## References
 - https://en.wikipedia.org/wiki/Prefix_sum
