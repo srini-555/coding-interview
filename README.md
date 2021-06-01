@@ -53,37 +53,39 @@
 ## Problem Patterns
 - **Top K and Kth**
    - Top K
-      - [Get Top K Frequent Elements from Array]()
-      - [Get Top K Frequent Words from Array]()
-      - [Get Top K Closest Points to Origin]()
+      - [Get Top K Frequent Elements from Array](problems/array/Get_Top_K_Frequent_Elements_From_Array.md)
+      - [Get Top K Frequent Words from Array](docs/problems/array/Get_Top_K_Frequent_Words_From_Array.md)
+      - [Get Top K Closest Points to Origin](docs/problems/array/Get_Top_K_Closest_Points_To_Origin.md)
    - Kth
-      - Kth Largest Element in an Array  
-      - Kth Largest Element in a Stream  
-      - Kth Smallest Element in a BST
+      - LeetCode-215 Kth Largest Element in an Array  
+      - LeetCode-703 Kth Largest Element in a Stream  
+      - LeetCode-230 Kth Smallest Element in a BST
+      - LeetCode-378 Kth Smallest Element in a Sorted Matrix
 - **Manipulation**
    - **Remove**
       - Remove duplicates
-         - 26 Remove Duplicates from Sorted Array
-         - [Remove Duplicates from List]()
-         - [Remove Duplicates from Sorted List]()
+         - LeetCode-26 Remove Duplicates from Sorted Array
+         - [Remove Duplicates from List](docs/problems/linked_list/Remove_Duplicates_From_List.md)
+         - [Remove Duplicates from Sorted List](docs/problems/linked_list/Remove_Duplicates_From_Sorted_List.md)
       - Remove by value
-         - 27 Remove Element
+         - LeetCode-27 Remove Element
    - **Reverse**
-      - [Reverse List]()
-      - [Reverse Sub-list]()
+      - [Reverse List](docs/problems/linked_list/Reverse_List.md)
+      - [Reverse Sub-list](docs/problems/linked_list/Reverse_Sub_List.md)
    - **Rotate**
-      - Rotate List Right
-      - 189 Rotate Array
-      - 796 Rotate String
+      - [Rotate List Right](docs/problems/linked_list/Rotate_List_Right.md)
+      - LeetCode-189 Rotate Array
+      - LeetCode-796 Rotate String
    - **Merge**
-      - Merge 2 sorted lists
-      - Merge K sorted lists
-      - [Merge 2 Sorted Arrays]()
+      - LeetCode-21 Merge 2 sorted lists
+      - LeetCode-23 Merge K sorted lists
+      - [Merge 2 Sorted Arrays](docs/problems/array/Merge_2_Sorted_Arrays.md)
 - **Symmetry**
    - **Parentheses**
-      - Is Valid Parentheses
-      - Generate All Combinations of Parentheses
-      - Remove Minimum Parentheses to Make Parentheses Valid
+      - [Is Valid Parentheses](docs/problems/string/parentheses/Is_Valid_Parentheses.md)
+      - [Generate All Combinations of Parentheses](docs/problems/string/parentheses/Generate_All_Combinations_Of_Parentheses.md)
+      - [Remove Minimum Parentheses to Make Parentheses Valid](docs/problems/string/parentheses/Remove_Minimum_Parentheses_To_Make_Parentheses_Valid.md)
+      - [Get All Possible Strings by Removing Minimum Number of Invalid Parentheses](docs/problems/string/parentheses/Get_All_Possible_Strings_By_Removing_Minimum_Number_Of_Invalid_Parentheses.md)
    - **Palindrome**
       - [Is Palindrome String]()
       - [Is Palindrome String by Removing One Char]()
@@ -151,31 +153,3 @@
 | [Divide Two Integers]() | Facebook | Onsite | 
 | [Optimizing Box Weights]() | Amazon | Screening |
 | [Gifting Group (Get Number of Groups in Undirected Graph)]() | Amazon | Screening |
-
-
-## LeetCode Problems
-| No. | Name | Topic | Data Object | Data Structure |
-|---|---|---|---|---|
-| 1 | [Two Sum](https://github.com/wuyichen24/leetcode/tree/master/src/java/personal/wuyi/problems/q1) | Sum | Number | Array |
-| 2 | [Add Two Numbers](https://github.com/wuyichen24/leetcode/tree/master/src/java/personal/wuyi/problems/q2) | Sum | Number | Linked List |
-| 3 | [Longest Substring Without Repeating Characters](https://github.com/wuyichen24/leetcode/tree/master/src/java/personal/wuyi/problems/q3) | Repeat, Substring | Text | Array |
-| 4 | [Median of Two Sorted Arrays](https://github.com/wuyichen24/leetcode/tree/master/src/java/personal/wuyi/problems/q4) | Median | Number | Array |
-| 5 | [Longest Palindromic Substring](https://github.com/wuyichen24/leetcode/tree/master/src/java/personal/wuyi/problems/q5) | Palindrome, Substring | Text | Array |
-| 6 | [ZigZag Conversion](https://github.com/wuyichen24/leetcode/tree/master/src/java/personal/wuyi/problems/q6) | Character Matrix | Text | Array |
-| 7 | [Reverse Integer](https://github.com/wuyichen24/leetcode/tree/master/src/java/personal/wuyi/problems/q7) | Reverse | Number | Array |
-| 8 | [String to Integer (atoi)](https://github.com/wuyichen24/leetcode/tree/master/src/java/personal/wuyi/problems/q8) | Conversion | Text | Array |
-| 9 | [Palindrome Number](https://github.com/wuyichen24/leetcode/tree/master/src/java/personal/wuyi/problems/q9) | Palindrome | Number | Array |
-| 10 | [Regular Expression Matching](https://github.com/wuyichen24/leetcode/tree/master/src/java/personal/wuyi/problems/q10) | Regular Expression, Match | Text | Array |
-| 11 | [Container With Most Water](https://github.com/wuyichen24/leetcode/tree/master/src/java/personal/wuyi/problems/q11) |  | Number | Array |
-| 12 | [Integer to Roman](https://github.com/wuyichen24/leetcode/tree/master/src/java/personal/wuyi/problems/q12) | Conversion, Remainder | Text |  |
-| 13 | [Roman to Integer](https://github.com/wuyichen24/leetcode/tree/master/src/java/personal/wuyi/problems/q13) | Conversion | Text | Array |
-| 14 | [Longest Common Prefix](https://github.com/wuyichen24/leetcode/tree/master/src/java/personal/wuyi/problems/q14) | Prefix, Substring | Text | Array |
-| 15 | [3Sum](https://github.com/wuyichen24/leetcode/tree/master/src/java/personal/wuyi/problems/q15) | Sum | Number | Array |
-| 16 | [3Sum Closest](https://github.com/wuyichen24/leetcode/tree/master/src/java/personal/wuyi/problems/q16) | Sum | Number | Array |
-| 17 | [Letter Combinations of a Phone Number](https://github.com/wuyichen24/leetcode/tree/master/src/java/personal/wuyi/problems/q17) | All combination | Text |  |
-| 18 | [4Sum](https://github.com/wuyichen24/leetcode/tree/master/src/java/personal/wuyi/problems/q18) | Sum | Number | Array |
-| 19 | [Remove Nth Node From End of List](https://github.com/wuyichen24/leetcode/tree/master/src/java/personal/wuyi/problems/q19) | Remove | Number | Linked List |
-| 20 | [Valid Parentheses](https://github.com/wuyichen24/leetcode/tree/master/src/java/personal/wuyi/problems/q20) | Parentheses | Text | Stack |
-| 21 | [Merge Two Sorted Lists](https://github.com/wuyichen24/leetcode/tree/master/src/java/personal/wuyi/problems/q21) | Merge | Number | Linked List |
-| 22 | [Generate Parentheses](https://github.com/wuyichen24/leetcode/tree/master/src/java/personal/wuyi/problems/q22) | Parentheses | Text |  |
-| 23 | [Merge k Sorted Lists](https://github.com/wuyichen24/leetcode/tree/master/src/java/personal/wuyi/problems/q23) | Merge | Number | Linked List |
