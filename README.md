@@ -131,7 +131,7 @@
    - [Get All Possible Strings by Removing Minimum Number of Invalid Parentheses](docs/problems/string/parentheses/Get_All_Possible_Strings_By_Removing_Minimum_Number_Of_Invalid_Parentheses.md)
    - [Get All Word Combinations for Constructing String](docs/problems/string/Get_All_Word_Combinations_For_Constructing_String.md)
 - **Grouping**
-   - [Get Number of Groups in Undirected Graph](Get Number of Groups in Undirected Graph)
+   - [Get Number of Groups in Undirected Graph](docs/problems/graph/Get_Number_Of_Groups_In_Undirected_Graph.md)
    - [Accounts Merge](docs/problems/other/Accounts_Merge.md)
    - [Group Shifted Strings](docs/problems/string/Group_Shifted_Strings.md)
 - **Detect Cycle**
