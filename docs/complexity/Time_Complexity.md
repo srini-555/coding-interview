@@ -15,9 +15,9 @@
 | Complexity | Name | Example |
 |----|----|----|
 | O(1) | Constant time | <li>Single statement<li>Hashmap lookup |
-| O(*log*n) | Logarithmic time | <li>Binary search or its variants<li>Balanced binary search tree lookup. |
-| O(n) | Linear time | <li>1-level loop<li>Tree/graph traversal<li>Linear data structures (array, linked list) traversal |
-| O(n*log*n) | Linearithmic time | <li>Quick sort<li>Merge sort<li>Heap sort |
+| O(*log*n) | Logarithmic time | <li>Binary search or its variants<li>Balanced binary search tree lookup |
+| O(n) | Linear time | <li>1-level loop<li>Tree/Graph traversal<li>Linear data structures (array, linked list) traversal<li>Stack/Queue |
+| O(n*log*n) | Linearithmic time | <li>Quick sort<li>Merge sort<li>Heap sort<li>Divide and conquer with a linear time merge operation (Divide is normally O(*log*n), and if merge is O(n) then the overall runtime is O(n*log*n)). |
 | O(n<sup>2</sup>) | Quadratic time | <li>2-level nested loop<li>Bubble sort<li>Insertion sort<li>Selection sort |
 | O(n<sup>3</sup>) | Cubic time | | 
 | O(2<sup>n</sup>) | Exponential time | |
