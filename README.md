@@ -87,11 +87,11 @@
       - [Remove Minimum Parentheses to Make Parentheses Valid](docs/problems/string/parentheses/Remove_Minimum_Parentheses_To_Make_Parentheses_Valid.md)
       - [Get All Possible Strings by Removing Minimum Number of Invalid Parentheses](docs/problems/string/parentheses/Get_All_Possible_Strings_By_Removing_Minimum_Number_Of_Invalid_Parentheses.md)
    - **Palindrome**
-      - [Is Palindrome String]()
-      - [Is Palindrome String by Removing One Char]()
-      - [Is Palindrome String by Only Considering Alphanumeric Characters]()
-      - [Can Characters of String Form Palindrome]()
-      - [Is Palindrome List]()
+      - [Is Palindrome String](docs/problems/string/palindrome/Is_Palindrome_String.md)
+      - [Is Palindrome String by Removing One Char](docs/problems/string/palindrome/Is_Palindrome_String_By_Removing_One_Char.md)
+      - [Is Palindrome String by Only Considering Alphanumeric Characters](docs/problems/string/palindrome/Is_Palindrome_String_By_Only_Considering_Alphanumeric_Characters.md)
+      - [Can Characters of String Form Palindrome](docs/problems/string/palindrome/Can_Characters_Of_String_Form_Palindrome.md)
+      - [Is Palindrome List](docs/problems/linked_list/Is_Palindrome_List.md)
 - [**Random**](docs/problem_patterns/Random.md)
    - **Candidate with same weight**
       - [Generate Random Index of Target Number]()
