@@ -146,10 +146,10 @@
 ## Problems In Real Interviews
 | Problem | Company | Interview Stage |
 |----|----|----|
-| [Get Equilibrium Index from Array]() | Facebook | Screening |
-| [Get Sums of All Root-to-leaf Paths]() | Facebook | Onsite |
-| [Find Missing Ranges from Array]() | Facebook | Onsite |
-| [Get Range Sum of Binary Search Tree]() | Facebook | Onsite |
-| [Divide Two Integers]() | Facebook | Onsite | 
-| [Optimizing Box Weights]() | Amazon | Screening |
-| [Gifting Group (Get Number of Groups in Undirected Graph)]() | Amazon | Screening |
+| [Get Equilibrium Index from Array](docs/problems/array/Get_Equilibrium_Index_From_Array.md) | Facebook | Screening |
+| [Get Sums of All Root-to-leaf Paths](docs/problems/tree/Get_Sums_Of_All_Root_To_Leaf_Paths.md) | Facebook | Onsite |
+| [Find Missing Ranges from Array](docs/problems/array/Find_Missing_Ranges_from_Array.md) | Facebook | Onsite |
+| [Get Range Sum of Binary Search Tree](docs/problems/tree/Get_Range_Sum_Of_Binary_Search_Tree.md) | Facebook | Onsite |
+| [Divide Two Integers](docs/problems/math/Divide_Two_Integers.md) | Facebook | Onsite | 
+| [Optimizing Box Weights](docs/problems/array/Optimizing_Box_Weights.md) | Amazon | Screening |
+| [Gifting Group (Get Number of Groups in Undirected Graph)](docs/problems/graph/Get_Number_Of_Groups_In_Undirected_Graph.md) | Amazon | Screening |
