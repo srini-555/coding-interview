@@ -225,7 +225,7 @@ void removeKthNode(ListNode head, int k) {
 ## Common Topics
 - Check characteristics
    - Check one list
-      - [Is Palindrome List](/../../docs/problems/linked_list/Is_Palindrome_List.md)
+      - [Is Palindrome List](../../docs/problems/linked_list/Is_Palindrome_List.md)
    - Compare two lists
 - Manipulation
    - Reverse
