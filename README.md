@@ -44,6 +44,7 @@
 - [**Backtraking**](docs/solution-patterns/Backtracking.md)
 - [**Depth-First Search (BFS)**](docs/solution-patterns/Depth_First_Search.md)
 - [**Union Find**](docs/solution-patterns/Union_Find.md)
+- [**Binary Search**](docs/solution-patterns/Binary_Search.md)
 - [Sliding Window]()
 - [Divide and Conquer]()
 - [Dynamic Programming]()
